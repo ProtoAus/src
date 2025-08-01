@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build progs.dat (CSQC)",
+      "type":  "shell",
+      "command": "C:\\Program Files\\ftetools\\fteqcc64.exe",
+//      "command": "C:\\Users\\Lex\\Documents\\ftetools\\fteqcc64.exe",
+      "args": [
+        "-Tfte",
+        "-Fifstring",
+        "-Fiffloat",
+        "-Fifvector",
+        "-Fvectorlogic",
+//        "-Fcaseinsens",
+//        "-Fembedsrc",
+//        "-Fautoproto",
+//        "-Fmsvcstyle",
+//        "-Fdebugmacros",
+//        "-Fannotate",
+//        "-Wall",
+//        "-Flax",
+        "-src", "C:\\Quake\\battleroyal\\src\\",
+        "-srcfile", "progs.src",
+//        "-o",   "C:\\Quake\\battleroyal\\progs.dat"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile",
+      "presentation": { "reveal": "always" }
+    },
+
+//      -------- Client‑side (CSQC) --------
+
+/*    {
+      "label": "Build csprogs.dat (CSQC)",
+      "type":  "shell",
+      "command": "C:\\Program Files\\ftetools\\fteqcc64.exe",
+      "args": [
+       "-Tfte",
+        "-Fifstring",
+        "-Fiffloat",
+        "-Fifvector",
+        "-Fvectorlogic",
+//        "-Fcaseinsens",
+//        "-Fembedsrc",
+//        "-Fautoproto",
+//        "-Fmsvcstyle",
+//        "-Fdebugmacros",
+//        "-Fannotate",
+//        "-Wall",
+//        "-Flax",
+        "-srcfile", "C:\\Quake\\battleroyal\\src\\csprogs.src",
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile",
+      "presentation": { "reveal": "always" }
+    }*/
+  ]
+}

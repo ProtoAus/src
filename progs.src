@@ -1,0 +1,131 @@
+../progs.dat
+
+// no need to declare function prototypes yay
+#pragma autoproto 
+
+// automatically compiles the CSQC progs at the end
+#pragma sourcefile csprogs.src
+
+// #pragma target fte
+// #pragma target fte_5768
+#pragma target fte
+#pragma target fte_5768
+
+defs_sysglobals.qc
+defs_fields.qc
+defs_versionstring.qc
+defs_consts.qc
+defs_builtins.qc
+fteextensions.qc
+defs_custom.qc
+
+math.qc
+utility.qc
+move.qc
+
+subs.qc
+ai_enemytarget.qc
+ai.qc
+combat.qc
+cshift.qc
+items.qc
+keylock.qc
+
+weapons_animate.qc
+weapons_fire.qc
+weapons_use.qc
+weapons_drop.qc
+impulses.qc
+weapon_railgun.qc
+
+world.qc
+client_level.qc
+client_frame.qc
+player.qc
+monsters.qc
+doors.qc
+buttons.qc
+triggers.qc
+teleport.qc
+plats.qc
+doeplats.qc
+elvbutton.qc
+misc.qc
+lights.qc
+forcefield.qc
+misc_model.qc
+ltrail.qc
+projectile.qc
+meat.qc
+func_bob.qc
+fx.qc
+fog.qc
+mapvar.qc
+gravity.qc
+water.qc
+touchplate.qc
+jumppad.qc
+use.qc
+//cutscene.qc
+//pmove.qc
+prop_hunt.qc
+
+misc_scientist.qc
+
+rubicon2.qc					// johnfitz
+
+hiprot.qc					// hipnotic
+hip_weapons.qc				// hipnotic
+hipholes.qc					// hipnotic
+
+monsters/ogre.qc
+monsters/demon.qc
+monsters/shambler.qc
+monsters/arachnofloyd.qc
+monsters/knight.qc
+monsters/soldier.qc			// greenwood (nail grunt)
+monsters/wizard.qc
+monsters/dog.qc
+monsters/zombie.qc
+monsters/boss.qc
+
+monsters/spawn.qc			// registered
+monsters/hknight.qc			// registered
+monsters/fish.qc			// registered
+monsters/shalrath.qc		// registered
+monsters/enforcer.qc		// registered
+monsters/megaenforcer.qc	// zerstorer
+monsters/lieutenant.qc		// forwards compatible
+monsters/oldone.qc			// registered
+
+monsters/armagon.qc			// hipnotic
+monsters/centroid.qc		// hipnotic
+monsters/eel.qc				// Rogue
+
+turret.qc					// johnfitz
+monsters/dread.qc			// johnfitz
+monsters/floyd.qc			// johnfitz
+monsters/centurion.qc		// johnfitz
+
+monsters/monster_frogman.qc // Malice
+monsters/monster_banshee.qc // Malice
+monsters/monster_rider.qc	// Malice
+monsters/monster_probe.qc	// Malice
+
+monsters/hunter.qc			// ijed (RRP)
+monsters/ogre_berserker.qc	// ijed (RRP)
+
+monsters/drone.qc			// OUM
+monsters/axegrunt.qc		// Lunaran
+monsters/bambler.qc			// greenwood
+monsters/tormentor.qc 		// bmFbr
+monsters/spider.qc 			// bmFbr
+monsters/edie.qc			// quoth
+monsters/monster_turret.qc
+monsters/zombie2.qc			// ne_ruins
+
+monsters/kamikaze.qc
+
+monsters/guardian.qc
+
+props.qc
