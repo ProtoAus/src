@@ -15,7 +15,7 @@ const float EF_NOMODELFLAGS = 8388608;
 #define USE_MASK   (MOVE_NOMONSTERS | MOVE_TRIGGERS)  // +MOVE_SUPERCONTENTS if you rely on it
 const float  USE_DIST = 3000;                           // reach (units)
 const vector USE_MINS = '-4 -4 -4',                   // small pick‑up box
-             USE_MAXS = ' 4  4  4';
+USE_MAXS = ' 4  4  4';
 
 .float duck_held;
 .float is_ducked;
@@ -33,12 +33,7 @@ const vector USE_MINS = '-4 -4 -4',                   // small pick‑up box
 
 #pragma target fte
 
-
-
 float(float lo, float hi) frand = { return lo + random() * (hi - lo); };
-
-
-
 
 float(float f) IsMelee =
 {
