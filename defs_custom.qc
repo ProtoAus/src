@@ -28,7 +28,7 @@ const vector USE_MINS = '-4 -4 -4',                   // small pick‑up box
 #define STAND_VIEW '0 0 22'
 
 #define DUCK_MIN  '-16 -16 -24'   // keep feet same
-#define DUCK_MAX  '16 16 -16'      // lower the head
+#define DUCK_MAX  '16 16 16'      // lower the head
 #define DUCK_VIEW '0 0 12'
 
 #pragma target fte

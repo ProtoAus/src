@@ -157,29 +157,35 @@ void() HandGrenadeTouch =
     }
 };
 
-
-
-//    if (self.duck_held && !self.is_ducked)
-//        StartDuck();
-//    else if (!self.duck_held && self.is_ducked)
-//        EndDuck();
+// assumes you already have these
+// vector STAND_MIN, STAND_MAX, STAND_VIEW;
+// vector DUCK_MIN,  DUCK_MAX,  DUCK_VIEW;
 
 void() StartDuck =
 {
-    // optionally check headroom before lowering bbox
     setsize(self, DUCK_MIN, DUCK_MAX);
-    self.view_ofs = DUCK_VIEW;
+    self.view_ofs  = DUCK_VIEW;
     self.is_ducked = TRUE;
+};
+
+float() CanUnduckHere =
+{
+    // FTE/DarkPlaces-style: tracebox(start, mins, maxs, end, nomonsters, passent)
+    tracebox(self.origin, STAND_MIN, STAND_MAX, self.origin, TRUE, self);
+
+    if (trace_startsolid || trace_allsolid)
+        return FALSE;
+
+    // fraction should be 1.0 for a zero-length trace that fits
+    return (trace_fraction == 1);
 };
 
 void() EndDuck =
 {
-    // don't stand up if there’s no room
-    traceline(self.origin, self.origin + '0 0 36', TRUE, self);
-    if (trace_startsolid || trace_fraction < 1)
-        return;
+    if (!CanUnduckHere())
+        return; // no room to stand — stay ducked
 
     setsize(self, STAND_MIN, STAND_MAX);
-    self.view_ofs = STAND_VIEW;
+    self.view_ofs  = STAND_VIEW;
     self.is_ducked = FALSE;
 };
