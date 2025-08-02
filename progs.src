@@ -129,3 +129,4 @@ monsters/kamikaze.qc
 monsters/guardian.qc
 
 props.qc
+props_static.qc
