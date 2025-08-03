@@ -189,9 +189,9 @@ void() WeaponLandThink =
         AlignToSlope();
     }
 
-    self.movetype = MOVETYPE_TOSS;
+//    self.movetype = MOVETYPE_TOSS;
     self.solid = SOLID_TRIGGER;
-    setsize (self, '-16 -16 0', '16 16 56');
+//    setsize (self, '-16 -16 -8', '16 16 56');
     self.touch = weapon_touch;
     self.owner = world;
     self.think = SUB_Null;
@@ -232,15 +232,25 @@ void() DropCurrentWeapon =
     it.nextthink = time + 0.1;
     it.classname = "dropped_weapon";
     it.mass      = 0.2;
-    it.dmg       = 0;
-    //   it.effects|=EF_NOMODELFLAGS;
 
     setorigin(it, self.origin + '0 0 0');
 
-    vector inherit = self.velocity * 0.85;
+    // base throw
     makevectors(self.v_angle);
-    inherit = self.velocity * 0.5;
-    it.velocity = v_forward * 300 + '0 0 200' + inherit;
+    vector inherit = self.velocity * 0.85;
+    vector base    = v_forward * 300 + '0 0 200' + inherit;
+
+    // 2.5% directional jitter (≈ ±1.4°) in yaw+pitch
+    float  jitter = 0.05;
+    vector dir    = normalize(base);
+    if (vlen(dir) > 0) {
+        // build an orthonormal frame from the actual throw direction
+        makevectors(vectoangles(dir));  // sets v_forward≈dir, v_right, v_up
+        vector off = v_right * frand(-jitter, jitter)
+                + v_up    * frand(-jitter, jitter);
+        dir = normalize(dir + off);
+    }
+    it.velocity = dir * vlen(base);
 
     vector ang = vectoangles(v_forward);
     if (ang_x > 180)
