@@ -32,6 +32,7 @@ void() bush_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -69,6 +70,7 @@ void() bush_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -106,6 +108,7 @@ void() bush_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -143,6 +146,7 @@ void() bush_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -180,6 +184,7 @@ void() bush_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -217,6 +222,7 @@ void() bush_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -254,6 +260,7 @@ void() bush_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -291,6 +298,7 @@ void() bush_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -328,6 +336,7 @@ void() bush_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -365,6 +374,7 @@ void() bush_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -402,6 +412,7 @@ void() bush_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -439,6 +450,7 @@ void() bush_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -476,6 +488,7 @@ void() bush_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -513,6 +526,7 @@ void() bush_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -550,6 +564,7 @@ void() bush_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -587,6 +602,7 @@ void() bush_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -624,6 +640,7 @@ void() bush_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -661,6 +678,7 @@ void() bush_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -698,6 +716,7 @@ void() bush_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -735,6 +754,7 @@ void() bush_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -772,6 +792,7 @@ void() bush_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -809,6 +830,7 @@ void() bush_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -846,6 +868,7 @@ void() bush_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -883,6 +906,7 @@ void() bush_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -920,6 +944,7 @@ void() bush_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -957,6 +982,7 @@ void() bush_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -994,6 +1020,7 @@ void() bush_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1031,6 +1058,7 @@ void() bush_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1068,6 +1096,7 @@ void() bush_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1105,6 +1134,7 @@ void() bush_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1142,6 +1172,7 @@ void() bush_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1179,6 +1210,7 @@ void() bush_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1216,6 +1248,7 @@ void() bush_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1253,6 +1286,7 @@ void() bush_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1290,6 +1324,7 @@ void() bush_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1327,6 +1362,7 @@ void() bush_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1364,6 +1400,7 @@ void() bush_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1401,6 +1438,7 @@ void() bush_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1438,6 +1476,7 @@ void() bush_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1475,6 +1514,7 @@ void() bush_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1512,6 +1552,7 @@ void() bush_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1549,6 +1590,7 @@ void() bush_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1586,6 +1628,7 @@ void() bush_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1623,6 +1666,7 @@ void() bush_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1660,6 +1704,7 @@ void() bush_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1697,6 +1742,7 @@ void() bush_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1734,6 +1780,7 @@ void() bush_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1771,6 +1818,7 @@ void() bush_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1808,6 +1856,7 @@ void() bush_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1845,6 +1894,7 @@ void() bush_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1882,6 +1932,7 @@ void() bush_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1919,6 +1970,7 @@ void() bush_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1956,6 +2008,7 @@ void() bush_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -1993,6 +2046,7 @@ void() bush_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2030,6 +2084,7 @@ void() bush_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2067,6 +2122,7 @@ void() bush_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2104,6 +2160,7 @@ void() bush_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2141,6 +2198,7 @@ void() bush_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2178,6 +2236,7 @@ void() bush_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2215,6 +2274,7 @@ void() bush_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2252,6 +2312,7 @@ void() bush_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2289,6 +2350,7 @@ void() bush_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2326,6 +2388,7 @@ void() bush_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2363,6 +2426,7 @@ void() bush_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2400,6 +2464,7 @@ void() bush_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2437,6 +2502,7 @@ void() bush_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2474,6 +2540,7 @@ void() bush_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2511,6 +2578,7 @@ void() bush_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2548,6 +2616,7 @@ void() bush_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2585,6 +2654,7 @@ void() bush_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2622,6 +2692,7 @@ void() bush_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2659,6 +2730,7 @@ void() bush_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2696,6 +2768,7 @@ void() bush_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2733,6 +2806,7 @@ void() bush_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2770,6 +2844,7 @@ void() bush_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2807,6 +2882,7 @@ void() bush_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2844,6 +2920,7 @@ void() bush_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2881,6 +2958,7 @@ void() bush_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2918,6 +2996,7 @@ void() bush_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2955,6 +3034,7 @@ void() bush_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -2992,6 +3072,7 @@ void() bush_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3029,6 +3110,7 @@ void() bush_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3066,6 +3148,7 @@ void() bush_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3103,6 +3186,7 @@ void() bush_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3140,6 +3224,7 @@ void() bush_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3177,6 +3262,7 @@ void() bush_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3214,6 +3300,7 @@ void() bush_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3251,6 +3338,7 @@ void() bush_088 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3288,6 +3376,7 @@ void() bush_089 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3325,6 +3414,7 @@ void() bush_090 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3362,6 +3452,7 @@ void() bush_091 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3399,6 +3490,7 @@ void() bush_092 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3436,6 +3528,7 @@ void() bush_093 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3473,6 +3566,7 @@ void() bush_094 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3510,6 +3604,7 @@ void() bush_095 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3547,6 +3642,7 @@ void() bush_096 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3584,6 +3680,7 @@ void() bush_097 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3621,6 +3718,7 @@ void() bush_098 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3658,6 +3756,7 @@ void() bush_099 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3695,6 +3794,7 @@ void() bush_100 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3732,6 +3832,7 @@ void() bush_101 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3769,6 +3870,7 @@ void() bush_102 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3806,6 +3908,7 @@ void() bush_103 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3843,6 +3946,7 @@ void() bush_104 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3880,6 +3984,7 @@ void() bush_105 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3917,6 +4022,7 @@ void() bush_106 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3954,6 +4060,7 @@ void() bush_107 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -3991,6 +4098,7 @@ void() bush_108 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4028,6 +4136,7 @@ void() bush_109 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4065,6 +4174,7 @@ void() bush_110 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4102,6 +4212,7 @@ void() bush_111 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4139,6 +4250,7 @@ void() bush_112 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4176,6 +4288,7 @@ void() bush_113 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4213,6 +4326,7 @@ void() bush_114 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4250,6 +4364,7 @@ void() bush_115 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4287,6 +4402,7 @@ void() bush_116 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4324,6 +4440,7 @@ void() bush_117 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4361,6 +4478,7 @@ void() bush_118 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4398,6 +4516,7 @@ void() bush_119 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4435,6 +4554,7 @@ void() bush_120 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4472,6 +4592,7 @@ void() bush_121 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4509,6 +4630,7 @@ void() bush_122 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4546,6 +4668,7 @@ void() bush_123 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4583,6 +4706,7 @@ void() bush_124 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4620,6 +4744,7 @@ void() bush_125 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4657,6 +4782,7 @@ void() bush_126 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4694,6 +4820,7 @@ void() bush_127 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4731,6 +4858,7 @@ void() bush_128 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4768,6 +4896,7 @@ void() bush_129 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4805,6 +4934,7 @@ void() bush_130 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4842,6 +4972,7 @@ void() bush_131 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4879,6 +5010,7 @@ void() bush_132 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4916,6 +5048,7 @@ void() bush_133 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4953,6 +5086,7 @@ void() bush_134 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -4990,6 +5124,7 @@ void() bush_135 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5027,6 +5162,7 @@ void() bush_136 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5064,6 +5200,7 @@ void() bush_137 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5101,6 +5238,7 @@ void() bush_138 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5138,6 +5276,7 @@ void() bush_139 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5175,6 +5314,7 @@ void() bush_140 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5212,6 +5352,7 @@ void() bush_141 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5249,6 +5390,7 @@ void() bush_142 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5286,6 +5428,7 @@ void() bush_143 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5323,6 +5466,7 @@ void() bush_144 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5360,6 +5504,7 @@ void() bush_145 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5397,6 +5542,7 @@ void() bush_146 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5434,6 +5580,7 @@ void() bush_147 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5471,6 +5618,7 @@ void() bush_148 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5508,6 +5656,7 @@ void() bush_149 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5545,6 +5694,7 @@ void() bush_150 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5582,6 +5732,7 @@ void() bush_151 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5619,6 +5770,7 @@ void() bush_152 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5656,6 +5808,7 @@ void() bush_153 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5693,6 +5846,7 @@ void() bush_154 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5730,6 +5884,7 @@ void() bush_155 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5767,6 +5922,7 @@ void() bush_156 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5804,6 +5960,7 @@ void() grass_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5841,6 +5998,7 @@ void() grass_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5878,6 +6036,7 @@ void() grass_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5915,6 +6074,7 @@ void() grass_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5952,6 +6112,7 @@ void() grass_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -5989,6 +6150,7 @@ void() grass_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6026,6 +6188,7 @@ void() grass_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6063,6 +6226,7 @@ void() grass_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6100,6 +6264,7 @@ void() grass_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6137,6 +6302,7 @@ void() grass_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6174,6 +6340,7 @@ void() grass_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6211,6 +6378,7 @@ void() grass_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6248,6 +6416,7 @@ void() grass_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6285,6 +6454,7 @@ void() grass_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6322,6 +6492,7 @@ void() grass_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6359,6 +6530,7 @@ void() grass_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6396,6 +6568,7 @@ void() grass_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6433,6 +6606,7 @@ void() grass_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6470,6 +6644,7 @@ void() grass_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6507,6 +6682,7 @@ void() grass_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6544,6 +6720,7 @@ void() grass_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6581,6 +6758,7 @@ void() grass_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6618,6 +6796,7 @@ void() grass_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6655,6 +6834,7 @@ void() grass_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6692,6 +6872,7 @@ void() grass_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6729,6 +6910,7 @@ void() grass_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6766,6 +6948,7 @@ void() grass_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6803,6 +6986,7 @@ void() grass_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6840,6 +7024,7 @@ void() grass_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6877,6 +7062,7 @@ void() grass_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6914,6 +7100,7 @@ void() grass_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6951,6 +7138,7 @@ void() grass_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -6988,6 +7176,7 @@ void() grass_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7025,6 +7214,7 @@ void() grass_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7062,6 +7252,7 @@ void() grass_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7099,6 +7290,7 @@ void() grass_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7136,6 +7328,7 @@ void() grass_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7173,6 +7366,7 @@ void() grass_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7210,6 +7404,7 @@ void() grass_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7247,6 +7442,7 @@ void() grass_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7284,6 +7480,7 @@ void() grass_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7321,6 +7518,7 @@ void() grass_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7358,6 +7556,7 @@ void() grass_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7395,6 +7594,7 @@ void() grass_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7432,6 +7632,7 @@ void() grass_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7469,6 +7670,7 @@ void() grass_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7506,6 +7708,7 @@ void() grass_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7543,6 +7746,7 @@ void() grass_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7580,6 +7784,7 @@ void() grass_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7617,6 +7822,7 @@ void() grass_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7654,6 +7860,7 @@ void() grass_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7691,6 +7898,7 @@ void() grass_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7728,6 +7936,7 @@ void() grass_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7765,6 +7974,7 @@ void() grass_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7802,6 +8012,7 @@ void() grass_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7839,6 +8050,7 @@ void() grass_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7876,6 +8088,7 @@ void() grass_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7913,6 +8126,7 @@ void() grass_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7950,6 +8164,7 @@ void() grass_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -7987,6 +8202,7 @@ void() grass_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8024,6 +8240,7 @@ void() grass_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8061,6 +8278,7 @@ void() grass_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8098,6 +8316,7 @@ void() grass_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8135,6 +8354,7 @@ void() grass_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8172,6 +8392,7 @@ void() grass_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8209,6 +8430,7 @@ void() grass_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8246,6 +8468,7 @@ void() grass_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8283,6 +8506,7 @@ void() grass_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8320,6 +8544,7 @@ void() grass_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8357,6 +8582,7 @@ void() grass_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8394,6 +8620,7 @@ void() grass_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8431,6 +8658,7 @@ void() grass_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8468,6 +8696,7 @@ void() grass_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8505,6 +8734,7 @@ void() grass_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8542,6 +8772,7 @@ void() grass_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8579,6 +8810,7 @@ void() grass_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8616,6 +8848,7 @@ void() grass_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8653,6 +8886,7 @@ void() grass_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8690,6 +8924,7 @@ void() grass_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8727,6 +8962,7 @@ void() grass_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8764,6 +9000,7 @@ void() grass_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8801,6 +9038,7 @@ void() grass_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8838,6 +9076,7 @@ void() grass_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8875,6 +9114,7 @@ void() grass_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8912,6 +9152,7 @@ void() grass_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8949,6 +9190,7 @@ void() grass_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -8986,6 +9228,7 @@ void() grass_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9022,6 +9265,7 @@ void() barrel_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9058,6 +9302,7 @@ void() barrel_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9094,6 +9339,7 @@ void() barrel_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9130,6 +9376,7 @@ void() barrel_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9166,6 +9413,7 @@ void() barrel_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9202,6 +9450,7 @@ void() barrel_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9238,6 +9487,7 @@ void() barrel_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9274,6 +9524,7 @@ void() barrel_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9310,6 +9561,7 @@ void() barrel_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9346,6 +9598,7 @@ void() barrel_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9382,6 +9635,7 @@ void() barrel_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9418,6 +9672,7 @@ void() barrel_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9454,6 +9709,7 @@ void() barrel_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9490,6 +9746,7 @@ void() barrel_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9526,6 +9783,7 @@ void() barrel_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9562,6 +9820,7 @@ void() barrel_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9598,6 +9857,7 @@ void() barrel_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9634,6 +9894,7 @@ void() barrel_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9670,6 +9931,7 @@ void() barrel_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9706,6 +9968,7 @@ void() barrel_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9742,6 +10005,7 @@ void() barrel_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9778,6 +10042,7 @@ void() barrel_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9814,6 +10079,7 @@ void() barrel_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9850,6 +10116,7 @@ void() barrel_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9886,6 +10153,7 @@ void() barrel_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9922,6 +10190,7 @@ void() barrel_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9958,6 +10227,7 @@ void() barrel_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -9994,6 +10264,7 @@ void() barrel_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10030,6 +10301,7 @@ void() barrel_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10066,6 +10338,7 @@ void() barrel_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10102,6 +10375,7 @@ void() barrel_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10138,6 +10412,7 @@ void() barrel_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10174,6 +10449,7 @@ void() barrel_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10210,6 +10486,7 @@ void() barrel_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10246,6 +10523,7 @@ void() barrel_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10282,6 +10560,7 @@ void() barrel_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10318,6 +10597,7 @@ void() barrel_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10354,6 +10634,7 @@ void() barrel_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10390,6 +10671,7 @@ void() barrel_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10426,6 +10708,7 @@ void() barrel_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10462,6 +10745,7 @@ void() barrel_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10498,6 +10782,7 @@ void() barrel_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10534,6 +10819,7 @@ void() barrel_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10570,6 +10856,7 @@ void() barrel_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10606,6 +10893,7 @@ void() barrel_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10642,6 +10930,7 @@ void() barrel_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10678,6 +10967,7 @@ void() barrel_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10714,6 +11004,7 @@ void() barrel_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10750,6 +11041,7 @@ void() barrel_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10786,6 +11078,7 @@ void() barrel_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10822,6 +11115,7 @@ void() barrel_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10858,6 +11152,7 @@ void() barrel_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10894,6 +11189,7 @@ void() barrel_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10930,6 +11226,7 @@ void() barrel_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -10966,6 +11263,7 @@ void() barrel_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11002,6 +11300,7 @@ void() barrel_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11038,6 +11337,7 @@ void() barrel_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11074,6 +11374,7 @@ void() barrel_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11110,6 +11411,7 @@ void() barrel_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11146,6 +11448,7 @@ void() barrel_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11182,6 +11485,7 @@ void() barrel_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11218,6 +11522,7 @@ void() barrel_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11254,6 +11559,7 @@ void() barrel_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11290,6 +11596,7 @@ void() barrel_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11326,6 +11633,7 @@ void() barrel_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11362,6 +11670,7 @@ void() barrel_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11398,6 +11707,7 @@ void() barrel_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11434,6 +11744,7 @@ void() barrel_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11470,6 +11781,7 @@ void() barrel_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11506,6 +11818,7 @@ void() barrel_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11542,6 +11855,7 @@ void() barrel_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11578,6 +11892,7 @@ void() barrel_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11614,6 +11929,7 @@ void() barrel_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11650,6 +11966,7 @@ void() barrel_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11686,6 +12003,7 @@ void() barrel_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11722,6 +12040,7 @@ void() barrel_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11758,6 +12077,7 @@ void() barrel_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11794,6 +12114,7 @@ void() barrel_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11830,6 +12151,7 @@ void() barrel_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11866,6 +12188,7 @@ void() barrel_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11902,6 +12225,7 @@ void() barrel_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11938,6 +12262,7 @@ void() barrel_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -11974,6 +12299,7 @@ void() barrel_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12010,6 +12336,7 @@ void() barrel_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12046,6 +12373,7 @@ void() barrel_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12082,6 +12410,7 @@ void() barrel_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12118,6 +12447,7 @@ void() barrel_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12154,6 +12484,7 @@ void() barrel_088 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12190,6 +12521,7 @@ void() barrel_089 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12226,6 +12558,7 @@ void() barrel_090 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12262,6 +12595,7 @@ void() barrel_091 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12298,6 +12632,7 @@ void() barrel_092 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12334,6 +12669,7 @@ void() barrel_093 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12370,6 +12706,7 @@ void() barrel_094 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12406,6 +12743,7 @@ void() barrel_095 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12442,6 +12780,7 @@ void() barrel_096 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12478,6 +12817,7 @@ void() barrel_097 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12514,6 +12854,7 @@ void() barrel_098 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12550,6 +12891,7 @@ void() barrel_099 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12586,6 +12928,7 @@ void() barrel_100 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12622,6 +12965,7 @@ void() barrel_101 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12658,6 +13002,7 @@ void() barrel_102 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12694,6 +13039,7 @@ void() barrel_103 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12730,6 +13076,7 @@ void() barrel_104 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12766,6 +13113,7 @@ void() barrel_105 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12802,6 +13150,7 @@ void() barrel_106 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12838,6 +13187,7 @@ void() barrel_107 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12874,6 +13224,7 @@ void() barrel_108 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12910,6 +13261,7 @@ void() barrel_109 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12946,6 +13298,7 @@ void() barrel_110 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -12982,6 +13335,7 @@ void() barrel_111 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13018,6 +13372,7 @@ void() barrel_112 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13054,6 +13409,7 @@ void() barrel_113 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13090,6 +13446,7 @@ void() barrel_114 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13126,6 +13483,7 @@ void() barrel_115 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13162,6 +13520,7 @@ void() barrel_116 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13198,6 +13557,7 @@ void() barrel_117 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13234,6 +13594,7 @@ void() barrel_118 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13270,6 +13631,7 @@ void() barrel_119 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13306,6 +13668,7 @@ void() barrel_120 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13342,6 +13705,7 @@ void() barrel_121 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13378,6 +13742,7 @@ void() barrel_122 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13414,6 +13779,7 @@ void() barrel_123 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13450,6 +13816,7 @@ void() barrel_124 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13486,6 +13853,7 @@ void() barrel_125 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13522,6 +13890,7 @@ void() barrel_126 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13558,6 +13927,7 @@ void() barrel_127 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13594,6 +13964,7 @@ void() barrel_128 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13630,6 +14001,7 @@ void() barrel_129 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13666,6 +14038,7 @@ void() barrel_130 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13702,6 +14075,7 @@ void() barrel_131 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13738,6 +14112,7 @@ void() barrel_132 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13774,6 +14149,7 @@ void() barrel_133 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13810,6 +14186,7 @@ void() barrel_134 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13846,6 +14223,7 @@ void() barrel_135 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13882,6 +14260,7 @@ void() barrel_136 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13918,6 +14297,7 @@ void() barrel_137 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13954,6 +14334,7 @@ void() barrel_138 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -13990,6 +14371,7 @@ void() barrel_139 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14026,6 +14408,7 @@ void() barrel_140 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14062,6 +14445,7 @@ void() barrel_141 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14098,6 +14482,7 @@ void() bench_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14134,6 +14519,7 @@ void() bench_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14170,6 +14556,7 @@ void() bench_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14206,6 +14593,7 @@ void() bench_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14242,6 +14630,7 @@ void() bench_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14278,6 +14667,7 @@ void() bench_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14314,6 +14704,7 @@ void() bench_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14350,6 +14741,7 @@ void() bench_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14386,6 +14778,7 @@ void() bench_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14422,6 +14815,7 @@ void() bench_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14458,6 +14852,7 @@ void() bench_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14494,6 +14889,7 @@ void() bench_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14530,6 +14926,7 @@ void() bench_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14566,6 +14963,7 @@ void() bench_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14602,6 +15000,7 @@ void() bench_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14638,6 +15037,7 @@ void() bench_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14674,6 +15074,7 @@ void() bench_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14710,6 +15111,7 @@ void() bench_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14746,6 +15148,7 @@ void() bench_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14782,6 +15185,7 @@ void() bench_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14818,6 +15222,7 @@ void() bench_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14854,6 +15259,7 @@ void() bench_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14890,6 +15296,7 @@ void() bench_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14926,6 +15333,7 @@ void() bench_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14962,6 +15370,7 @@ void() bench_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -14998,6 +15407,7 @@ void() bench_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15034,6 +15444,7 @@ void() bench_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15070,6 +15481,7 @@ void() bench_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15106,6 +15518,7 @@ void() bench_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15142,6 +15555,7 @@ void() bench_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15178,6 +15592,7 @@ void() bench_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15214,6 +15629,7 @@ void() bench_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15250,6 +15666,7 @@ void() bench_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15286,6 +15703,7 @@ void() bench_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15322,6 +15740,7 @@ void() bench_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15358,6 +15777,7 @@ void() bench_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15394,6 +15814,7 @@ void() bench_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15430,6 +15851,7 @@ void() bench_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15466,6 +15888,7 @@ void() bench_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15502,6 +15925,7 @@ void() bench_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15538,6 +15962,7 @@ void() bench_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15574,6 +15999,7 @@ void() bench_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15610,6 +16036,7 @@ void() bench_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15646,6 +16073,7 @@ void() bench_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15682,6 +16110,7 @@ void() bench_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15718,6 +16147,7 @@ void() bench_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15754,6 +16184,7 @@ void() bench_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15790,6 +16221,7 @@ void() bench_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15826,6 +16258,7 @@ void() bench_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15862,6 +16295,7 @@ void() bench_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15898,6 +16332,7 @@ void() bench_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15934,6 +16369,7 @@ void() bench_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -15970,6 +16406,7 @@ void() bench_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16006,6 +16443,7 @@ void() bench_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16042,6 +16480,7 @@ void() bench_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16078,6 +16517,7 @@ void() bench_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16114,6 +16554,7 @@ void() bench_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16150,6 +16591,7 @@ void() bench_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16186,6 +16628,7 @@ void() bench_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16222,6 +16665,7 @@ void() bench_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16258,6 +16702,7 @@ void() bench_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16294,6 +16739,7 @@ void() bench_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16330,6 +16776,7 @@ void() bench_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16366,6 +16813,7 @@ void() bench_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16402,6 +16850,7 @@ void() bench_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16438,6 +16887,7 @@ void() bench_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16474,6 +16924,7 @@ void() bench_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16510,6 +16961,7 @@ void() bench_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16546,6 +16998,7 @@ void() box_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16582,6 +17035,7 @@ void() box_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16618,6 +17072,7 @@ void() box_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16654,6 +17109,7 @@ void() box_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16690,6 +17146,7 @@ void() box_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16726,6 +17183,7 @@ void() box_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16762,6 +17220,7 @@ void() box_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16798,6 +17257,7 @@ void() box_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16834,6 +17294,7 @@ void() box_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16870,6 +17331,7 @@ void() box_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16906,6 +17368,7 @@ void() box_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16942,6 +17405,7 @@ void() box_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -16978,6 +17442,7 @@ void() box_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17014,6 +17479,7 @@ void() box_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17050,6 +17516,7 @@ void() box_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17086,6 +17553,7 @@ void() box_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17122,6 +17590,7 @@ void() box_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17158,6 +17627,7 @@ void() box_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17194,6 +17664,7 @@ void() box_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17230,6 +17701,7 @@ void() box_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17266,6 +17738,7 @@ void() box_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17302,6 +17775,7 @@ void() box_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17338,6 +17812,7 @@ void() box_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17374,6 +17849,7 @@ void() box_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17410,6 +17886,7 @@ void() box_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17446,6 +17923,7 @@ void() box_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17482,6 +17960,7 @@ void() box_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17518,6 +17997,7 @@ void() box_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17554,6 +18034,7 @@ void() box_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17590,6 +18071,7 @@ void() box_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17626,6 +18108,7 @@ void() box_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17662,6 +18145,7 @@ void() box_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17698,6 +18182,7 @@ void() box_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17734,6 +18219,7 @@ void() box_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17770,6 +18256,7 @@ void() box_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17806,6 +18293,7 @@ void() box_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17842,6 +18330,7 @@ void() box_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17878,6 +18367,7 @@ void() box_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17914,6 +18404,7 @@ void() box_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17950,6 +18441,7 @@ void() box_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -17986,6 +18478,7 @@ void() box_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18022,6 +18515,7 @@ void() box_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18058,6 +18552,7 @@ void() box_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18094,6 +18589,7 @@ void() box_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18130,6 +18626,7 @@ void() box_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18166,6 +18663,7 @@ void() box_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18202,6 +18700,7 @@ void() box_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18238,6 +18737,7 @@ void() box_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18274,6 +18774,7 @@ void() box_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18310,6 +18811,7 @@ void() box_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18346,6 +18848,7 @@ void() box_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18382,6 +18885,7 @@ void() box_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18418,6 +18922,7 @@ void() box_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18454,6 +18959,7 @@ void() box_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18490,6 +18996,7 @@ void() box_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18526,6 +19033,7 @@ void() box_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18562,6 +19070,7 @@ void() box_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18598,6 +19107,7 @@ void() box_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18634,6 +19144,7 @@ void() box_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18670,6 +19181,7 @@ void() box_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18706,6 +19218,7 @@ void() box_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18742,6 +19255,7 @@ void() box_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18778,6 +19292,7 @@ void() box_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18814,6 +19329,7 @@ void() box_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18850,6 +19366,7 @@ void() box_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18886,6 +19403,7 @@ void() box_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18922,6 +19440,7 @@ void() box_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18958,6 +19477,7 @@ void() box_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -18994,6 +19514,7 @@ void() box_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19030,6 +19551,7 @@ void() box_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19066,6 +19588,7 @@ void() box_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19102,6 +19625,7 @@ void() box_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19138,6 +19662,7 @@ void() box_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19174,6 +19699,7 @@ void() box_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19210,6 +19736,7 @@ void() box_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19246,6 +19773,7 @@ void() box_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19282,6 +19810,7 @@ void() box_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19318,6 +19847,7 @@ void() box_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19354,6 +19884,7 @@ void() box_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19390,6 +19921,7 @@ void() box_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19426,6 +19958,7 @@ void() box_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19462,6 +19995,7 @@ void() box_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19498,6 +20032,7 @@ void() box_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19534,6 +20069,7 @@ void() box_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19570,6 +20106,7 @@ void() box_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19606,6 +20143,7 @@ void() box_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19642,6 +20180,7 @@ void() box_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19678,6 +20217,7 @@ void() box_088 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19714,6 +20254,7 @@ void() box_089 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19750,6 +20291,7 @@ void() box_090 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19786,6 +20328,7 @@ void() box_091 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19822,6 +20365,7 @@ void() box_092 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19858,6 +20402,7 @@ void() box_093 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19894,6 +20439,7 @@ void() box_094 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19930,6 +20476,7 @@ void() box_095 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -19966,6 +20513,7 @@ void() box_096 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20002,6 +20550,7 @@ void() box_097 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20038,6 +20587,7 @@ void() box_098 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20074,6 +20624,7 @@ void() box_099 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20110,6 +20661,7 @@ void() box_100 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20146,6 +20698,7 @@ void() box_101 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20182,6 +20735,7 @@ void() box_102 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20218,6 +20772,7 @@ void() box_103 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20254,6 +20809,7 @@ void() box_104 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20290,6 +20846,7 @@ void() box_105 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20326,6 +20883,7 @@ void() box_106 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20362,6 +20920,7 @@ void() box_107 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20398,6 +20957,7 @@ void() box_108 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20434,6 +20994,7 @@ void() box_109 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20470,6 +21031,7 @@ void() box_110 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20506,6 +21068,7 @@ void() box_111 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20542,6 +21105,7 @@ void() box_112 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20578,6 +21142,7 @@ void() box_113 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20614,6 +21179,7 @@ void() box_114 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20650,6 +21216,7 @@ void() box_115 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20686,6 +21253,7 @@ void() box_116 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20722,6 +21290,7 @@ void() box_117 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20758,6 +21327,7 @@ void() box_118 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20794,6 +21364,7 @@ void() box_119 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20830,6 +21401,7 @@ void() box_120 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20866,6 +21438,7 @@ void() box_121 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20902,6 +21475,7 @@ void() box_122 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20938,6 +21512,7 @@ void() box_123 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -20974,6 +21549,7 @@ void() box_124 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21010,6 +21586,7 @@ void() box_125 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21046,6 +21623,7 @@ void() box_126 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21082,6 +21660,7 @@ void() box_127 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21118,6 +21697,7 @@ void() box_128 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21154,6 +21734,7 @@ void() box_129 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21190,6 +21771,7 @@ void() box_130 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21226,6 +21808,7 @@ void() box_131 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21262,6 +21845,7 @@ void() box_132 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21298,6 +21882,7 @@ void() box_133 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21334,6 +21919,7 @@ void() box_134 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21370,6 +21956,7 @@ void() box_135 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21406,6 +21993,7 @@ void() box_136 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21442,6 +22030,7 @@ void() box_137 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21478,6 +22067,7 @@ void() box_138 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21514,6 +22104,7 @@ void() box_139 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21550,6 +22141,7 @@ void() box_140 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21586,6 +22178,7 @@ void() box_141 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21622,6 +22215,7 @@ void() box_142 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21658,6 +22252,7 @@ void() box_143 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21694,6 +22289,7 @@ void() box_144 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21730,6 +22326,7 @@ void() box_145 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21766,6 +22363,7 @@ void() box_146 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21802,6 +22400,7 @@ void() box_147 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21838,6 +22437,7 @@ void() box_148 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21874,6 +22474,7 @@ void() box_149 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21910,6 +22511,7 @@ void() box_150 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21946,6 +22548,7 @@ void() box_151 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -21982,6 +22585,7 @@ void() box_152 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22018,6 +22622,7 @@ void() box_153 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22054,6 +22659,7 @@ void() box_154 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22090,6 +22696,7 @@ void() box_155 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22126,6 +22733,7 @@ void() box_156 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22162,6 +22770,7 @@ void() box_157 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22198,6 +22807,7 @@ void() box_158 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22234,6 +22844,7 @@ void() box_159 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22270,6 +22881,7 @@ void() box_160 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22306,6 +22918,7 @@ void() box_161 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22342,6 +22955,7 @@ void() box_162 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22378,6 +22992,7 @@ void() box_163 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22414,6 +23029,7 @@ void() box_164 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22450,6 +23066,7 @@ void() box_165 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22486,6 +23103,7 @@ void() box_166 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22522,6 +23140,7 @@ void() box_167 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22558,6 +23177,7 @@ void() box_168 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22594,6 +23214,7 @@ void() box_169 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22630,6 +23251,7 @@ void() box_170 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22666,6 +23288,7 @@ void() box_171 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22702,6 +23325,7 @@ void() cacti_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22738,6 +23362,7 @@ void() cacti_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22774,6 +23399,7 @@ void() cacti_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22810,6 +23436,7 @@ void() cacti_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22846,6 +23473,7 @@ void() cacti_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22882,6 +23510,7 @@ void() cacti_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22918,6 +23547,7 @@ void() cacti_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22954,6 +23584,7 @@ void() cacti_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -22990,6 +23621,7 @@ void() cacti_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23026,6 +23658,7 @@ void() chair_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23062,6 +23695,7 @@ void() chair_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23098,6 +23732,7 @@ void() chair_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23134,6 +23769,7 @@ void() chair_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23170,6 +23806,7 @@ void() chair_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23206,6 +23843,7 @@ void() chair_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23242,6 +23880,7 @@ void() chair_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23278,6 +23917,7 @@ void() chair_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23314,6 +23954,7 @@ void() chair_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23350,6 +23991,7 @@ void() chair_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23386,6 +24028,7 @@ void() chair_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23422,6 +24065,7 @@ void() chair_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23458,6 +24102,7 @@ void() chair_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23494,6 +24139,7 @@ void() chair_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23530,6 +24176,7 @@ void() chair_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23566,6 +24213,7 @@ void() chair_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23602,6 +24250,7 @@ void() chair_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23638,6 +24287,7 @@ void() chair_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23674,6 +24324,7 @@ void() chair_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23710,6 +24361,7 @@ void() chair_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23746,6 +24398,7 @@ void() chair_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23782,6 +24435,7 @@ void() chair_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23818,6 +24472,7 @@ void() chair_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23854,6 +24509,7 @@ void() chair_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23890,6 +24546,7 @@ void() chair_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23926,6 +24583,7 @@ void() chair_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23962,6 +24620,7 @@ void() chair_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -23998,6 +24657,7 @@ void() chair_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24034,6 +24694,7 @@ void() chair_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24070,6 +24731,7 @@ void() chair_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24106,6 +24768,7 @@ void() chair_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24142,6 +24805,7 @@ void() chair_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24178,6 +24842,7 @@ void() chair_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24214,6 +24879,7 @@ void() chair_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24250,6 +24916,7 @@ void() chair_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24286,6 +24953,7 @@ void() chair_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24322,6 +24990,7 @@ void() chair_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24358,6 +25027,7 @@ void() chair_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24394,6 +25064,7 @@ void() chair_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24430,6 +25101,7 @@ void() chair_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24466,6 +25138,7 @@ void() chair_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24502,6 +25175,7 @@ void() chair_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24538,6 +25212,7 @@ void() chair_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24574,6 +25249,7 @@ void() chair_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24610,6 +25286,7 @@ void() chair_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24646,6 +25323,7 @@ void() chair_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24682,6 +25360,7 @@ void() chair_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24718,6 +25397,7 @@ void() chair_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24754,6 +25434,7 @@ void() chair_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24790,6 +25471,7 @@ void() chair_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24826,6 +25508,7 @@ void() chair_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24862,6 +25545,7 @@ void() chair_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24898,6 +25582,7 @@ void() chair_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24934,6 +25619,7 @@ void() chair_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -24970,6 +25656,7 @@ void() chair_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25006,6 +25693,7 @@ void() chair_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25042,6 +25730,7 @@ void() chair_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25078,6 +25767,7 @@ void() chair_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25114,6 +25804,7 @@ void() chair_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25150,6 +25841,7 @@ void() chair_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25186,6 +25878,7 @@ void() chair_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25222,6 +25915,7 @@ void() chair_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25258,6 +25952,7 @@ void() chair_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25294,6 +25989,7 @@ void() chair_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25330,6 +26026,7 @@ void() chair_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25366,6 +26063,7 @@ void() chair_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25402,6 +26100,7 @@ void() chair_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25438,6 +26137,7 @@ void() chair_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25474,6 +26174,7 @@ void() chair_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25510,6 +26211,7 @@ void() chair_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25546,6 +26248,7 @@ void() chair_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25582,6 +26285,7 @@ void() chair_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25618,6 +26322,7 @@ void() chair_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25654,6 +26359,7 @@ void() chair_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25690,6 +26396,7 @@ void() chair_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25726,6 +26433,7 @@ void() chair_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25762,6 +26470,7 @@ void() chair_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25798,6 +26507,7 @@ void() chair_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25834,6 +26544,7 @@ void() chair_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25870,6 +26581,7 @@ void() chair_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25906,6 +26618,7 @@ void() chair_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25942,6 +26655,7 @@ void() chair_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -25978,6 +26692,7 @@ void() chair_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26014,6 +26729,7 @@ void() chair_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26050,6 +26766,7 @@ void() chair_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26086,6 +26803,7 @@ void() chair_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26122,6 +26840,7 @@ void() chair_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26158,6 +26877,7 @@ void() chair_088 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26194,6 +26914,7 @@ void() chair_089 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26230,6 +26951,7 @@ void() chair_090 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26266,6 +26988,7 @@ void() chair_091 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26302,6 +27025,7 @@ void() chair_092 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26338,6 +27062,7 @@ void() chair_093 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26374,6 +27099,7 @@ void() chair_094 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26410,6 +27136,7 @@ void() chair_095 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26446,6 +27173,7 @@ void() chair_096 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26482,6 +27210,7 @@ void() chair_097 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26518,6 +27247,7 @@ void() chair_098 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26554,6 +27284,7 @@ void() chair_099 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26590,6 +27321,7 @@ void() chair_100 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26626,6 +27358,7 @@ void() chair_101 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26662,6 +27395,7 @@ void() chair_102 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26698,6 +27432,7 @@ void() chair_103 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26734,6 +27469,7 @@ void() chair_104 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26770,6 +27506,7 @@ void() chair_105 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26806,6 +27543,7 @@ void() chair_106 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26842,6 +27580,7 @@ void() chair_107 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26878,6 +27617,7 @@ void() chair_108 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26914,6 +27654,7 @@ void() chair_109 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26950,6 +27691,7 @@ void() chair_110 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -26986,6 +27728,7 @@ void() chair_111 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27022,6 +27765,7 @@ void() chair_112 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27058,6 +27802,7 @@ void() chair_113 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27094,6 +27839,7 @@ void() chair_114 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27130,6 +27876,7 @@ void() chair_115 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27166,6 +27913,7 @@ void() chair_116 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27202,6 +27950,7 @@ void() chair_117 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27238,6 +27987,7 @@ void() chair_118 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27274,6 +28024,7 @@ void() chair_119 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27310,6 +28061,7 @@ void() chair_120 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27346,6 +28098,7 @@ void() chair_121 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27382,6 +28135,7 @@ void() chair_122 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27418,6 +28172,7 @@ void() chair_123 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27454,6 +28209,7 @@ void() chair_124 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27490,6 +28246,7 @@ void() chair_125 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27526,6 +28283,7 @@ void() chair_126 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27562,6 +28320,7 @@ void() chair_127 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27598,6 +28357,7 @@ void() chair_128 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27634,6 +28394,7 @@ void() chair_129 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27670,6 +28431,7 @@ void() chair_130 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27706,6 +28468,7 @@ void() chair_131 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27742,6 +28505,7 @@ void() chair_132 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27778,6 +28542,7 @@ void() chair_133 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27814,6 +28579,7 @@ void() chair_134 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27850,6 +28616,7 @@ void() chair_135 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27886,6 +28653,7 @@ void() chair_136 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27922,6 +28690,7 @@ void() chair_137 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27958,6 +28727,7 @@ void() chair_138 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -27994,6 +28764,7 @@ void() chair_139 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28030,6 +28801,7 @@ void() chair_140 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28066,6 +28838,7 @@ void() chair_141 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28102,6 +28875,7 @@ void() chair_142 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28138,6 +28912,7 @@ void() chair_143 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28174,6 +28949,7 @@ void() chair_144 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28210,6 +28986,7 @@ void() chair_145 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28246,6 +29023,7 @@ void() chair_146 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28282,6 +29060,7 @@ void() chair_147 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28318,6 +29097,7 @@ void() chair_148 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28354,6 +29134,7 @@ void() chair_149 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28390,6 +29171,7 @@ void() chair_150 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28426,6 +29208,7 @@ void() chair_151 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28462,6 +29245,7 @@ void() chair_152 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28498,6 +29282,7 @@ void() chair_153 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28534,6 +29319,7 @@ void() chair_154 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28570,6 +29356,7 @@ void() chair_155 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28606,6 +29393,7 @@ void() chair_156 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28642,6 +29430,7 @@ void() chair_157 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28678,6 +29467,7 @@ void() chair_158 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28714,6 +29504,7 @@ void() chair_159 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28750,6 +29541,7 @@ void() chair_160 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28786,6 +29578,7 @@ void() chair_161 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28822,6 +29615,7 @@ void() chair_162 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28858,6 +29652,7 @@ void() chair_163 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28894,6 +29689,7 @@ void() chair_164 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28930,6 +29726,7 @@ void() chair_165 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -28966,6 +29763,7 @@ void() chair_166 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29002,6 +29800,7 @@ void() chair_167 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29038,6 +29837,7 @@ void() chair_168 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29074,6 +29874,7 @@ void() chair_169 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29110,6 +29911,7 @@ void() chair_170 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29146,6 +29948,7 @@ void() chair_171 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29182,6 +29985,7 @@ void() chair_172 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29218,6 +30022,7 @@ void() chair_173 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29254,6 +30059,7 @@ void() chair_174 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29290,6 +30096,7 @@ void() chair_175 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29326,6 +30133,7 @@ void() chair_176 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29362,6 +30170,7 @@ void() chair_177 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29398,6 +30207,7 @@ void() chair_178 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29434,6 +30244,7 @@ void() chair_179 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29470,6 +30281,7 @@ void() chair_180 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29506,6 +30318,7 @@ void() chair_181 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29542,6 +30355,7 @@ void() chair_182 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29578,6 +30392,7 @@ void() chair_183 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29614,6 +30429,7 @@ void() chair_184 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29650,6 +30466,7 @@ void() chair_185 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29686,6 +30503,7 @@ void() chair_186 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29722,6 +30540,7 @@ void() chair_187 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29758,6 +30577,7 @@ void() chair_188 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29794,6 +30614,7 @@ void() chair_189 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29830,6 +30651,7 @@ void() chair_190 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29866,6 +30688,7 @@ void() chair_191 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29902,6 +30725,7 @@ void() chair_192 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29938,6 +30762,7 @@ void() chair_193 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -29974,6 +30799,7 @@ void() chair_194 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30010,6 +30836,7 @@ void() chair_195 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30046,6 +30873,7 @@ void() chair_196 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30082,6 +30910,7 @@ void() land_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30118,6 +30947,7 @@ void() land_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30154,6 +30984,7 @@ void() land_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30190,6 +31021,7 @@ void() land_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30226,6 +31058,7 @@ void() land_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30262,6 +31095,7 @@ void() land_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30298,6 +31132,7 @@ void() land_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30334,6 +31169,7 @@ void() land_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30370,6 +31206,7 @@ void() land_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30406,6 +31243,7 @@ void() land_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30442,6 +31280,7 @@ void() land_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30478,6 +31317,7 @@ void() land_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30514,6 +31354,7 @@ void() land_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30550,6 +31391,7 @@ void() land_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30586,6 +31428,7 @@ void() land_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30622,6 +31465,7 @@ void() land_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30658,6 +31502,7 @@ void() land_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30694,6 +31539,7 @@ void() land_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30730,6 +31576,7 @@ void() land_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30766,6 +31613,7 @@ void() land_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30802,6 +31650,7 @@ void() land_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30838,6 +31687,7 @@ void() land_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30874,6 +31724,7 @@ void() land_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30910,6 +31761,7 @@ void() land_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30946,6 +31798,7 @@ void() land_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -30982,6 +31835,7 @@ void() land_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31018,6 +31872,7 @@ void() land_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31054,6 +31909,7 @@ void() land_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31090,6 +31946,7 @@ void() land_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31126,6 +31983,7 @@ void() land_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31162,6 +32020,7 @@ void() land_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31198,6 +32057,7 @@ void() land_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31234,6 +32094,7 @@ void() land_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31270,6 +32131,7 @@ void() land_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31306,6 +32168,7 @@ void() land_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31342,6 +32205,7 @@ void() land_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31378,6 +32242,7 @@ void() land_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31414,6 +32279,7 @@ void() land_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31450,6 +32316,7 @@ void() land_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31486,6 +32353,7 @@ void() land_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31522,6 +32390,7 @@ void() land_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31558,6 +32427,7 @@ void() land_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31594,6 +32464,7 @@ void() land_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31630,6 +32501,7 @@ void() land_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31666,6 +32538,7 @@ void() land_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31702,6 +32575,7 @@ void() land_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31738,6 +32612,7 @@ void() land_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31774,6 +32649,7 @@ void() land_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31810,6 +32686,7 @@ void() land_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31846,6 +32723,7 @@ void() land_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31882,6 +32760,7 @@ void() land_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31918,6 +32797,7 @@ void() land_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31954,6 +32834,7 @@ void() land_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -31990,6 +32871,7 @@ void() land_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32026,6 +32908,7 @@ void() land_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32062,6 +32945,7 @@ void() land_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32098,6 +32982,7 @@ void() land_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32134,6 +33019,7 @@ void() land_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32170,6 +33056,7 @@ void() land_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32206,6 +33093,7 @@ void() land_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32242,6 +33130,7 @@ void() land_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32278,6 +33167,7 @@ void() land_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32314,6 +33204,7 @@ void() land_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32350,6 +33241,7 @@ void() land_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32386,6 +33278,7 @@ void() land_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32422,6 +33315,7 @@ void() land_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32458,6 +33352,7 @@ void() land_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32494,6 +33389,7 @@ void() land_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32530,6 +33426,7 @@ void() land_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32566,6 +33463,7 @@ void() land_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32602,6 +33500,7 @@ void() land_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32638,6 +33537,7 @@ void() land_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32674,6 +33574,7 @@ void() land_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32710,6 +33611,7 @@ void() land_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32746,6 +33648,7 @@ void() land_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32782,6 +33685,7 @@ void() land_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32818,6 +33722,7 @@ void() land_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32854,6 +33759,7 @@ void() land_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32890,6 +33796,7 @@ void() land_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32926,6 +33833,7 @@ void() land_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32962,6 +33870,7 @@ void() land_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -32998,6 +33907,7 @@ void() land_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33034,6 +33944,7 @@ void() land_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33070,6 +33981,7 @@ void() land_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33106,6 +34018,7 @@ void() land_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33142,6 +34055,7 @@ void() land_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33178,6 +34092,7 @@ void() land_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33214,6 +34129,7 @@ void() land_088 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33250,6 +34166,7 @@ void() land_089 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33286,6 +34203,7 @@ void() land_090 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33322,6 +34240,7 @@ void() land_091 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33358,6 +34277,7 @@ void() land_092 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33394,6 +34314,7 @@ void() land_093 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33430,6 +34351,7 @@ void() land_094 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33466,6 +34388,7 @@ void() land_095 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33502,6 +34425,7 @@ void() land_096 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33538,6 +34462,7 @@ void() land_097 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33574,6 +34499,7 @@ void() land_098 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33610,6 +34536,7 @@ void() land_099 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33646,6 +34573,7 @@ void() land_100 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33682,6 +34610,7 @@ void() land_101 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33718,6 +34647,7 @@ void() land_102 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33754,6 +34684,7 @@ void() land_103 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33790,6 +34721,7 @@ void() land_104 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33826,6 +34758,7 @@ void() land_105 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33862,6 +34795,7 @@ void() land_106 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33898,6 +34832,7 @@ void() land_107 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33934,6 +34869,7 @@ void() land_108 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -33970,6 +34906,7 @@ void() land_109 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34006,6 +34943,7 @@ void() land_110 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34042,6 +34980,7 @@ void() land_111 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34078,6 +35017,7 @@ void() land_112 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34114,6 +35054,7 @@ void() land_113 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34150,6 +35091,7 @@ void() land_114 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34186,6 +35128,7 @@ void() land_115 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34222,6 +35165,7 @@ void() land_116 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34258,6 +35202,7 @@ void() land_117 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34294,6 +35239,7 @@ void() land_118 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34330,6 +35276,7 @@ void() land_119 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34366,6 +35313,7 @@ void() land_120 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34402,6 +35350,7 @@ void() land_121 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34438,6 +35387,7 @@ void() land_122 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34474,6 +35424,7 @@ void() land_123 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34510,6 +35461,7 @@ void() land_124 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34546,6 +35498,7 @@ void() land_125 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34582,6 +35535,7 @@ void() clock_01 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34618,6 +35572,7 @@ void() clock_02 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34654,6 +35609,7 @@ void() misc_car =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34690,6 +35646,7 @@ void() misc_gnome =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34726,6 +35683,7 @@ void() misc_lan_crt_01 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34762,6 +35720,7 @@ void() misc_lan_crt_02 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34798,6 +35757,7 @@ void() misc_lan_crt_03 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34834,6 +35794,7 @@ void() misc_lan_crt_04 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34870,6 +35831,7 @@ void() misc_lan_disk =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34906,6 +35868,7 @@ void() misc_lan_disk_01 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34942,6 +35905,7 @@ void() misc_lan_disk_02 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -34978,6 +35942,7 @@ void() misc_lan_disk_03 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35014,6 +35979,7 @@ void() misc_lan_disk_04 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35050,6 +36016,7 @@ void() misc_lan_disk_06 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35086,6 +36053,7 @@ void() misc_lan_flatscreen_01 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35122,6 +36090,7 @@ void() misc_lan_flatscreen_02 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35158,6 +36127,7 @@ void() misc_lan_laptop_01 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35194,6 +36164,7 @@ void() misc_lan_laptop_02 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35230,6 +36201,7 @@ void() misc_lan_laptop_03 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35266,6 +36238,7 @@ void() misc_lan_laptop_04 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35302,6 +36275,7 @@ void() misc_lan_pc_01 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35338,6 +36312,7 @@ void() misc_lan_pc_02 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35374,6 +36349,7 @@ void() misc_lan_pc_03 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35410,6 +36386,7 @@ void() misc_lan_pc_04 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35446,6 +36423,7 @@ void() misc_lan_pc_05 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35482,6 +36460,7 @@ void() misc_lan_pc_06 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35518,6 +36497,7 @@ void() misc_lan_pc_07 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35554,6 +36534,7 @@ void() misc_lan_pc_08 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35590,6 +36571,7 @@ void() misc_lan_pc_09 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35626,6 +36608,7 @@ void() misc_lenin =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35662,6 +36645,7 @@ void() misc_liberty =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35698,6 +36682,7 @@ void() tree_001 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35734,6 +36719,7 @@ void() tree_002 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35770,6 +36756,7 @@ void() tree_003 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35806,6 +36793,7 @@ void() tree_004 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35842,6 +36830,7 @@ void() tree_005 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35878,6 +36867,7 @@ void() tree_006 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35914,6 +36904,7 @@ void() tree_007 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35950,6 +36941,7 @@ void() tree_008 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -35986,6 +36978,7 @@ void() tree_009 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36022,6 +37015,7 @@ void() tree_010 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36058,6 +37052,7 @@ void() tree_011 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36094,6 +37089,7 @@ void() tree_012 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36130,6 +37126,7 @@ void() tree_013 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36166,6 +37163,7 @@ void() tree_014 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36202,6 +37200,7 @@ void() tree_015 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36238,6 +37237,7 @@ void() tree_016 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36274,6 +37274,7 @@ void() tree_017 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36310,6 +37311,7 @@ void() tree_018 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36346,6 +37348,7 @@ void() tree_019 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36382,6 +37385,7 @@ void() tree_020 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36418,6 +37422,7 @@ void() tree_021 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36454,6 +37459,7 @@ void() tree_022 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36490,6 +37496,7 @@ void() tree_023 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36526,6 +37533,7 @@ void() tree_024 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36562,6 +37570,7 @@ void() tree_025 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36598,6 +37607,7 @@ void() tree_026 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36634,6 +37644,7 @@ void() tree_027 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36670,6 +37681,7 @@ void() tree_028 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36706,6 +37718,7 @@ void() tree_029 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36742,6 +37755,7 @@ void() tree_030 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36778,6 +37792,7 @@ void() tree_031 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36814,6 +37829,7 @@ void() tree_032 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36850,6 +37866,7 @@ void() tree_033 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36886,6 +37903,7 @@ void() tree_034 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36922,6 +37940,7 @@ void() tree_035 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36958,6 +37977,7 @@ void() tree_036 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -36994,6 +38014,7 @@ void() tree_037 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37030,6 +38051,7 @@ void() tree_038 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37066,6 +38088,7 @@ void() tree_039 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37102,6 +38125,7 @@ void() tree_040 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37138,6 +38162,7 @@ void() tree_041 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37174,6 +38199,7 @@ void() tree_042 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37210,6 +38236,7 @@ void() tree_043 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37246,6 +38273,7 @@ void() tree_044 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37282,6 +38310,7 @@ void() tree_045 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37318,6 +38347,7 @@ void() tree_046 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37354,6 +38384,7 @@ void() tree_047 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37390,6 +38421,7 @@ void() tree_048 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37426,6 +38458,7 @@ void() tree_049 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37462,6 +38495,7 @@ void() tree_050 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37498,6 +38532,7 @@ void() tree_051 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37534,6 +38569,7 @@ void() tree_052 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37570,6 +38606,7 @@ void() tree_053 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37606,6 +38643,7 @@ void() tree_054 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37642,6 +38680,7 @@ void() tree_055 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37678,6 +38717,7 @@ void() tree_056 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37714,6 +38754,7 @@ void() tree_057 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37750,6 +38791,7 @@ void() tree_058 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37786,6 +38828,7 @@ void() tree_059 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37822,6 +38865,7 @@ void() tree_060 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37858,6 +38902,7 @@ void() tree_061 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37894,6 +38939,7 @@ void() tree_062 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37930,6 +38976,7 @@ void() tree_063 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -37966,6 +39013,7 @@ void() tree_064 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38002,6 +39050,7 @@ void() tree_065 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38038,6 +39087,7 @@ void() tree_066 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38074,6 +39124,7 @@ void() tree_067 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38110,6 +39161,7 @@ void() tree_068 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38146,6 +39198,7 @@ void() tree_069 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38182,6 +39235,7 @@ void() tree_070 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38218,6 +39272,7 @@ void() tree_071 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38254,6 +39309,7 @@ void() tree_072 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38290,6 +39346,7 @@ void() tree_073 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38326,6 +39383,7 @@ void() tree_074 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38362,6 +39420,7 @@ void() tree_075 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38398,6 +39457,7 @@ void() tree_076 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38434,6 +39494,7 @@ void() tree_077 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38470,6 +39531,7 @@ void() tree_078 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38506,6 +39568,7 @@ void() tree_079 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38542,6 +39605,7 @@ void() tree_080 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38578,6 +39642,7 @@ void() tree_081 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38614,6 +39679,7 @@ void() tree_082 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38650,6 +39716,7 @@ void() tree_083 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38686,6 +39753,7 @@ void() tree_084 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38722,6 +39790,7 @@ void() tree_085 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38758,6 +39827,7 @@ void() tree_086 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38794,6 +39864,7 @@ void() tree_087 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38830,6 +39901,7 @@ void() tree_088 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38866,6 +39938,7 @@ void() tree_089 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38902,6 +39975,7 @@ void() tree_090 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38938,6 +40012,7 @@ void() tree_091 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -38974,6 +40049,7 @@ void() tree_092 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39010,6 +40086,7 @@ void() tree_093 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39046,6 +40123,7 @@ void() tree_094 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39082,6 +40160,7 @@ void() tree_095 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39118,6 +40197,7 @@ void() tree_096 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39154,6 +40234,7 @@ void() tree_097 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39190,6 +40271,7 @@ void() tree_098 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39226,6 +40308,7 @@ void() tree_099 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39262,6 +40345,7 @@ void() tree_100 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39298,6 +40382,7 @@ void() tree_101 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39334,6 +40419,7 @@ void() tree_102 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39370,6 +40456,7 @@ void() tree_103 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39406,6 +40493,7 @@ void() tree_104 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39442,6 +40530,7 @@ void() tree_105 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39478,6 +40567,7 @@ void() tree_106 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39514,6 +40604,7 @@ void() tree_107 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39550,6 +40641,7 @@ void() tree_108 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39586,6 +40678,7 @@ void() tree_109 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39622,6 +40715,7 @@ void() tree_110 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39658,6 +40752,7 @@ void() tree_111 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39694,6 +40789,7 @@ void() tree_112 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39730,6 +40826,7 @@ void() tree_113 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39766,6 +40863,7 @@ void() tree_114 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39802,6 +40900,7 @@ void() tree_115 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39838,6 +40937,7 @@ void() tree_116 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39874,6 +40974,7 @@ void() tree_117 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39910,6 +41011,7 @@ void() tree_118 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39946,6 +41048,7 @@ void() tree_119 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -39982,6 +41085,7 @@ void() tree_120 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40018,6 +41122,7 @@ void() tree_121 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40054,6 +41159,7 @@ void() tree_122 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40090,6 +41196,7 @@ void() tree_123 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40126,6 +41233,7 @@ void() tree_124 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40162,6 +41270,7 @@ void() tree_125 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40198,6 +41307,7 @@ void() tree_126 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40234,6 +41344,7 @@ void() tree_127 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40270,6 +41381,7 @@ void() tree_128 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40306,6 +41418,7 @@ void() tree_129 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40342,6 +41455,7 @@ void() tree_130 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40378,6 +41492,7 @@ void() tree_131 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40414,6 +41529,7 @@ void() tree_132 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40450,6 +41566,7 @@ void() tree_133 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40486,6 +41603,7 @@ void() tree_134 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40522,6 +41640,7 @@ void() tree_135 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40558,6 +41677,7 @@ void() tree_136 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40594,6 +41714,7 @@ void() tree_137 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40630,6 +41751,7 @@ void() tree_138 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40666,6 +41788,7 @@ void() tree_139 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40702,6 +41825,7 @@ void() tree_140 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40738,6 +41862,7 @@ void() tree_141 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40774,6 +41899,7 @@ void() tree_142 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40810,6 +41936,7 @@ void() tree_143 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40846,6 +41973,7 @@ void() tree_144 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40882,6 +42010,7 @@ void() tree_145 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40918,6 +42047,7 @@ void() tree_146 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40954,6 +42084,7 @@ void() tree_147 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -40990,6 +42121,7 @@ void() tree_148 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -41026,6 +42158,7 @@ void() tree_149 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -41062,6 +42195,7 @@ void() tree_150 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -41098,6 +42232,7 @@ void() tree_151 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -41134,6 +42269,7 @@ void() tree_152 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
@@ -41157,7 +42293,6 @@ void() tree_153 =
         self.solid = SOLID_BSP;
     }
 
-    // MOVETYPE: 256,512,1024,2048; default -> NONE
     if (self.spawnflags & 256) {
         self.movetype = MOVETYPE_FLY;
     } else if (self.spawnflags & 512) {
@@ -41170,6 +42305,22884 @@ void() tree_153 =
         self.movetype = MOVETYPE_NONE;
     }
 
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+
+void() bed_001 =
+{
+    precache_model("models/bed/bed_001/bed_001.iqm");
+    setmodel(self, "models/bed/bed_001/bed_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_002 =
+{
+    precache_model("models/bed/bed_002/bed_002.iqm");
+    setmodel(self, "models/bed/bed_002/bed_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_003 =
+{
+    precache_model("models/bed/bed_003/bed_003.iqm");
+    setmodel(self, "models/bed/bed_003/bed_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_004 =
+{
+    precache_model("models/bed/bed_004/bed_004.iqm");
+    setmodel(self, "models/bed/bed_004/bed_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_005 =
+{
+    precache_model("models/bed/bed_005/bed_005.iqm");
+    setmodel(self, "models/bed/bed_005/bed_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_006 =
+{
+    precache_model("models/bed/bed_006/bed_006.iqm");
+    setmodel(self, "models/bed/bed_006/bed_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_007 =
+{
+    precache_model("models/bed/bed_007/bed_007.iqm");
+    setmodel(self, "models/bed/bed_007/bed_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_008 =
+{
+    precache_model("models/bed/bed_008/bed_008.iqm");
+    setmodel(self, "models/bed/bed_008/bed_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_009 =
+{
+    precache_model("models/bed/bed_009/bed_009.iqm");
+    setmodel(self, "models/bed/bed_009/bed_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_010 =
+{
+    precache_model("models/bed/bed_010/bed_010.iqm");
+    setmodel(self, "models/bed/bed_010/bed_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_011 =
+{
+    precache_model("models/bed/bed_011/bed_011.iqm");
+    setmodel(self, "models/bed/bed_011/bed_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_012 =
+{
+    precache_model("models/bed/bed_012/bed_012.iqm");
+    setmodel(self, "models/bed/bed_012/bed_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_013 =
+{
+    precache_model("models/bed/bed_013/bed_013.iqm");
+    setmodel(self, "models/bed/bed_013/bed_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_014 =
+{
+    precache_model("models/bed/bed_014/bed_014.iqm");
+    setmodel(self, "models/bed/bed_014/bed_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_015 =
+{
+    precache_model("models/bed/bed_015/bed_015.iqm");
+    setmodel(self, "models/bed/bed_015/bed_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_016 =
+{
+    precache_model("models/bed/bed_016/bed_016.iqm");
+    setmodel(self, "models/bed/bed_016/bed_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_017 =
+{
+    precache_model("models/bed/bed_017/bed_017.iqm");
+    setmodel(self, "models/bed/bed_017/bed_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_018 =
+{
+    precache_model("models/bed/bed_018/bed_018.iqm");
+    setmodel(self, "models/bed/bed_018/bed_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_019 =
+{
+    precache_model("models/bed/bed_019/bed_019.iqm");
+    setmodel(self, "models/bed/bed_019/bed_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_020 =
+{
+    precache_model("models/bed/bed_020/bed_020.iqm");
+    setmodel(self, "models/bed/bed_020/bed_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_021 =
+{
+    precache_model("models/bed/bed_021/bed_021.iqm");
+    setmodel(self, "models/bed/bed_021/bed_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_022 =
+{
+    precache_model("models/bed/bed_022/bed_022.iqm");
+    setmodel(self, "models/bed/bed_022/bed_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_023 =
+{
+    precache_model("models/bed/bed_023/bed_023.iqm");
+    setmodel(self, "models/bed/bed_023/bed_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_024 =
+{
+    precache_model("models/bed/bed_024/bed_024.iqm");
+    setmodel(self, "models/bed/bed_024/bed_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_025 =
+{
+    precache_model("models/bed/bed_025/bed_025.iqm");
+    setmodel(self, "models/bed/bed_025/bed_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_026 =
+{
+    precache_model("models/bed/bed_026/bed_026.iqm");
+    setmodel(self, "models/bed/bed_026/bed_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_027 =
+{
+    precache_model("models/bed/bed_027/bed_027.iqm");
+    setmodel(self, "models/bed/bed_027/bed_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_028 =
+{
+    precache_model("models/bed/bed_028/bed_028.iqm");
+    setmodel(self, "models/bed/bed_028/bed_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_029 =
+{
+    precache_model("models/bed/bed_029/bed_029.iqm");
+    setmodel(self, "models/bed/bed_029/bed_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_030 =
+{
+    precache_model("models/bed/bed_030/bed_030.iqm");
+    setmodel(self, "models/bed/bed_030/bed_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_031 =
+{
+    precache_model("models/bed/bed_031/bed_031.iqm");
+    setmodel(self, "models/bed/bed_031/bed_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_032 =
+{
+    precache_model("models/bed/bed_032/bed_032.iqm");
+    setmodel(self, "models/bed/bed_032/bed_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_033 =
+{
+    precache_model("models/bed/bed_033/bed_033.iqm");
+    setmodel(self, "models/bed/bed_033/bed_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_034 =
+{
+    precache_model("models/bed/bed_034/bed_034.iqm");
+    setmodel(self, "models/bed/bed_034/bed_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_035 =
+{
+    precache_model("models/bed/bed_035/bed_035.iqm");
+    setmodel(self, "models/bed/bed_035/bed_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_036 =
+{
+    precache_model("models/bed/bed_036/bed_036.iqm");
+    setmodel(self, "models/bed/bed_036/bed_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_037 =
+{
+    precache_model("models/bed/bed_037/bed_037.iqm");
+    setmodel(self, "models/bed/bed_037/bed_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_038 =
+{
+    precache_model("models/bed/bed_038/bed_038.iqm");
+    setmodel(self, "models/bed/bed_038/bed_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_039 =
+{
+    precache_model("models/bed/bed_039/bed_039.iqm");
+    setmodel(self, "models/bed/bed_039/bed_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_040 =
+{
+    precache_model("models/bed/bed_040/bed_040.iqm");
+    setmodel(self, "models/bed/bed_040/bed_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_041 =
+{
+    precache_model("models/bed/bed_041/bed_041.iqm");
+    setmodel(self, "models/bed/bed_041/bed_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_042 =
+{
+    precache_model("models/bed/bed_042/bed_042.iqm");
+    setmodel(self, "models/bed/bed_042/bed_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_043 =
+{
+    precache_model("models/bed/bed_043/bed_043.iqm");
+    setmodel(self, "models/bed/bed_043/bed_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_044 =
+{
+    precache_model("models/bed/bed_044/bed_044.iqm");
+    setmodel(self, "models/bed/bed_044/bed_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_045 =
+{
+    precache_model("models/bed/bed_045/bed_045.iqm");
+    setmodel(self, "models/bed/bed_045/bed_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_046 =
+{
+    precache_model("models/bed/bed_046/bed_046.iqm");
+    setmodel(self, "models/bed/bed_046/bed_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_047 =
+{
+    precache_model("models/bed/bed_047/bed_047.iqm");
+    setmodel(self, "models/bed/bed_047/bed_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_048 =
+{
+    precache_model("models/bed/bed_048/bed_048.iqm");
+    setmodel(self, "models/bed/bed_048/bed_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_049 =
+{
+    precache_model("models/bed/bed_049/bed_049.iqm");
+    setmodel(self, "models/bed/bed_049/bed_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_050 =
+{
+    precache_model("models/bed/bed_050/bed_050.iqm");
+    setmodel(self, "models/bed/bed_050/bed_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_051 =
+{
+    precache_model("models/bed/bed_051/bed_051.iqm");
+    setmodel(self, "models/bed/bed_051/bed_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_052 =
+{
+    precache_model("models/bed/bed_052/bed_052.iqm");
+    setmodel(self, "models/bed/bed_052/bed_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_053 =
+{
+    precache_model("models/bed/bed_053/bed_053.iqm");
+    setmodel(self, "models/bed/bed_053/bed_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_054 =
+{
+    precache_model("models/bed/bed_054/bed_054.iqm");
+    setmodel(self, "models/bed/bed_054/bed_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_055 =
+{
+    precache_model("models/bed/bed_055/bed_055.iqm");
+    setmodel(self, "models/bed/bed_055/bed_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_056 =
+{
+    precache_model("models/bed/bed_056/bed_056.iqm");
+    setmodel(self, "models/bed/bed_056/bed_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_057 =
+{
+    precache_model("models/bed/bed_057/bed_057.iqm");
+    setmodel(self, "models/bed/bed_057/bed_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_058 =
+{
+    precache_model("models/bed/bed_058/bed_058.iqm");
+    setmodel(self, "models/bed/bed_058/bed_058.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_059 =
+{
+    precache_model("models/bed/bed_059/bed_059.iqm");
+    setmodel(self, "models/bed/bed_059/bed_059.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_060 =
+{
+    precache_model("models/bed/bed_060/bed_060.iqm");
+    setmodel(self, "models/bed/bed_060/bed_060.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_061 =
+{
+    precache_model("models/bed/bed_061/bed_061.iqm");
+    setmodel(self, "models/bed/bed_061/bed_061.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_062 =
+{
+    precache_model("models/bed/bed_062/bed_062.iqm");
+    setmodel(self, "models/bed/bed_062/bed_062.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_063 =
+{
+    precache_model("models/bed/bed_063/bed_063.iqm");
+    setmodel(self, "models/bed/bed_063/bed_063.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_064 =
+{
+    precache_model("models/bed/bed_064/bed_064.iqm");
+    setmodel(self, "models/bed/bed_064/bed_064.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_065 =
+{
+    precache_model("models/bed/bed_065/bed_065.iqm");
+    setmodel(self, "models/bed/bed_065/bed_065.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_066 =
+{
+    precache_model("models/bed/bed_066/bed_066.iqm");
+    setmodel(self, "models/bed/bed_066/bed_066.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_067 =
+{
+    precache_model("models/bed/bed_067/bed_067.iqm");
+    setmodel(self, "models/bed/bed_067/bed_067.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() bed_068 =
+{
+    precache_model("models/bed/bed_068/bed_068.iqm");
+    setmodel(self, "models/bed/bed_068/bed_068.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_001 =
+{
+    precache_model("models/conifer/conifer_001/conifer_001.iqm");
+    setmodel(self, "models/conifer/conifer_001/conifer_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_002 =
+{
+    precache_model("models/conifer/conifer_002/conifer_002.iqm");
+    setmodel(self, "models/conifer/conifer_002/conifer_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_003 =
+{
+    precache_model("models/conifer/conifer_003/conifer_003.iqm");
+    setmodel(self, "models/conifer/conifer_003/conifer_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_004 =
+{
+    precache_model("models/conifer/conifer_004/conifer_004.iqm");
+    setmodel(self, "models/conifer/conifer_004/conifer_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_005 =
+{
+    precache_model("models/conifer/conifer_005/conifer_005.iqm");
+    setmodel(self, "models/conifer/conifer_005/conifer_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_006 =
+{
+    precache_model("models/conifer/conifer_006/conifer_006.iqm");
+    setmodel(self, "models/conifer/conifer_006/conifer_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_007 =
+{
+    precache_model("models/conifer/conifer_007/conifer_007.iqm");
+    setmodel(self, "models/conifer/conifer_007/conifer_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_008 =
+{
+    precache_model("models/conifer/conifer_008/conifer_008.iqm");
+    setmodel(self, "models/conifer/conifer_008/conifer_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_009 =
+{
+    precache_model("models/conifer/conifer_009/conifer_009.iqm");
+    setmodel(self, "models/conifer/conifer_009/conifer_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_010 =
+{
+    precache_model("models/conifer/conifer_010/conifer_010.iqm");
+    setmodel(self, "models/conifer/conifer_010/conifer_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_011 =
+{
+    precache_model("models/conifer/conifer_011/conifer_011.iqm");
+    setmodel(self, "models/conifer/conifer_011/conifer_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_012 =
+{
+    precache_model("models/conifer/conifer_012/conifer_012.iqm");
+    setmodel(self, "models/conifer/conifer_012/conifer_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_013 =
+{
+    precache_model("models/conifer/conifer_013/conifer_013.iqm");
+    setmodel(self, "models/conifer/conifer_013/conifer_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_014 =
+{
+    precache_model("models/conifer/conifer_014/conifer_014.iqm");
+    setmodel(self, "models/conifer/conifer_014/conifer_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_015 =
+{
+    precache_model("models/conifer/conifer_015/conifer_015.iqm");
+    setmodel(self, "models/conifer/conifer_015/conifer_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_016 =
+{
+    precache_model("models/conifer/conifer_016/conifer_016.iqm");
+    setmodel(self, "models/conifer/conifer_016/conifer_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_017 =
+{
+    precache_model("models/conifer/conifer_017/conifer_017.iqm");
+    setmodel(self, "models/conifer/conifer_017/conifer_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_018 =
+{
+    precache_model("models/conifer/conifer_018/conifer_018.iqm");
+    setmodel(self, "models/conifer/conifer_018/conifer_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_019 =
+{
+    precache_model("models/conifer/conifer_019/conifer_019.iqm");
+    setmodel(self, "models/conifer/conifer_019/conifer_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_020 =
+{
+    precache_model("models/conifer/conifer_020/conifer_020.iqm");
+    setmodel(self, "models/conifer/conifer_020/conifer_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_021 =
+{
+    precache_model("models/conifer/conifer_021/conifer_021.iqm");
+    setmodel(self, "models/conifer/conifer_021/conifer_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_022 =
+{
+    precache_model("models/conifer/conifer_022/conifer_022.iqm");
+    setmodel(self, "models/conifer/conifer_022/conifer_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_023 =
+{
+    precache_model("models/conifer/conifer_023/conifer_023.iqm");
+    setmodel(self, "models/conifer/conifer_023/conifer_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_024 =
+{
+    precache_model("models/conifer/conifer_024/conifer_024.iqm");
+    setmodel(self, "models/conifer/conifer_024/conifer_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_025 =
+{
+    precache_model("models/conifer/conifer_025/conifer_025.iqm");
+    setmodel(self, "models/conifer/conifer_025/conifer_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_026 =
+{
+    precache_model("models/conifer/conifer_026/conifer_026.iqm");
+    setmodel(self, "models/conifer/conifer_026/conifer_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_027 =
+{
+    precache_model("models/conifer/conifer_027/conifer_027.iqm");
+    setmodel(self, "models/conifer/conifer_027/conifer_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_028 =
+{
+    precache_model("models/conifer/conifer_028/conifer_028.iqm");
+    setmodel(self, "models/conifer/conifer_028/conifer_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_029 =
+{
+    precache_model("models/conifer/conifer_029/conifer_029.iqm");
+    setmodel(self, "models/conifer/conifer_029/conifer_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_030 =
+{
+    precache_model("models/conifer/conifer_030/conifer_030.iqm");
+    setmodel(self, "models/conifer/conifer_030/conifer_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_031 =
+{
+    precache_model("models/conifer/conifer_031/conifer_031.iqm");
+    setmodel(self, "models/conifer/conifer_031/conifer_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_032 =
+{
+    precache_model("models/conifer/conifer_032/conifer_032.iqm");
+    setmodel(self, "models/conifer/conifer_032/conifer_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_033 =
+{
+    precache_model("models/conifer/conifer_033/conifer_033.iqm");
+    setmodel(self, "models/conifer/conifer_033/conifer_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_034 =
+{
+    precache_model("models/conifer/conifer_034/conifer_034.iqm");
+    setmodel(self, "models/conifer/conifer_034/conifer_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_035 =
+{
+    precache_model("models/conifer/conifer_035/conifer_035.iqm");
+    setmodel(self, "models/conifer/conifer_035/conifer_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_036 =
+{
+    precache_model("models/conifer/conifer_036/conifer_036.iqm");
+    setmodel(self, "models/conifer/conifer_036/conifer_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_037 =
+{
+    precache_model("models/conifer/conifer_037/conifer_037.iqm");
+    setmodel(self, "models/conifer/conifer_037/conifer_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_038 =
+{
+    precache_model("models/conifer/conifer_038/conifer_038.iqm");
+    setmodel(self, "models/conifer/conifer_038/conifer_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_039 =
+{
+    precache_model("models/conifer/conifer_039/conifer_039.iqm");
+    setmodel(self, "models/conifer/conifer_039/conifer_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_040 =
+{
+    precache_model("models/conifer/conifer_040/conifer_040.iqm");
+    setmodel(self, "models/conifer/conifer_040/conifer_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_041 =
+{
+    precache_model("models/conifer/conifer_041/conifer_041.iqm");
+    setmodel(self, "models/conifer/conifer_041/conifer_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_042 =
+{
+    precache_model("models/conifer/conifer_042/conifer_042.iqm");
+    setmodel(self, "models/conifer/conifer_042/conifer_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_043 =
+{
+    precache_model("models/conifer/conifer_043/conifer_043.iqm");
+    setmodel(self, "models/conifer/conifer_043/conifer_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_044 =
+{
+    precache_model("models/conifer/conifer_044/conifer_044.iqm");
+    setmodel(self, "models/conifer/conifer_044/conifer_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_045 =
+{
+    precache_model("models/conifer/conifer_045/conifer_045.iqm");
+    setmodel(self, "models/conifer/conifer_045/conifer_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_046 =
+{
+    precache_model("models/conifer/conifer_046/conifer_046.iqm");
+    setmodel(self, "models/conifer/conifer_046/conifer_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_047 =
+{
+    precache_model("models/conifer/conifer_047/conifer_047.iqm");
+    setmodel(self, "models/conifer/conifer_047/conifer_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_048 =
+{
+    precache_model("models/conifer/conifer_048/conifer_048.iqm");
+    setmodel(self, "models/conifer/conifer_048/conifer_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_049 =
+{
+    precache_model("models/conifer/conifer_049/conifer_049.iqm");
+    setmodel(self, "models/conifer/conifer_049/conifer_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_050 =
+{
+    precache_model("models/conifer/conifer_050/conifer_050.iqm");
+    setmodel(self, "models/conifer/conifer_050/conifer_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_051 =
+{
+    precache_model("models/conifer/conifer_051/conifer_051.iqm");
+    setmodel(self, "models/conifer/conifer_051/conifer_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_052 =
+{
+    precache_model("models/conifer/conifer_052/conifer_052.iqm");
+    setmodel(self, "models/conifer/conifer_052/conifer_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_053 =
+{
+    precache_model("models/conifer/conifer_053/conifer_053.iqm");
+    setmodel(self, "models/conifer/conifer_053/conifer_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_054 =
+{
+    precache_model("models/conifer/conifer_054/conifer_054.iqm");
+    setmodel(self, "models/conifer/conifer_054/conifer_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_055 =
+{
+    precache_model("models/conifer/conifer_055/conifer_055.iqm");
+    setmodel(self, "models/conifer/conifer_055/conifer_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_056 =
+{
+    precache_model("models/conifer/conifer_056/conifer_056.iqm");
+    setmodel(self, "models/conifer/conifer_056/conifer_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_057 =
+{
+    precache_model("models/conifer/conifer_057/conifer_057.iqm");
+    setmodel(self, "models/conifer/conifer_057/conifer_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_058 =
+{
+    precache_model("models/conifer/conifer_058/conifer_058.iqm");
+    setmodel(self, "models/conifer/conifer_058/conifer_058.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() conifer_059 =
+{
+    precache_model("models/conifer/conifer_059/conifer_059.iqm");
+    setmodel(self, "models/conifer/conifer_059/conifer_059.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() misc_001 =
+{
+    precache_model("models/misc/misc_001/misc_001.iqm");
+    setmodel(self, "models/misc/misc_001/misc_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_001 =
+{
+    precache_model("models/palm/palm_001/palm_001.iqm");
+    setmodel(self, "models/palm/palm_001/palm_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_002 =
+{
+    precache_model("models/palm/palm_002/palm_002.iqm");
+    setmodel(self, "models/palm/palm_002/palm_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_003 =
+{
+    precache_model("models/palm/palm_003/palm_003.iqm");
+    setmodel(self, "models/palm/palm_003/palm_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_004 =
+{
+    precache_model("models/palm/palm_004/palm_004.iqm");
+    setmodel(self, "models/palm/palm_004/palm_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_005 =
+{
+    precache_model("models/palm/palm_005/palm_005.iqm");
+    setmodel(self, "models/palm/palm_005/palm_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_006 =
+{
+    precache_model("models/palm/palm_006/palm_006.iqm");
+    setmodel(self, "models/palm/palm_006/palm_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_007 =
+{
+    precache_model("models/palm/palm_007/palm_007.iqm");
+    setmodel(self, "models/palm/palm_007/palm_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_008 =
+{
+    precache_model("models/palm/palm_008/palm_008.iqm");
+    setmodel(self, "models/palm/palm_008/palm_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_009 =
+{
+    precache_model("models/palm/palm_009/palm_009.iqm");
+    setmodel(self, "models/palm/palm_009/palm_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_010 =
+{
+    precache_model("models/palm/palm_010/palm_010.iqm");
+    setmodel(self, "models/palm/palm_010/palm_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_011 =
+{
+    precache_model("models/palm/palm_011/palm_011.iqm");
+    setmodel(self, "models/palm/palm_011/palm_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_012 =
+{
+    precache_model("models/palm/palm_012/palm_012.iqm");
+    setmodel(self, "models/palm/palm_012/palm_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_013 =
+{
+    precache_model("models/palm/palm_013/palm_013.iqm");
+    setmodel(self, "models/palm/palm_013/palm_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_014 =
+{
+    precache_model("models/palm/palm_014/palm_014.iqm");
+    setmodel(self, "models/palm/palm_014/palm_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_015 =
+{
+    precache_model("models/palm/palm_015/palm_015.iqm");
+    setmodel(self, "models/palm/palm_015/palm_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_016 =
+{
+    precache_model("models/palm/palm_016/palm_016.iqm");
+    setmodel(self, "models/palm/palm_016/palm_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_017 =
+{
+    precache_model("models/palm/palm_017/palm_017.iqm");
+    setmodel(self, "models/palm/palm_017/palm_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_018 =
+{
+    precache_model("models/palm/palm_018/palm_018.iqm");
+    setmodel(self, "models/palm/palm_018/palm_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_019 =
+{
+    precache_model("models/palm/palm_019/palm_019.iqm");
+    setmodel(self, "models/palm/palm_019/palm_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_020 =
+{
+    precache_model("models/palm/palm_020/palm_020.iqm");
+    setmodel(self, "models/palm/palm_020/palm_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_021 =
+{
+    precache_model("models/palm/palm_021/palm_021.iqm");
+    setmodel(self, "models/palm/palm_021/palm_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_022 =
+{
+    precache_model("models/palm/palm_022/palm_022.iqm");
+    setmodel(self, "models/palm/palm_022/palm_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_023 =
+{
+    precache_model("models/palm/palm_023/palm_023.iqm");
+    setmodel(self, "models/palm/palm_023/palm_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_024 =
+{
+    precache_model("models/palm/palm_024/palm_024.iqm");
+    setmodel(self, "models/palm/palm_024/palm_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_025 =
+{
+    precache_model("models/palm/palm_025/palm_025.iqm");
+    setmodel(self, "models/palm/palm_025/palm_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_026 =
+{
+    precache_model("models/palm/palm_026/palm_026.iqm");
+    setmodel(self, "models/palm/palm_026/palm_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_027 =
+{
+    precache_model("models/palm/palm_027/palm_027.iqm");
+    setmodel(self, "models/palm/palm_027/palm_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_028 =
+{
+    precache_model("models/palm/palm_028/palm_028.iqm");
+    setmodel(self, "models/palm/palm_028/palm_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_029 =
+{
+    precache_model("models/palm/palm_029/palm_029.iqm");
+    setmodel(self, "models/palm/palm_029/palm_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_030 =
+{
+    precache_model("models/palm/palm_030/palm_030.iqm");
+    setmodel(self, "models/palm/palm_030/palm_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_031 =
+{
+    precache_model("models/palm/palm_031/palm_031.iqm");
+    setmodel(self, "models/palm/palm_031/palm_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() palm_032 =
+{
+    precache_model("models/palm/palm_032/palm_032.iqm");
+    setmodel(self, "models/palm/palm_032/palm_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_001 =
+{
+    precache_model("models/plant/plant_001/plant_001.iqm");
+    setmodel(self, "models/plant/plant_001/plant_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_002 =
+{
+    precache_model("models/plant/plant_002/plant_002.iqm");
+    setmodel(self, "models/plant/plant_002/plant_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_003 =
+{
+    precache_model("models/plant/plant_003/plant_003.iqm");
+    setmodel(self, "models/plant/plant_003/plant_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_004 =
+{
+    precache_model("models/plant/plant_004/plant_004.iqm");
+    setmodel(self, "models/plant/plant_004/plant_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_005 =
+{
+    precache_model("models/plant/plant_005/plant_005.iqm");
+    setmodel(self, "models/plant/plant_005/plant_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_006 =
+{
+    precache_model("models/plant/plant_006/plant_006.iqm");
+    setmodel(self, "models/plant/plant_006/plant_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_007 =
+{
+    precache_model("models/plant/plant_007/plant_007.iqm");
+    setmodel(self, "models/plant/plant_007/plant_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_008 =
+{
+    precache_model("models/plant/plant_008/plant_008.iqm");
+    setmodel(self, "models/plant/plant_008/plant_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_009 =
+{
+    precache_model("models/plant/plant_009/plant_009.iqm");
+    setmodel(self, "models/plant/plant_009/plant_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_010 =
+{
+    precache_model("models/plant/plant_010/plant_010.iqm");
+    setmodel(self, "models/plant/plant_010/plant_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_011 =
+{
+    precache_model("models/plant/plant_011/plant_011.iqm");
+    setmodel(self, "models/plant/plant_011/plant_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_012 =
+{
+    precache_model("models/plant/plant_012/plant_012.iqm");
+    setmodel(self, "models/plant/plant_012/plant_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_013 =
+{
+    precache_model("models/plant/plant_013/plant_013.iqm");
+    setmodel(self, "models/plant/plant_013/plant_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_014 =
+{
+    precache_model("models/plant/plant_014/plant_014.iqm");
+    setmodel(self, "models/plant/plant_014/plant_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_015 =
+{
+    precache_model("models/plant/plant_015/plant_015.iqm");
+    setmodel(self, "models/plant/plant_015/plant_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_016 =
+{
+    precache_model("models/plant/plant_016/plant_016.iqm");
+    setmodel(self, "models/plant/plant_016/plant_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_017 =
+{
+    precache_model("models/plant/plant_017/plant_017.iqm");
+    setmodel(self, "models/plant/plant_017/plant_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_018 =
+{
+    precache_model("models/plant/plant_018/plant_018.iqm");
+    setmodel(self, "models/plant/plant_018/plant_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_019 =
+{
+    precache_model("models/plant/plant_019/plant_019.iqm");
+    setmodel(self, "models/plant/plant_019/plant_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_020 =
+{
+    precache_model("models/plant/plant_020/plant_020.iqm");
+    setmodel(self, "models/plant/plant_020/plant_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_021 =
+{
+    precache_model("models/plant/plant_021/plant_021.iqm");
+    setmodel(self, "models/plant/plant_021/plant_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_022 =
+{
+    precache_model("models/plant/plant_022/plant_022.iqm");
+    setmodel(self, "models/plant/plant_022/plant_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_023 =
+{
+    precache_model("models/plant/plant_023/plant_023.iqm");
+    setmodel(self, "models/plant/plant_023/plant_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_024 =
+{
+    precache_model("models/plant/plant_024/plant_024.iqm");
+    setmodel(self, "models/plant/plant_024/plant_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_025 =
+{
+    precache_model("models/plant/plant_025/plant_025.iqm");
+    setmodel(self, "models/plant/plant_025/plant_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_026 =
+{
+    precache_model("models/plant/plant_026/plant_026.iqm");
+    setmodel(self, "models/plant/plant_026/plant_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_027 =
+{
+    precache_model("models/plant/plant_027/plant_027.iqm");
+    setmodel(self, "models/plant/plant_027/plant_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_028 =
+{
+    precache_model("models/plant/plant_028/plant_028.iqm");
+    setmodel(self, "models/plant/plant_028/plant_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_029 =
+{
+    precache_model("models/plant/plant_029/plant_029.iqm");
+    setmodel(self, "models/plant/plant_029/plant_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_030 =
+{
+    precache_model("models/plant/plant_030/plant_030.iqm");
+    setmodel(self, "models/plant/plant_030/plant_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_031 =
+{
+    precache_model("models/plant/plant_031/plant_031.iqm");
+    setmodel(self, "models/plant/plant_031/plant_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_032 =
+{
+    precache_model("models/plant/plant_032/plant_032.iqm");
+    setmodel(self, "models/plant/plant_032/plant_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_033 =
+{
+    precache_model("models/plant/plant_033/plant_033.iqm");
+    setmodel(self, "models/plant/plant_033/plant_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_034 =
+{
+    precache_model("models/plant/plant_034/plant_034.iqm");
+    setmodel(self, "models/plant/plant_034/plant_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_035 =
+{
+    precache_model("models/plant/plant_035/plant_035.iqm");
+    setmodel(self, "models/plant/plant_035/plant_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_036 =
+{
+    precache_model("models/plant/plant_036/plant_036.iqm");
+    setmodel(self, "models/plant/plant_036/plant_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_037 =
+{
+    precache_model("models/plant/plant_037/plant_037.iqm");
+    setmodel(self, "models/plant/plant_037/plant_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_038 =
+{
+    precache_model("models/plant/plant_038/plant_038.iqm");
+    setmodel(self, "models/plant/plant_038/plant_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_039 =
+{
+    precache_model("models/plant/plant_039/plant_039.iqm");
+    setmodel(self, "models/plant/plant_039/plant_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_040 =
+{
+    precache_model("models/plant/plant_040/plant_040.iqm");
+    setmodel(self, "models/plant/plant_040/plant_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_041 =
+{
+    precache_model("models/plant/plant_041/plant_041.iqm");
+    setmodel(self, "models/plant/plant_041/plant_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_042 =
+{
+    precache_model("models/plant/plant_042/plant_042.iqm");
+    setmodel(self, "models/plant/plant_042/plant_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_043 =
+{
+    precache_model("models/plant/plant_043/plant_043.iqm");
+    setmodel(self, "models/plant/plant_043/plant_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_044 =
+{
+    precache_model("models/plant/plant_044/plant_044.iqm");
+    setmodel(self, "models/plant/plant_044/plant_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_045 =
+{
+    precache_model("models/plant/plant_045/plant_045.iqm");
+    setmodel(self, "models/plant/plant_045/plant_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_046 =
+{
+    precache_model("models/plant/plant_046/plant_046.iqm");
+    setmodel(self, "models/plant/plant_046/plant_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_047 =
+{
+    precache_model("models/plant/plant_047/plant_047.iqm");
+    setmodel(self, "models/plant/plant_047/plant_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_048 =
+{
+    precache_model("models/plant/plant_048/plant_048.iqm");
+    setmodel(self, "models/plant/plant_048/plant_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_049 =
+{
+    precache_model("models/plant/plant_049/plant_049.iqm");
+    setmodel(self, "models/plant/plant_049/plant_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_050 =
+{
+    precache_model("models/plant/plant_050/plant_050.iqm");
+    setmodel(self, "models/plant/plant_050/plant_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_051 =
+{
+    precache_model("models/plant/plant_051/plant_051.iqm");
+    setmodel(self, "models/plant/plant_051/plant_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_052 =
+{
+    precache_model("models/plant/plant_052/plant_052.iqm");
+    setmodel(self, "models/plant/plant_052/plant_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_053 =
+{
+    precache_model("models/plant/plant_053/plant_053.iqm");
+    setmodel(self, "models/plant/plant_053/plant_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_054 =
+{
+    precache_model("models/plant/plant_054/plant_054.iqm");
+    setmodel(self, "models/plant/plant_054/plant_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_055 =
+{
+    precache_model("models/plant/plant_055/plant_055.iqm");
+    setmodel(self, "models/plant/plant_055/plant_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_056 =
+{
+    precache_model("models/plant/plant_056/plant_056.iqm");
+    setmodel(self, "models/plant/plant_056/plant_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_057 =
+{
+    precache_model("models/plant/plant_057/plant_057.iqm");
+    setmodel(self, "models/plant/plant_057/plant_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_058 =
+{
+    precache_model("models/plant/plant_058/plant_058.iqm");
+    setmodel(self, "models/plant/plant_058/plant_058.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_059 =
+{
+    precache_model("models/plant/plant_059/plant_059.iqm");
+    setmodel(self, "models/plant/plant_059/plant_059.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_060 =
+{
+    precache_model("models/plant/plant_060/plant_060.iqm");
+    setmodel(self, "models/plant/plant_060/plant_060.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_061 =
+{
+    precache_model("models/plant/plant_061/plant_061.iqm");
+    setmodel(self, "models/plant/plant_061/plant_061.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_062 =
+{
+    precache_model("models/plant/plant_062/plant_062.iqm");
+    setmodel(self, "models/plant/plant_062/plant_062.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_063 =
+{
+    precache_model("models/plant/plant_063/plant_063.iqm");
+    setmodel(self, "models/plant/plant_063/plant_063.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_064 =
+{
+    precache_model("models/plant/plant_064/plant_064.iqm");
+    setmodel(self, "models/plant/plant_064/plant_064.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_065 =
+{
+    precache_model("models/plant/plant_065/plant_065.iqm");
+    setmodel(self, "models/plant/plant_065/plant_065.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_066 =
+{
+    precache_model("models/plant/plant_066/plant_066.iqm");
+    setmodel(self, "models/plant/plant_066/plant_066.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_001 =
+{
+    precache_model("models/plant_parts/plant_parts_001/plant_parts_001.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_001/plant_parts_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_002 =
+{
+    precache_model("models/plant_parts/plant_parts_002/plant_parts_002.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_002/plant_parts_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_003 =
+{
+    precache_model("models/plant_parts/plant_parts_003/plant_parts_003.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_003/plant_parts_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_004 =
+{
+    precache_model("models/plant_parts/plant_parts_004/plant_parts_004.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_004/plant_parts_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_005 =
+{
+    precache_model("models/plant_parts/plant_parts_005/plant_parts_005.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_005/plant_parts_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_006 =
+{
+    precache_model("models/plant_parts/plant_parts_006/plant_parts_006.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_006/plant_parts_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_007 =
+{
+    precache_model("models/plant_parts/plant_parts_007/plant_parts_007.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_007/plant_parts_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_008 =
+{
+    precache_model("models/plant_parts/plant_parts_008/plant_parts_008.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_008/plant_parts_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_009 =
+{
+    precache_model("models/plant_parts/plant_parts_009/plant_parts_009.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_009/plant_parts_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_010 =
+{
+    precache_model("models/plant_parts/plant_parts_010/plant_parts_010.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_010/plant_parts_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_011 =
+{
+    precache_model("models/plant_parts/plant_parts_011/plant_parts_011.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_011/plant_parts_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_012 =
+{
+    precache_model("models/plant_parts/plant_parts_012/plant_parts_012.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_012/plant_parts_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_013 =
+{
+    precache_model("models/plant_parts/plant_parts_013/plant_parts_013.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_013/plant_parts_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_014 =
+{
+    precache_model("models/plant_parts/plant_parts_014/plant_parts_014.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_014/plant_parts_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_015 =
+{
+    precache_model("models/plant_parts/plant_parts_015/plant_parts_015.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_015/plant_parts_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_016 =
+{
+    precache_model("models/plant_parts/plant_parts_016/plant_parts_016.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_016/plant_parts_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_017 =
+{
+    precache_model("models/plant_parts/plant_parts_017/plant_parts_017.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_017/plant_parts_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_018 =
+{
+    precache_model("models/plant_parts/plant_parts_018/plant_parts_018.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_018/plant_parts_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_019 =
+{
+    precache_model("models/plant_parts/plant_parts_019/plant_parts_019.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_019/plant_parts_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_020 =
+{
+    precache_model("models/plant_parts/plant_parts_020/plant_parts_020.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_020/plant_parts_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_021 =
+{
+    precache_model("models/plant_parts/plant_parts_021/plant_parts_021.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_021/plant_parts_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_022 =
+{
+    precache_model("models/plant_parts/plant_parts_022/plant_parts_022.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_022/plant_parts_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_023 =
+{
+    precache_model("models/plant_parts/plant_parts_023/plant_parts_023.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_023/plant_parts_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_024 =
+{
+    precache_model("models/plant_parts/plant_parts_024/plant_parts_024.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_024/plant_parts_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_025 =
+{
+    precache_model("models/plant_parts/plant_parts_025/plant_parts_025.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_025/plant_parts_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_026 =
+{
+    precache_model("models/plant_parts/plant_parts_026/plant_parts_026.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_026/plant_parts_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_027 =
+{
+    precache_model("models/plant_parts/plant_parts_027/plant_parts_027.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_027/plant_parts_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_028 =
+{
+    precache_model("models/plant_parts/plant_parts_028/plant_parts_028.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_028/plant_parts_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_029 =
+{
+    precache_model("models/plant_parts/plant_parts_029/plant_parts_029.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_029/plant_parts_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_032 =
+{
+    precache_model("models/plant_parts/plant_parts_032/plant_parts_032.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_032/plant_parts_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_033 =
+{
+    precache_model("models/plant_parts/plant_parts_033/plant_parts_033.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_033/plant_parts_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_034 =
+{
+    precache_model("models/plant_parts/plant_parts_034/plant_parts_034.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_034/plant_parts_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_035 =
+{
+    precache_model("models/plant_parts/plant_parts_035/plant_parts_035.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_035/plant_parts_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_036 =
+{
+    precache_model("models/plant_parts/plant_parts_036/plant_parts_036.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_036/plant_parts_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_037 =
+{
+    precache_model("models/plant_parts/plant_parts_037/plant_parts_037.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_037/plant_parts_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_038 =
+{
+    precache_model("models/plant_parts/plant_parts_038/plant_parts_038.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_038/plant_parts_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_039 =
+{
+    precache_model("models/plant_parts/plant_parts_039/plant_parts_039.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_039/plant_parts_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_040 =
+{
+    precache_model("models/plant_parts/plant_parts_040/plant_parts_040.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_040/plant_parts_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_041 =
+{
+    precache_model("models/plant_parts/plant_parts_041/plant_parts_041.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_041/plant_parts_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_042 =
+{
+    precache_model("models/plant_parts/plant_parts_042/plant_parts_042.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_042/plant_parts_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_043 =
+{
+    precache_model("models/plant_parts/plant_parts_043/plant_parts_043.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_043/plant_parts_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_044 =
+{
+    precache_model("models/plant_parts/plant_parts_044/plant_parts_044.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_044/plant_parts_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_045 =
+{
+    precache_model("models/plant_parts/plant_parts_045/plant_parts_045.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_045/plant_parts_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_046 =
+{
+    precache_model("models/plant_parts/plant_parts_046/plant_parts_046.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_046/plant_parts_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_047 =
+{
+    precache_model("models/plant_parts/plant_parts_047/plant_parts_047.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_047/plant_parts_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_048 =
+{
+    precache_model("models/plant_parts/plant_parts_048/plant_parts_048.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_048/plant_parts_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_049 =
+{
+    precache_model("models/plant_parts/plant_parts_049/plant_parts_049.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_049/plant_parts_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_050 =
+{
+    precache_model("models/plant_parts/plant_parts_050/plant_parts_050.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_050/plant_parts_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_051 =
+{
+    precache_model("models/plant_parts/plant_parts_051/plant_parts_051.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_051/plant_parts_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_052 =
+{
+    precache_model("models/plant_parts/plant_parts_052/plant_parts_052.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_052/plant_parts_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_053 =
+{
+    precache_model("models/plant_parts/plant_parts_053/plant_parts_053.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_053/plant_parts_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_054 =
+{
+    precache_model("models/plant_parts/plant_parts_054/plant_parts_054.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_054/plant_parts_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_055 =
+{
+    precache_model("models/plant_parts/plant_parts_055/plant_parts_055.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_055/plant_parts_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_056 =
+{
+    precache_model("models/plant_parts/plant_parts_056/plant_parts_056.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_056/plant_parts_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_057 =
+{
+    precache_model("models/plant_parts/plant_parts_057/plant_parts_057.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_057/plant_parts_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_058 =
+{
+    precache_model("models/plant_parts/plant_parts_058/plant_parts_058.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_058/plant_parts_058.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_059 =
+{
+    precache_model("models/plant_parts/plant_parts_059/plant_parts_059.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_059/plant_parts_059.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_060 =
+{
+    precache_model("models/plant_parts/plant_parts_060/plant_parts_060.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_060/plant_parts_060.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_061 =
+{
+    precache_model("models/plant_parts/plant_parts_061/plant_parts_061.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_061/plant_parts_061.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_062 =
+{
+    precache_model("models/plant_parts/plant_parts_062/plant_parts_062.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_062/plant_parts_062.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_063 =
+{
+    precache_model("models/plant_parts/plant_parts_063/plant_parts_063.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_063/plant_parts_063.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_064 =
+{
+    precache_model("models/plant_parts/plant_parts_064/plant_parts_064.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_064/plant_parts_064.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_065 =
+{
+    precache_model("models/plant_parts/plant_parts_065/plant_parts_065.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_065/plant_parts_065.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_066 =
+{
+    precache_model("models/plant_parts/plant_parts_066/plant_parts_066.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_066/plant_parts_066.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_067 =
+{
+    precache_model("models/plant_parts/plant_parts_067/plant_parts_067.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_067/plant_parts_067.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_068 =
+{
+    precache_model("models/plant_parts/plant_parts_068/plant_parts_068.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_068/plant_parts_068.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_069 =
+{
+    precache_model("models/plant_parts/plant_parts_069/plant_parts_069.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_069/plant_parts_069.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_070 =
+{
+    precache_model("models/plant_parts/plant_parts_070/plant_parts_070.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_070/plant_parts_070.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_071 =
+{
+    precache_model("models/plant_parts/plant_parts_071/plant_parts_071.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_071/plant_parts_071.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_072 =
+{
+    precache_model("models/plant_parts/plant_parts_072/plant_parts_072.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_072/plant_parts_072.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_073 =
+{
+    precache_model("models/plant_parts/plant_parts_073/plant_parts_073.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_073/plant_parts_073.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_074 =
+{
+    precache_model("models/plant_parts/plant_parts_074/plant_parts_074.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_074/plant_parts_074.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_075 =
+{
+    precache_model("models/plant_parts/plant_parts_075/plant_parts_075.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_075/plant_parts_075.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_076 =
+{
+    precache_model("models/plant_parts/plant_parts_076/plant_parts_076.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_076/plant_parts_076.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_077 =
+{
+    precache_model("models/plant_parts/plant_parts_077/plant_parts_077.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_077/plant_parts_077.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_078 =
+{
+    precache_model("models/plant_parts/plant_parts_078/plant_parts_078.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_078/plant_parts_078.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() plant_parts_079 =
+{
+    precache_model("models/plant_parts/plant_parts_079/plant_parts_079.iqm");
+    setmodel(self, "models/plant_parts/plant_parts_079/plant_parts_079.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_001 =
+{
+    precache_model("models/shelf/shelf_001/shelf_001.iqm");
+    setmodel(self, "models/shelf/shelf_001/shelf_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_002 =
+{
+    precache_model("models/shelf/shelf_002/shelf_002.iqm");
+    setmodel(self, "models/shelf/shelf_002/shelf_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_003 =
+{
+    precache_model("models/shelf/shelf_003/shelf_003.iqm");
+    setmodel(self, "models/shelf/shelf_003/shelf_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_004 =
+{
+    precache_model("models/shelf/shelf_004/shelf_004.iqm");
+    setmodel(self, "models/shelf/shelf_004/shelf_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_005 =
+{
+    precache_model("models/shelf/shelf_005/shelf_005.iqm");
+    setmodel(self, "models/shelf/shelf_005/shelf_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_006 =
+{
+    precache_model("models/shelf/shelf_006/shelf_006.iqm");
+    setmodel(self, "models/shelf/shelf_006/shelf_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_007 =
+{
+    precache_model("models/shelf/shelf_007/shelf_007.iqm");
+    setmodel(self, "models/shelf/shelf_007/shelf_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_008 =
+{
+    precache_model("models/shelf/shelf_008/shelf_008.iqm");
+    setmodel(self, "models/shelf/shelf_008/shelf_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_009 =
+{
+    precache_model("models/shelf/shelf_009/shelf_009.iqm");
+    setmodel(self, "models/shelf/shelf_009/shelf_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_010 =
+{
+    precache_model("models/shelf/shelf_010/shelf_010.iqm");
+    setmodel(self, "models/shelf/shelf_010/shelf_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_011 =
+{
+    precache_model("models/shelf/shelf_011/shelf_011.iqm");
+    setmodel(self, "models/shelf/shelf_011/shelf_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_012 =
+{
+    precache_model("models/shelf/shelf_012/shelf_012.iqm");
+    setmodel(self, "models/shelf/shelf_012/shelf_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_013 =
+{
+    precache_model("models/shelf/shelf_013/shelf_013.iqm");
+    setmodel(self, "models/shelf/shelf_013/shelf_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_014 =
+{
+    precache_model("models/shelf/shelf_014/shelf_014.iqm");
+    setmodel(self, "models/shelf/shelf_014/shelf_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_015 =
+{
+    precache_model("models/shelf/shelf_015/shelf_015.iqm");
+    setmodel(self, "models/shelf/shelf_015/shelf_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_016 =
+{
+    precache_model("models/shelf/shelf_016/shelf_016.iqm");
+    setmodel(self, "models/shelf/shelf_016/shelf_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_017 =
+{
+    precache_model("models/shelf/shelf_017/shelf_017.iqm");
+    setmodel(self, "models/shelf/shelf_017/shelf_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_018 =
+{
+    precache_model("models/shelf/shelf_018/shelf_018.iqm");
+    setmodel(self, "models/shelf/shelf_018/shelf_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_019 =
+{
+    precache_model("models/shelf/shelf_019/shelf_019.iqm");
+    setmodel(self, "models/shelf/shelf_019/shelf_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_020 =
+{
+    precache_model("models/shelf/shelf_020/shelf_020.iqm");
+    setmodel(self, "models/shelf/shelf_020/shelf_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_021 =
+{
+    precache_model("models/shelf/shelf_021/shelf_021.iqm");
+    setmodel(self, "models/shelf/shelf_021/shelf_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_022 =
+{
+    precache_model("models/shelf/shelf_022/shelf_022.iqm");
+    setmodel(self, "models/shelf/shelf_022/shelf_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_023 =
+{
+    precache_model("models/shelf/shelf_023/shelf_023.iqm");
+    setmodel(self, "models/shelf/shelf_023/shelf_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_024 =
+{
+    precache_model("models/shelf/shelf_024/shelf_024.iqm");
+    setmodel(self, "models/shelf/shelf_024/shelf_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_025 =
+{
+    precache_model("models/shelf/shelf_025/shelf_025.iqm");
+    setmodel(self, "models/shelf/shelf_025/shelf_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_026 =
+{
+    precache_model("models/shelf/shelf_026/shelf_026.iqm");
+    setmodel(self, "models/shelf/shelf_026/shelf_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_027 =
+{
+    precache_model("models/shelf/shelf_027/shelf_027.iqm");
+    setmodel(self, "models/shelf/shelf_027/shelf_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_028 =
+{
+    precache_model("models/shelf/shelf_028/shelf_028.iqm");
+    setmodel(self, "models/shelf/shelf_028/shelf_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_029 =
+{
+    precache_model("models/shelf/shelf_029/shelf_029.iqm");
+    setmodel(self, "models/shelf/shelf_029/shelf_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_030 =
+{
+    precache_model("models/shelf/shelf_030/shelf_030.iqm");
+    setmodel(self, "models/shelf/shelf_030/shelf_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_031 =
+{
+    precache_model("models/shelf/shelf_031/shelf_031.iqm");
+    setmodel(self, "models/shelf/shelf_031/shelf_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_032 =
+{
+    precache_model("models/shelf/shelf_032/shelf_032.iqm");
+    setmodel(self, "models/shelf/shelf_032/shelf_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_033 =
+{
+    precache_model("models/shelf/shelf_033/shelf_033.iqm");
+    setmodel(self, "models/shelf/shelf_033/shelf_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_034 =
+{
+    precache_model("models/shelf/shelf_034/shelf_034.iqm");
+    setmodel(self, "models/shelf/shelf_034/shelf_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_035 =
+{
+    precache_model("models/shelf/shelf_035/shelf_035.iqm");
+    setmodel(self, "models/shelf/shelf_035/shelf_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_036 =
+{
+    precache_model("models/shelf/shelf_036/shelf_036.iqm");
+    setmodel(self, "models/shelf/shelf_036/shelf_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_037 =
+{
+    precache_model("models/shelf/shelf_037/shelf_037.iqm");
+    setmodel(self, "models/shelf/shelf_037/shelf_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_038 =
+{
+    precache_model("models/shelf/shelf_038/shelf_038.iqm");
+    setmodel(self, "models/shelf/shelf_038/shelf_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_039 =
+{
+    precache_model("models/shelf/shelf_039/shelf_039.iqm");
+    setmodel(self, "models/shelf/shelf_039/shelf_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_040 =
+{
+    precache_model("models/shelf/shelf_040/shelf_040.iqm");
+    setmodel(self, "models/shelf/shelf_040/shelf_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_041 =
+{
+    precache_model("models/shelf/shelf_041/shelf_041.iqm");
+    setmodel(self, "models/shelf/shelf_041/shelf_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_042 =
+{
+    precache_model("models/shelf/shelf_042/shelf_042.iqm");
+    setmodel(self, "models/shelf/shelf_042/shelf_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_043 =
+{
+    precache_model("models/shelf/shelf_043/shelf_043.iqm");
+    setmodel(self, "models/shelf/shelf_043/shelf_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_044 =
+{
+    precache_model("models/shelf/shelf_044/shelf_044.iqm");
+    setmodel(self, "models/shelf/shelf_044/shelf_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_045 =
+{
+    precache_model("models/shelf/shelf_045/shelf_045.iqm");
+    setmodel(self, "models/shelf/shelf_045/shelf_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_046 =
+{
+    precache_model("models/shelf/shelf_046/shelf_046.iqm");
+    setmodel(self, "models/shelf/shelf_046/shelf_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_047 =
+{
+    precache_model("models/shelf/shelf_047/shelf_047.iqm");
+    setmodel(self, "models/shelf/shelf_047/shelf_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_048 =
+{
+    precache_model("models/shelf/shelf_048/shelf_048.iqm");
+    setmodel(self, "models/shelf/shelf_048/shelf_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_049 =
+{
+    precache_model("models/shelf/shelf_049/shelf_049.iqm");
+    setmodel(self, "models/shelf/shelf_049/shelf_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_050 =
+{
+    precache_model("models/shelf/shelf_050/shelf_050.iqm");
+    setmodel(self, "models/shelf/shelf_050/shelf_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_051 =
+{
+    precache_model("models/shelf/shelf_051/shelf_051.iqm");
+    setmodel(self, "models/shelf/shelf_051/shelf_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_052 =
+{
+    precache_model("models/shelf/shelf_052/shelf_052.iqm");
+    setmodel(self, "models/shelf/shelf_052/shelf_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_053 =
+{
+    precache_model("models/shelf/shelf_053/shelf_053.iqm");
+    setmodel(self, "models/shelf/shelf_053/shelf_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_054 =
+{
+    precache_model("models/shelf/shelf_054/shelf_054.iqm");
+    setmodel(self, "models/shelf/shelf_054/shelf_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_055 =
+{
+    precache_model("models/shelf/shelf_055/shelf_055.iqm");
+    setmodel(self, "models/shelf/shelf_055/shelf_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_056 =
+{
+    precache_model("models/shelf/shelf_056/shelf_056.iqm");
+    setmodel(self, "models/shelf/shelf_056/shelf_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() shelf_057 =
+{
+    precache_model("models/shelf/shelf_057/shelf_057.iqm");
+    setmodel(self, "models/shelf/shelf_057/shelf_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_001 =
+{
+    precache_model("models/sofa/sofa_001/sofa_001.iqm");
+    setmodel(self, "models/sofa/sofa_001/sofa_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_002 =
+{
+    precache_model("models/sofa/sofa_002/sofa_002.iqm");
+    setmodel(self, "models/sofa/sofa_002/sofa_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_003 =
+{
+    precache_model("models/sofa/sofa_003/sofa_003.iqm");
+    setmodel(self, "models/sofa/sofa_003/sofa_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_004 =
+{
+    precache_model("models/sofa/sofa_004/sofa_004.iqm");
+    setmodel(self, "models/sofa/sofa_004/sofa_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_005 =
+{
+    precache_model("models/sofa/sofa_005/sofa_005.iqm");
+    setmodel(self, "models/sofa/sofa_005/sofa_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_006 =
+{
+    precache_model("models/sofa/sofa_006/sofa_006.iqm");
+    setmodel(self, "models/sofa/sofa_006/sofa_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_007 =
+{
+    precache_model("models/sofa/sofa_007/sofa_007.iqm");
+    setmodel(self, "models/sofa/sofa_007/sofa_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_008 =
+{
+    precache_model("models/sofa/sofa_008/sofa_008.iqm");
+    setmodel(self, "models/sofa/sofa_008/sofa_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_009 =
+{
+    precache_model("models/sofa/sofa_009/sofa_009.iqm");
+    setmodel(self, "models/sofa/sofa_009/sofa_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_010 =
+{
+    precache_model("models/sofa/sofa_010/sofa_010.iqm");
+    setmodel(self, "models/sofa/sofa_010/sofa_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_011 =
+{
+    precache_model("models/sofa/sofa_011/sofa_011.iqm");
+    setmodel(self, "models/sofa/sofa_011/sofa_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_012 =
+{
+    precache_model("models/sofa/sofa_012/sofa_012.iqm");
+    setmodel(self, "models/sofa/sofa_012/sofa_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_013 =
+{
+    precache_model("models/sofa/sofa_013/sofa_013.iqm");
+    setmodel(self, "models/sofa/sofa_013/sofa_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_014 =
+{
+    precache_model("models/sofa/sofa_014/sofa_014.iqm");
+    setmodel(self, "models/sofa/sofa_014/sofa_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_015 =
+{
+    precache_model("models/sofa/sofa_015/sofa_015.iqm");
+    setmodel(self, "models/sofa/sofa_015/sofa_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_016 =
+{
+    precache_model("models/sofa/sofa_016/sofa_016.iqm");
+    setmodel(self, "models/sofa/sofa_016/sofa_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_017 =
+{
+    precache_model("models/sofa/sofa_017/sofa_017.iqm");
+    setmodel(self, "models/sofa/sofa_017/sofa_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_018 =
+{
+    precache_model("models/sofa/sofa_018/sofa_018.iqm");
+    setmodel(self, "models/sofa/sofa_018/sofa_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_019 =
+{
+    precache_model("models/sofa/sofa_019/sofa_019.iqm");
+    setmodel(self, "models/sofa/sofa_019/sofa_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_020 =
+{
+    precache_model("models/sofa/sofa_020/sofa_020.iqm");
+    setmodel(self, "models/sofa/sofa_020/sofa_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_021 =
+{
+    precache_model("models/sofa/sofa_021/sofa_021.iqm");
+    setmodel(self, "models/sofa/sofa_021/sofa_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_022 =
+{
+    precache_model("models/sofa/sofa_022/sofa_022.iqm");
+    setmodel(self, "models/sofa/sofa_022/sofa_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_023 =
+{
+    precache_model("models/sofa/sofa_023/sofa_023.iqm");
+    setmodel(self, "models/sofa/sofa_023/sofa_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_024 =
+{
+    precache_model("models/sofa/sofa_024/sofa_024.iqm");
+    setmodel(self, "models/sofa/sofa_024/sofa_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_025 =
+{
+    precache_model("models/sofa/sofa_025/sofa_025.iqm");
+    setmodel(self, "models/sofa/sofa_025/sofa_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_026 =
+{
+    precache_model("models/sofa/sofa_026/sofa_026.iqm");
+    setmodel(self, "models/sofa/sofa_026/sofa_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_027 =
+{
+    precache_model("models/sofa/sofa_027/sofa_027.iqm");
+    setmodel(self, "models/sofa/sofa_027/sofa_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_028 =
+{
+    precache_model("models/sofa/sofa_028/sofa_028.iqm");
+    setmodel(self, "models/sofa/sofa_028/sofa_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_029 =
+{
+    precache_model("models/sofa/sofa_029/sofa_029.iqm");
+    setmodel(self, "models/sofa/sofa_029/sofa_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_030 =
+{
+    precache_model("models/sofa/sofa_030/sofa_030.iqm");
+    setmodel(self, "models/sofa/sofa_030/sofa_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_031 =
+{
+    precache_model("models/sofa/sofa_031/sofa_031.iqm");
+    setmodel(self, "models/sofa/sofa_031/sofa_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_032 =
+{
+    precache_model("models/sofa/sofa_032/sofa_032.iqm");
+    setmodel(self, "models/sofa/sofa_032/sofa_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_033 =
+{
+    precache_model("models/sofa/sofa_033/sofa_033.iqm");
+    setmodel(self, "models/sofa/sofa_033/sofa_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_034 =
+{
+    precache_model("models/sofa/sofa_034/sofa_034.iqm");
+    setmodel(self, "models/sofa/sofa_034/sofa_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_035 =
+{
+    precache_model("models/sofa/sofa_035/sofa_035.iqm");
+    setmodel(self, "models/sofa/sofa_035/sofa_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_036 =
+{
+    precache_model("models/sofa/sofa_036/sofa_036.iqm");
+    setmodel(self, "models/sofa/sofa_036/sofa_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_037 =
+{
+    precache_model("models/sofa/sofa_037/sofa_037.iqm");
+    setmodel(self, "models/sofa/sofa_037/sofa_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_038 =
+{
+    precache_model("models/sofa/sofa_038/sofa_038.iqm");
+    setmodel(self, "models/sofa/sofa_038/sofa_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_039 =
+{
+    precache_model("models/sofa/sofa_039/sofa_039.iqm");
+    setmodel(self, "models/sofa/sofa_039/sofa_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_040 =
+{
+    precache_model("models/sofa/sofa_040/sofa_040.iqm");
+    setmodel(self, "models/sofa/sofa_040/sofa_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_041 =
+{
+    precache_model("models/sofa/sofa_041/sofa_041.iqm");
+    setmodel(self, "models/sofa/sofa_041/sofa_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_042 =
+{
+    precache_model("models/sofa/sofa_042/sofa_042.iqm");
+    setmodel(self, "models/sofa/sofa_042/sofa_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_043 =
+{
+    precache_model("models/sofa/sofa_043/sofa_043.iqm");
+    setmodel(self, "models/sofa/sofa_043/sofa_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_044 =
+{
+    precache_model("models/sofa/sofa_044/sofa_044.iqm");
+    setmodel(self, "models/sofa/sofa_044/sofa_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_045 =
+{
+    precache_model("models/sofa/sofa_045/sofa_045.iqm");
+    setmodel(self, "models/sofa/sofa_045/sofa_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_046 =
+{
+    precache_model("models/sofa/sofa_046/sofa_046.iqm");
+    setmodel(self, "models/sofa/sofa_046/sofa_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_047 =
+{
+    precache_model("models/sofa/sofa_047/sofa_047.iqm");
+    setmodel(self, "models/sofa/sofa_047/sofa_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_048 =
+{
+    precache_model("models/sofa/sofa_048/sofa_048.iqm");
+    setmodel(self, "models/sofa/sofa_048/sofa_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_049 =
+{
+    precache_model("models/sofa/sofa_049/sofa_049.iqm");
+    setmodel(self, "models/sofa/sofa_049/sofa_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_050 =
+{
+    precache_model("models/sofa/sofa_050/sofa_050.iqm");
+    setmodel(self, "models/sofa/sofa_050/sofa_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_051 =
+{
+    precache_model("models/sofa/sofa_051/sofa_051.iqm");
+    setmodel(self, "models/sofa/sofa_051/sofa_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_052 =
+{
+    precache_model("models/sofa/sofa_052/sofa_052.iqm");
+    setmodel(self, "models/sofa/sofa_052/sofa_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_053 =
+{
+    precache_model("models/sofa/sofa_053/sofa_053.iqm");
+    setmodel(self, "models/sofa/sofa_053/sofa_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_054 =
+{
+    precache_model("models/sofa/sofa_054/sofa_054.iqm");
+    setmodel(self, "models/sofa/sofa_054/sofa_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_055 =
+{
+    precache_model("models/sofa/sofa_055/sofa_055.iqm");
+    setmodel(self, "models/sofa/sofa_055/sofa_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_056 =
+{
+    precache_model("models/sofa/sofa_056/sofa_056.iqm");
+    setmodel(self, "models/sofa/sofa_056/sofa_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_057 =
+{
+    precache_model("models/sofa/sofa_057/sofa_057.iqm");
+    setmodel(self, "models/sofa/sofa_057/sofa_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_058 =
+{
+    precache_model("models/sofa/sofa_058/sofa_058.iqm");
+    setmodel(self, "models/sofa/sofa_058/sofa_058.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_059 =
+{
+    precache_model("models/sofa/sofa_059/sofa_059.iqm");
+    setmodel(self, "models/sofa/sofa_059/sofa_059.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_060 =
+{
+    precache_model("models/sofa/sofa_060/sofa_060.iqm");
+    setmodel(self, "models/sofa/sofa_060/sofa_060.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_061 =
+{
+    precache_model("models/sofa/sofa_061/sofa_061.iqm");
+    setmodel(self, "models/sofa/sofa_061/sofa_061.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_062 =
+{
+    precache_model("models/sofa/sofa_062/sofa_062.iqm");
+    setmodel(self, "models/sofa/sofa_062/sofa_062.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_063 =
+{
+    precache_model("models/sofa/sofa_063/sofa_063.iqm");
+    setmodel(self, "models/sofa/sofa_063/sofa_063.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_064 =
+{
+    precache_model("models/sofa/sofa_064/sofa_064.iqm");
+    setmodel(self, "models/sofa/sofa_064/sofa_064.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() sofa_065 =
+{
+    precache_model("models/sofa/sofa_065/sofa_065.iqm");
+    setmodel(self, "models/sofa/sofa_065/sofa_065.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_001 =
+{
+    precache_model("models/table/table_001/table_001.iqm");
+    setmodel(self, "models/table/table_001/table_001.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_002 =
+{
+    precache_model("models/table/table_002/table_002.iqm");
+    setmodel(self, "models/table/table_002/table_002.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_003 =
+{
+    precache_model("models/table/table_003/table_003.iqm");
+    setmodel(self, "models/table/table_003/table_003.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_004 =
+{
+    precache_model("models/table/table_004/table_004.iqm");
+    setmodel(self, "models/table/table_004/table_004.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_005 =
+{
+    precache_model("models/table/table_005/table_005.iqm");
+    setmodel(self, "models/table/table_005/table_005.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_006 =
+{
+    precache_model("models/table/table_006/table_006.iqm");
+    setmodel(self, "models/table/table_006/table_006.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_007 =
+{
+    precache_model("models/table/table_007/table_007.iqm");
+    setmodel(self, "models/table/table_007/table_007.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_008 =
+{
+    precache_model("models/table/table_008/table_008.iqm");
+    setmodel(self, "models/table/table_008/table_008.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_009 =
+{
+    precache_model("models/table/table_009/table_009.iqm");
+    setmodel(self, "models/table/table_009/table_009.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_010 =
+{
+    precache_model("models/table/table_010/table_010.iqm");
+    setmodel(self, "models/table/table_010/table_010.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_011 =
+{
+    precache_model("models/table/table_011/table_011.iqm");
+    setmodel(self, "models/table/table_011/table_011.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_012 =
+{
+    precache_model("models/table/table_012/table_012.iqm");
+    setmodel(self, "models/table/table_012/table_012.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_013 =
+{
+    precache_model("models/table/table_013/table_013.iqm");
+    setmodel(self, "models/table/table_013/table_013.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_014 =
+{
+    precache_model("models/table/table_014/table_014.iqm");
+    setmodel(self, "models/table/table_014/table_014.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_015 =
+{
+    precache_model("models/table/table_015/table_015.iqm");
+    setmodel(self, "models/table/table_015/table_015.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_016 =
+{
+    precache_model("models/table/table_016/table_016.iqm");
+    setmodel(self, "models/table/table_016/table_016.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_017 =
+{
+    precache_model("models/table/table_017/table_017.iqm");
+    setmodel(self, "models/table/table_017/table_017.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_018 =
+{
+    precache_model("models/table/table_018/table_018.iqm");
+    setmodel(self, "models/table/table_018/table_018.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_019 =
+{
+    precache_model("models/table/table_019/table_019.iqm");
+    setmodel(self, "models/table/table_019/table_019.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_020 =
+{
+    precache_model("models/table/table_020/table_020.iqm");
+    setmodel(self, "models/table/table_020/table_020.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_021 =
+{
+    precache_model("models/table/table_021/table_021.iqm");
+    setmodel(self, "models/table/table_021/table_021.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_022 =
+{
+    precache_model("models/table/table_022/table_022.iqm");
+    setmodel(self, "models/table/table_022/table_022.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_023 =
+{
+    precache_model("models/table/table_023/table_023.iqm");
+    setmodel(self, "models/table/table_023/table_023.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_024 =
+{
+    precache_model("models/table/table_024/table_024.iqm");
+    setmodel(self, "models/table/table_024/table_024.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_025 =
+{
+    precache_model("models/table/table_025/table_025.iqm");
+    setmodel(self, "models/table/table_025/table_025.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_026 =
+{
+    precache_model("models/table/table_026/table_026.iqm");
+    setmodel(self, "models/table/table_026/table_026.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_027 =
+{
+    precache_model("models/table/table_027/table_027.iqm");
+    setmodel(self, "models/table/table_027/table_027.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_028 =
+{
+    precache_model("models/table/table_028/table_028.iqm");
+    setmodel(self, "models/table/table_028/table_028.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_029 =
+{
+    precache_model("models/table/table_029/table_029.iqm");
+    setmodel(self, "models/table/table_029/table_029.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_030 =
+{
+    precache_model("models/table/table_030/table_030.iqm");
+    setmodel(self, "models/table/table_030/table_030.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_031 =
+{
+    precache_model("models/table/table_031/table_031.iqm");
+    setmodel(self, "models/table/table_031/table_031.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_032 =
+{
+    precache_model("models/table/table_032/table_032.iqm");
+    setmodel(self, "models/table/table_032/table_032.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_033 =
+{
+    precache_model("models/table/table_033/table_033.iqm");
+    setmodel(self, "models/table/table_033/table_033.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_034 =
+{
+    precache_model("models/table/table_034/table_034.iqm");
+    setmodel(self, "models/table/table_034/table_034.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_035 =
+{
+    precache_model("models/table/table_035/table_035.iqm");
+    setmodel(self, "models/table/table_035/table_035.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_036 =
+{
+    precache_model("models/table/table_036/table_036.iqm");
+    setmodel(self, "models/table/table_036/table_036.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_037 =
+{
+    precache_model("models/table/table_037/table_037.iqm");
+    setmodel(self, "models/table/table_037/table_037.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_038 =
+{
+    precache_model("models/table/table_038/table_038.iqm");
+    setmodel(self, "models/table/table_038/table_038.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_039 =
+{
+    precache_model("models/table/table_039/table_039.iqm");
+    setmodel(self, "models/table/table_039/table_039.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_040 =
+{
+    precache_model("models/table/table_040/table_040.iqm");
+    setmodel(self, "models/table/table_040/table_040.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_041 =
+{
+    precache_model("models/table/table_041/table_041.iqm");
+    setmodel(self, "models/table/table_041/table_041.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_042 =
+{
+    precache_model("models/table/table_042/table_042.iqm");
+    setmodel(self, "models/table/table_042/table_042.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_043 =
+{
+    precache_model("models/table/table_043/table_043.iqm");
+    setmodel(self, "models/table/table_043/table_043.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_044 =
+{
+    precache_model("models/table/table_044/table_044.iqm");
+    setmodel(self, "models/table/table_044/table_044.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_045 =
+{
+    precache_model("models/table/table_045/table_045.iqm");
+    setmodel(self, "models/table/table_045/table_045.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_046 =
+{
+    precache_model("models/table/table_046/table_046.iqm");
+    setmodel(self, "models/table/table_046/table_046.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_047 =
+{
+    precache_model("models/table/table_047/table_047.iqm");
+    setmodel(self, "models/table/table_047/table_047.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_048 =
+{
+    precache_model("models/table/table_048/table_048.iqm");
+    setmodel(self, "models/table/table_048/table_048.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_049 =
+{
+    precache_model("models/table/table_049/table_049.iqm");
+    setmodel(self, "models/table/table_049/table_049.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_050 =
+{
+    precache_model("models/table/table_050/table_050.iqm");
+    setmodel(self, "models/table/table_050/table_050.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_051 =
+{
+    precache_model("models/table/table_051/table_051.iqm");
+    setmodel(self, "models/table/table_051/table_051.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_052 =
+{
+    precache_model("models/table/table_052/table_052.iqm");
+    setmodel(self, "models/table/table_052/table_052.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_053 =
+{
+    precache_model("models/table/table_053/table_053.iqm");
+    setmodel(self, "models/table/table_053/table_053.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_054 =
+{
+    precache_model("models/table/table_054/table_054.iqm");
+    setmodel(self, "models/table/table_054/table_054.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_055 =
+{
+    precache_model("models/table/table_055/table_055.iqm");
+    setmodel(self, "models/table/table_055/table_055.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_056 =
+{
+    precache_model("models/table/table_056/table_056.iqm");
+    setmodel(self, "models/table/table_056/table_056.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_057 =
+{
+    precache_model("models/table/table_057/table_057.iqm");
+    setmodel(self, "models/table/table_057/table_057.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_058 =
+{
+    precache_model("models/table/table_058/table_058.iqm");
+    setmodel(self, "models/table/table_058/table_058.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_059 =
+{
+    precache_model("models/table/table_059/table_059.iqm");
+    setmodel(self, "models/table/table_059/table_059.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_060 =
+{
+    precache_model("models/table/table_060/table_060.iqm");
+    setmodel(self, "models/table/table_060/table_060.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_061 =
+{
+    precache_model("models/table/table_061/table_061.iqm");
+    setmodel(self, "models/table/table_061/table_061.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_062 =
+{
+    precache_model("models/table/table_062/table_062.iqm");
+    setmodel(self, "models/table/table_062/table_062.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_063 =
+{
+    precache_model("models/table/table_063/table_063.iqm");
+    setmodel(self, "models/table/table_063/table_063.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_064 =
+{
+    precache_model("models/table/table_064/table_064.iqm");
+    setmodel(self, "models/table/table_064/table_064.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_065 =
+{
+    precache_model("models/table/table_065/table_065.iqm");
+    setmodel(self, "models/table/table_065/table_065.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_066 =
+{
+    precache_model("models/table/table_066/table_066.iqm");
+    setmodel(self, "models/table/table_066/table_066.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_067 =
+{
+    precache_model("models/table/table_067/table_067.iqm");
+    setmodel(self, "models/table/table_067/table_067.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_068 =
+{
+    precache_model("models/table/table_068/table_068.iqm");
+    setmodel(self, "models/table/table_068/table_068.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_069 =
+{
+    precache_model("models/table/table_069/table_069.iqm");
+    setmodel(self, "models/table/table_069/table_069.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_070 =
+{
+    precache_model("models/table/table_070/table_070.iqm");
+    setmodel(self, "models/table/table_070/table_070.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_071 =
+{
+    precache_model("models/table/table_071/table_071.iqm");
+    setmodel(self, "models/table/table_071/table_071.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_072 =
+{
+    precache_model("models/table/table_072/table_072.iqm");
+    setmodel(self, "models/table/table_072/table_072.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_073 =
+{
+    precache_model("models/table/table_073/table_073.iqm");
+    setmodel(self, "models/table/table_073/table_073.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_074 =
+{
+    precache_model("models/table/table_074/table_074.iqm");
+    setmodel(self, "models/table/table_074/table_074.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_075 =
+{
+    precache_model("models/table/table_075/table_075.iqm");
+    setmodel(self, "models/table/table_075/table_075.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_076 =
+{
+    precache_model("models/table/table_076/table_076.iqm");
+    setmodel(self, "models/table/table_076/table_076.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_077 =
+{
+    precache_model("models/table/table_077/table_077.iqm");
+    setmodel(self, "models/table/table_077/table_077.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_078 =
+{
+    precache_model("models/table/table_078/table_078.iqm");
+    setmodel(self, "models/table/table_078/table_078.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_079 =
+{
+    precache_model("models/table/table_079/table_079.iqm");
+    setmodel(self, "models/table/table_079/table_079.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_080 =
+{
+    precache_model("models/table/table_080/table_080.iqm");
+    setmodel(self, "models/table/table_080/table_080.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_081 =
+{
+    precache_model("models/table/table_081/table_081.iqm");
+    setmodel(self, "models/table/table_081/table_081.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_082 =
+{
+    precache_model("models/table/table_082/table_082.iqm");
+    setmodel(self, "models/table/table_082/table_082.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_083 =
+{
+    precache_model("models/table/table_083/table_083.iqm");
+    setmodel(self, "models/table/table_083/table_083.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_084 =
+{
+    precache_model("models/table/table_084/table_084.iqm");
+    setmodel(self, "models/table/table_084/table_084.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_085 =
+{
+    precache_model("models/table/table_085/table_085.iqm");
+    setmodel(self, "models/table/table_085/table_085.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_086 =
+{
+    precache_model("models/table/table_086/table_086.iqm");
+    setmodel(self, "models/table/table_086/table_086.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_087 =
+{
+    precache_model("models/table/table_087/table_087.iqm");
+    setmodel(self, "models/table/table_087/table_087.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_088 =
+{
+    precache_model("models/table/table_088/table_088.iqm");
+    setmodel(self, "models/table/table_088/table_088.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_089 =
+{
+    precache_model("models/table/table_089/table_089.iqm");
+    setmodel(self, "models/table/table_089/table_089.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_090 =
+{
+    precache_model("models/table/table_090/table_090.iqm");
+    setmodel(self, "models/table/table_090/table_090.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_091 =
+{
+    precache_model("models/table/table_091/table_091.iqm");
+    setmodel(self, "models/table/table_091/table_091.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_092 =
+{
+    precache_model("models/table/table_092/table_092.iqm");
+    setmodel(self, "models/table/table_092/table_092.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_093 =
+{
+    precache_model("models/table/table_093/table_093.iqm");
+    setmodel(self, "models/table/table_093/table_093.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_094 =
+{
+    precache_model("models/table/table_094/table_094.iqm");
+    setmodel(self, "models/table/table_094/table_094.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_095 =
+{
+    precache_model("models/table/table_095/table_095.iqm");
+    setmodel(self, "models/table/table_095/table_095.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_096 =
+{
+    precache_model("models/table/table_096/table_096.iqm");
+    setmodel(self, "models/table/table_096/table_096.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_097 =
+{
+    precache_model("models/table/table_097/table_097.iqm");
+    setmodel(self, "models/table/table_097/table_097.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_098 =
+{
+    precache_model("models/table/table_098/table_098.iqm");
+    setmodel(self, "models/table/table_098/table_098.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_099 =
+{
+    precache_model("models/table/table_099/table_099.iqm");
+    setmodel(self, "models/table/table_099/table_099.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_100 =
+{
+    precache_model("models/table/table_100/table_100.iqm");
+    setmodel(self, "models/table/table_100/table_100.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_101 =
+{
+    precache_model("models/table/table_101/table_101.iqm");
+    setmodel(self, "models/table/table_101/table_101.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_102 =
+{
+    precache_model("models/table/table_102/table_102.iqm");
+    setmodel(self, "models/table/table_102/table_102.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_103 =
+{
+    precache_model("models/table/table_103/table_103.iqm");
+    setmodel(self, "models/table/table_103/table_103.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_104 =
+{
+    precache_model("models/table/table_104/table_104.iqm");
+    setmodel(self, "models/table/table_104/table_104.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_105 =
+{
+    precache_model("models/table/table_105/table_105.iqm");
+    setmodel(self, "models/table/table_105/table_105.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_106 =
+{
+    precache_model("models/table/table_106/table_106.iqm");
+    setmodel(self, "models/table/table_106/table_106.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_107 =
+{
+    precache_model("models/table/table_107/table_107.iqm");
+    setmodel(self, "models/table/table_107/table_107.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_108 =
+{
+    precache_model("models/table/table_108/table_108.iqm");
+    setmodel(self, "models/table/table_108/table_108.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_109 =
+{
+    precache_model("models/table/table_109/table_109.iqm");
+    setmodel(self, "models/table/table_109/table_109.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_110 =
+{
+    precache_model("models/table/table_110/table_110.iqm");
+    setmodel(self, "models/table/table_110/table_110.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_111 =
+{
+    precache_model("models/table/table_111/table_111.iqm");
+    setmodel(self, "models/table/table_111/table_111.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_112 =
+{
+    precache_model("models/table/table_112/table_112.iqm");
+    setmodel(self, "models/table/table_112/table_112.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_113 =
+{
+    precache_model("models/table/table_113/table_113.iqm");
+    setmodel(self, "models/table/table_113/table_113.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_114 =
+{
+    precache_model("models/table/table_114/table_114.iqm");
+    setmodel(self, "models/table/table_114/table_114.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_115 =
+{
+    precache_model("models/table/table_115/table_115.iqm");
+    setmodel(self, "models/table/table_115/table_115.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_116 =
+{
+    precache_model("models/table/table_116/table_116.iqm");
+    setmodel(self, "models/table/table_116/table_116.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_117 =
+{
+    precache_model("models/table/table_117/table_117.iqm");
+    setmodel(self, "models/table/table_117/table_117.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_118 =
+{
+    precache_model("models/table/table_118/table_118.iqm");
+    setmodel(self, "models/table/table_118/table_118.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_119 =
+{
+    precache_model("models/table/table_119/table_119.iqm");
+    setmodel(self, "models/table/table_119/table_119.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_120 =
+{
+    precache_model("models/table/table_120/table_120.iqm");
+    setmodel(self, "models/table/table_120/table_120.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_121 =
+{
+    precache_model("models/table/table_121/table_121.iqm");
+    setmodel(self, "models/table/table_121/table_121.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_122 =
+{
+    precache_model("models/table/table_122/table_122.iqm");
+    setmodel(self, "models/table/table_122/table_122.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_123 =
+{
+    precache_model("models/table/table_123/table_123.iqm");
+    setmodel(self, "models/table/table_123/table_123.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_124 =
+{
+    precache_model("models/table/table_124/table_124.iqm");
+    setmodel(self, "models/table/table_124/table_124.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_125 =
+{
+    precache_model("models/table/table_125/table_125.iqm");
+    setmodel(self, "models/table/table_125/table_125.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_126 =
+{
+    precache_model("models/table/table_126/table_126.iqm");
+    setmodel(self, "models/table/table_126/table_126.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_127 =
+{
+    precache_model("models/table/table_127/table_127.iqm");
+    setmodel(self, "models/table/table_127/table_127.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_128 =
+{
+    precache_model("models/table/table_128/table_128.iqm");
+    setmodel(self, "models/table/table_128/table_128.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_129 =
+{
+    precache_model("models/table/table_129/table_129.iqm");
+    setmodel(self, "models/table/table_129/table_129.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_130 =
+{
+    precache_model("models/table/table_130/table_130.iqm");
+    setmodel(self, "models/table/table_130/table_130.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_131 =
+{
+    precache_model("models/table/table_131/table_131.iqm");
+    setmodel(self, "models/table/table_131/table_131.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_132 =
+{
+    precache_model("models/table/table_132/table_132.iqm");
+    setmodel(self, "models/table/table_132/table_132.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_133 =
+{
+    precache_model("models/table/table_133/table_133.iqm");
+    setmodel(self, "models/table/table_133/table_133.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_134 =
+{
+    precache_model("models/table/table_134/table_134.iqm");
+    setmodel(self, "models/table/table_134/table_134.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_135 =
+{
+    precache_model("models/table/table_135/table_135.iqm");
+    setmodel(self, "models/table/table_135/table_135.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_136 =
+{
+    precache_model("models/table/table_136/table_136.iqm");
+    setmodel(self, "models/table/table_136/table_136.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_137 =
+{
+    precache_model("models/table/table_137/table_137.iqm");
+    setmodel(self, "models/table/table_137/table_137.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_138 =
+{
+    precache_model("models/table/table_138/table_138.iqm");
+    setmodel(self, "models/table/table_138/table_138.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_139 =
+{
+    precache_model("models/table/table_139/table_139.iqm");
+    setmodel(self, "models/table/table_139/table_139.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_140 =
+{
+    precache_model("models/table/table_140/table_140.iqm");
+    setmodel(self, "models/table/table_140/table_140.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_141 =
+{
+    precache_model("models/table/table_141/table_141.iqm");
+    setmodel(self, "models/table/table_141/table_141.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_142 =
+{
+    precache_model("models/table/table_142/table_142.iqm");
+    setmodel(self, "models/table/table_142/table_142.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_143 =
+{
+    precache_model("models/table/table_143/table_143.iqm");
+    setmodel(self, "models/table/table_143/table_143.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_144 =
+{
+    precache_model("models/table/table_144/table_144.iqm");
+    setmodel(self, "models/table/table_144/table_144.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_145 =
+{
+    precache_model("models/table/table_145/table_145.iqm");
+    setmodel(self, "models/table/table_145/table_145.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_146 =
+{
+    precache_model("models/table/table_146/table_146.iqm");
+    setmodel(self, "models/table/table_146/table_146.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_147 =
+{
+    precache_model("models/table/table_147/table_147.iqm");
+    setmodel(self, "models/table/table_147/table_147.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_148 =
+{
+    precache_model("models/table/table_148/table_148.iqm");
+    setmodel(self, "models/table/table_148/table_148.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_149 =
+{
+    precache_model("models/table/table_149/table_149.iqm");
+    setmodel(self, "models/table/table_149/table_149.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_150 =
+{
+    precache_model("models/table/table_150/table_150.iqm");
+    setmodel(self, "models/table/table_150/table_150.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_151 =
+{
+    precache_model("models/table/table_151/table_151.iqm");
+    setmodel(self, "models/table/table_151/table_151.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_152 =
+{
+    precache_model("models/table/table_152/table_152.iqm");
+    setmodel(self, "models/table/table_152/table_152.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_153 =
+{
+    precache_model("models/table/table_153/table_153.iqm");
+    setmodel(self, "models/table/table_153/table_153.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_154 =
+{
+    precache_model("models/table/table_154/table_154.iqm");
+    setmodel(self, "models/table/table_154/table_154.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_155 =
+{
+    precache_model("models/table/table_155/table_155.iqm");
+    setmodel(self, "models/table/table_155/table_155.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_156 =
+{
+    precache_model("models/table/table_156/table_156.iqm");
+    setmodel(self, "models/table/table_156/table_156.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_157 =
+{
+    precache_model("models/table/table_157/table_157.iqm");
+    setmodel(self, "models/table/table_157/table_157.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_158 =
+{
+    precache_model("models/table/table_158/table_158.iqm");
+    setmodel(self, "models/table/table_158/table_158.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_159 =
+{
+    precache_model("models/table/table_159/table_159.iqm");
+    setmodel(self, "models/table/table_159/table_159.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_160 =
+{
+    precache_model("models/table/table_160/table_160.iqm");
+    setmodel(self, "models/table/table_160/table_160.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_161 =
+{
+    precache_model("models/table/table_161/table_161.iqm");
+    setmodel(self, "models/table/table_161/table_161.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_162 =
+{
+    precache_model("models/table/table_162/table_162.iqm");
+    setmodel(self, "models/table/table_162/table_162.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_163 =
+{
+    precache_model("models/table/table_163/table_163.iqm");
+    setmodel(self, "models/table/table_163/table_163.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_164 =
+{
+    precache_model("models/table/table_164/table_164.iqm");
+    setmodel(self, "models/table/table_164/table_164.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_165 =
+{
+    precache_model("models/table/table_165/table_165.iqm");
+    setmodel(self, "models/table/table_165/table_165.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_166 =
+{
+    precache_model("models/table/table_166/table_166.iqm");
+    setmodel(self, "models/table/table_166/table_166.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_167 =
+{
+    precache_model("models/table/table_167/table_167.iqm");
+    setmodel(self, "models/table/table_167/table_167.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_168 =
+{
+    precache_model("models/table/table_168/table_168.iqm");
+    setmodel(self, "models/table/table_168/table_168.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_169 =
+{
+    precache_model("models/table/table_169/table_169.iqm");
+    setmodel(self, "models/table/table_169/table_169.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_170 =
+{
+    precache_model("models/table/table_170/table_170.iqm");
+    setmodel(self, "models/table/table_170/table_170.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_171 =
+{
+    precache_model("models/table/table_171/table_171.iqm");
+    setmodel(self, "models/table/table_171/table_171.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_172 =
+{
+    precache_model("models/table/table_172/table_172.iqm");
+    setmodel(self, "models/table/table_172/table_172.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_173 =
+{
+    precache_model("models/table/table_173/table_173.iqm");
+    setmodel(self, "models/table/table_173/table_173.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_174 =
+{
+    precache_model("models/table/table_174/table_174.iqm");
+    setmodel(self, "models/table/table_174/table_174.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_175 =
+{
+    precache_model("models/table/table_175/table_175.iqm");
+    setmodel(self, "models/table/table_175/table_175.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_176 =
+{
+    precache_model("models/table/table_176/table_176.iqm");
+    setmodel(self, "models/table/table_176/table_176.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() table_177 =
+{
+    precache_model("models/table/table_177/table_177.iqm");
+    setmodel(self, "models/table/table_177/table_177.iqm");
+
+    if (self.spawnflags & 1) {
+        self.solid = SOLID_NOT;
+    } else if (self.spawnflags & 2) {
+        self.solid = SOLID_SLIDEBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 4) {
+        self.solid = SOLID_BBOX;
+        setsize(self, '-16 -16 0', '16 16 56');
+    } else if (self.spawnflags & 8) {
+        self.solid = SOLID_TRIGGER;
+        self.flags |= FL_FINDABLE_NONSOLID;
+    } else if (self.spawnflags & 16) {
+        self.solid = SOLID_BSP;
+    } else {
+        self.solid = SOLID_BSP;
+    }
+
+    if (self.spawnflags & 256) {
+        self.movetype = MOVETYPE_FLY;
+    } else if (self.spawnflags & 512) {
+        self.movetype = MOVETYPE_TOSS;
+    } else if (self.spawnflags & 1024) {
+        self.movetype = MOVETYPE_BOUNCE;
+    } else if (self.spawnflags & 2048) {
+        self.movetype = MOVETYPE_NONE;
+    } else {
+        self.movetype = MOVETYPE_NONE;
+    }
+
+    self.angles_y += 90;
     setorigin(self, self.origin);
 };
 
