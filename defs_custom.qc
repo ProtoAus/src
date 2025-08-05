@@ -31,6 +31,9 @@ USE_MAXS = ' 4  4  4';
 #define DUCK_MAX  '16 16 16'      // lower the head
 #define DUCK_VIEW '0 0 12'
 
+const int SOLID_MASK = 1|2|4|8|16;
+const int MOVETYPE_MASK = 256|512|1024|2048;
+
 #pragma target fte
 
 float(float lo, float hi) frand = { return lo + random() * (hi - lo); };

@@ -133,21 +133,29 @@ vector(vector a, vector b) cross = {
 
 void() AlignToSlope =
 {
-    // Trace to get ground normal
-    traceline(self.origin + '0 0 4', self.origin - '0 0 128', TRUE, self);
-    if (trace_fraction == 1) return;
+    // prefer a box trace if your engine supports it (FTE)
+#ifdef TRACEBOX_AVAILABLE
+    vector mins = self.mins, maxs = self.maxs;
+    tracebox(self.origin + '0 0 8', mins, maxs, self.origin - '0 0 128', TRUE, self);
+#else
+    traceline(self.origin + '0 0 8', self.origin - '0 0 128', TRUE, self);
+#endif
 
-    vector upn = normalize(trace_plane_normal);  // slope normal
+    if (trace_fraction == 1 && !trace_startsolid)
+        return; // nothing hit below
 
-    // Take whatever yaw you had (or throw velocity dir) as your desired "forward"
-    vector saved_angles = self.angles;           // keep yaw
-    makevectors(saved_angles);                   // v_forward from current angles
+    // use plane normal even if startsolid (we're intersecting ground)
+    vector upn = normalize(trace_plane_normal);
+
+    // keep your yaw; recompute pitch from slope
+    vector saved = self.angles;
+    makevectors(saved);
     vector fwd = v_forward;
 
-    // Project fwd onto the plane so it lies along the slope
-    fwd = fwd - upn * dot(fwd, upn);
+    // project forward onto plane
+    fwd = fwd - upn * (fwd * upn);
     if (vlen(fwd) < 0.01) {
-        // degenerate, pick any tangent
+        // degenerate: pick any tangent
         fwd = normalize(cross(upn, '1 0 0'));
         if (vlen(fwd) < 0.01)
             fwd = normalize(cross(upn, '0 1 0'));
@@ -155,25 +163,22 @@ void() AlignToSlope =
         fwd = normalize(fwd);
     }
 
-    // Get yaw+pitch from that forward
-    vector ang = vectoangles2(fwd);  // your 1‑arg version
-
-    // Now figure roll so model-up matches the plane normal
-    makevectors(ang);                 // v_up is model's current up
+    vector ang = vectoangles(fwd); // yaw+pitch from projected fwd
+    makevectors(ang);
     vector curUp = v_up;
+    vector axis  = fwd;
 
-    // Axis to rotate around (the forward vector)
-    vector axis = fwd;
-
-    // Compute roll = atan2( dot(curUp × upn, axis), dot(curUp, upn) )
-    vector cuXun = cross(curUp, upn);
-    float s = dot(cuXun, axis);     // sine component
-    float c = dot(curUp, upn);      // cosine component
-    float roll = atan2(s, c) * RAD2DEG;
+    // roll so model-up matches plane normal
+    float s = (cross(curUp, upn) * axis);
+    float c = (curUp * upn);
+    float roll = atan2(s, c) * 57.2957795;
 
     self.angles_x = ang_x;
     self.angles_y = ang_y;
-    self.angles_z = roll;           // final twist
+    self.angles_z = roll;
+    dprint(sprintf("hit frac=%f startsolid=%f n=%v\n", trace_fraction, trace_startsolid, trace_plane_normal));
+    // relink if your engine needs it to update lighting/culling
+    setorigin(self, self.origin);
 }
 
 void() WeaponLandThink =
@@ -183,15 +188,13 @@ void() WeaponLandThink =
         return;
     }
 
-    if (self.netname != "Axe" && self.netname != "nail" && self.netname != "shell"
+    /*if (self.netname != "Axe" && self.netname != "nail" && self.netname != "shell"
      && self.netname != "cell" && self.netname != "rocket")
     {
         AlignToSlope();
-    }
-
-//    self.movetype = MOVETYPE_TOSS;
+    }*/
+    AlignToSlope();
     self.solid = SOLID_TRIGGER;
-//    setsize (self, '-16 -16 -8', '16 16 56');
     self.touch = weapon_touch;
     self.owner = world;
     self.think = SUB_Null;

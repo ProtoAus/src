@@ -157,9 +157,15 @@ void() HandGrenadeTouch =
     }
 };
 
-// assumes you already have these
-// vector STAND_MIN, STAND_MAX, STAND_VIEW;
-// vector DUCK_MIN,  DUCK_MAX,  DUCK_VIEW;
+const float DUCK_GROUND_FRIC = 5.0; // per-second drag strength
+
+void() ApplyDuckGroundFriction =
+{
+    if (!(self.flags & FL_ONGROUND)) return; // no air slowdown
+    float t = bound(0, DUCK_GROUND_FRIC * frametime, 0.95);
+    self.velocity_x *= (1 - t);
+    self.velocity_y *= (1 - t);
+};
 
 void() StartDuck =
 {
@@ -170,22 +176,77 @@ void() StartDuck =
 
 float() CanUnduckHere =
 {
-    // FTE/DarkPlaces-style: tracebox(start, mins, maxs, end, nomonsters, passent)
     tracebox(self.origin, STAND_MIN, STAND_MAX, self.origin, TRUE, self);
 
     if (trace_startsolid || trace_allsolid)
         return FALSE;
 
-    // fraction should be 1.0 for a zero-length trace that fits
     return (trace_fraction == 1);
 };
 
 void() EndDuck =
 {
     if (!CanUnduckHere())
-        return; // no room to stand — stay ducked
+        return;
 
     setsize(self, STAND_MIN, STAND_MAX);
     self.view_ofs  = STAND_VIEW;
     self.is_ducked = FALSE;
 };
+
+// Tunables
+const float DUCK_AIR_TUCK       = 16; // raise feet (mins.z) in air
+const float DUCK_AIR_VIEW_RAISE = 0;  // extra eye height target above STAND_VIEW
+const float VIEW_HEADROOM       = 2;  // keep eye slightly below hull top
+
+// Returns TRUE if a hull fits at the current origin
+float(vector mn, vector mx) HullFits =
+{
+    tracebox(self.origin, mn, mx, self.origin, TRUE, self);
+    if (trace_startsolid || trace_allsolid) return FALSE;
+    return (trace_fraction == 1);
+};
+
+// Call every frame after you update is_ducked / duck_held
+void() MaintainDuckHull =
+{
+    if (!self.is_ducked)
+        return;
+
+    if (self.flags & FL_ONGROUND)
+    {
+        // Ground crouch: normal duck hull + low camera
+        setsize(self, DUCK_MIN, DUCK_MAX);
+        self.view_ofs = DUCK_VIEW;
+        return;
+    }
+
+    // --- AIR-DUCK SAFE: pull feet up, but only raise top if there's space ---
+    vector mn = DUCK_MIN;
+    vector mx = self.maxs;          // start from current top (likely DUCK_MAX)
+
+    // Pull legs up
+    mn_z += DUCK_AIR_TUCK;
+    if (mx_z - mn_z < 8) mn_z = mx_z - 8;   // keep some hull thickness
+
+    // Try to raise top to STAND_MAX for perfect view, but only if it fits
+    vector want_mx = STAND_MAX;
+    if (want_mx_z > mx_z && HullFits(mn, want_mx))
+        mx_z = want_mx_z;           // safe to raise; not under a ceiling
+
+    // Final safety: ensure mn/mx combo fits; if not, relax the tuck
+    if (!HullFits(mn, mx)) {
+        mn_z = min(mx_z - 8, mn_z);
+        if (!HullFits(mn, mx)) {
+            // fallback if something odd: use plain duck hull in air
+            mn = DUCK_MIN; mx = DUCK_MAX;
+        }
+    }
+
+    setsize(self, mn, mx);
+
+    // Eye: target stand eye (plus a bit), but clamp below whatever top we ended with
+    vector eye = STAND_VIEW; eye_z += DUCK_AIR_VIEW_RAISE;
+    if (eye_z > mx_z - VIEW_HEADROOM) eye_z = mx_z - VIEW_HEADROOM;
+    self.view_ofs = eye;
+}

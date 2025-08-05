@@ -69,6 +69,9 @@ use.qc
 //cutscene.qc
 //pmove.qc
 prop_hunt.qc
+props_quake_mdl.qc
+props_quake_iqm.qc
+props_goldsrc_mdl.qc
 
 misc_scientist.qc
 
@@ -128,5 +131,3 @@ monsters/kamikaze.qc
 
 monsters/guardian.qc
 
-props.qc
-props_static.qc

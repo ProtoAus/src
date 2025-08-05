@@ -256,6 +256,11 @@ void() PlaceItem = {
 
 		self.use = DelaySpawnItem;
 	}
+	if (self.netname == "nail" || self.netname == "shell" || self.netname == "rocket" || self.netname == "cell")
+	{
+		self.think = align_think;
+		self.nextthink = time + 0.5;
+	}
 };
 
 
@@ -1031,8 +1036,19 @@ void() ammo_touch = {
 	ItemPickup("weapons/lock4.wav", 30, 30);
 };
 
+.vector last_pos;
 
-
+void() align_think =
+{
+    if (self.origin_x != self.last_pos_x
+     || self.origin_y != self.last_pos_y
+     || self.origin_z != self.last_pos_z)
+    {
+        AlignToSlope();
+        self.last_pos = self.origin; // remember where we aligned
+    }
+    self.nextthink = time + 0.5;
+}
 
 float WEAPON_BIG2 = 1;
 
@@ -1066,6 +1082,8 @@ void() item_shells =
 	self.ammo_type = 1;
 	self.netname = "shell";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.mass = 0.25;
+	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
 };
@@ -1100,6 +1118,8 @@ void() item_spikes =
 	self.ammo_type = 1;
 	self.netname = "nail";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.mass = 0.25;
+	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
 };
@@ -1134,6 +1154,8 @@ void() item_rockets =
 	self.ammo_type = 1;
 	self.netname = "rocket";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.mass = 0.25;
+	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
 };
@@ -1147,7 +1169,7 @@ void() item_cells =
 	if (!SUB_InitEntity()) return;
 	
 	local string model;
-	self.touch = ammo_touch;
+
 	if(!self.itemstyle) self.itemstyle = world.itemstyle;
 
 	if (self.spawnflags & WEAPON_BIG2)
@@ -1165,10 +1187,13 @@ void() item_cells =
 
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model (model);
 	setmodel (self, model);
+	self.touch = ammo_touch;
 	self.weapon = 4;
 	self.ammo_type = 1;
 	self.netname = "cell";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.mass = 0.25;
+	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
 };

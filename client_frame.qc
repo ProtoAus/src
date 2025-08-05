@@ -860,6 +860,8 @@ void() CheckBurning = {
 	}
 };
 
+
+
 /*
 ================
 PlayerPostThink
@@ -872,14 +874,20 @@ void() PlayerPostThink =
 	
 //	local	float	mspeed, aspeed;
 //	local	float	r;
+
     if (self.impulse) {
         if (self.impulse == IMP_DUCK_ON)  self.duck_held = TRUE;
         if (self.impulse == IMP_DUCK_OFF) self.duck_held = FALSE;
-    	}
-    if (self.duck_held && !self.is_ducked)
-        StartDuck();
-    else if (!self.duck_held && self.is_ducked)
-        EndDuck();
+    }
+
+    if (self.duck_held && !self.is_ducked) StartDuck();
+    else if (!self.duck_held && self.is_ducked) EndDuck();
+
+	if (self.is_ducked)
+			ApplyDuckGroundFriction();
+
+	MaintainDuckHull();
+
 	checkClientInWaterBrush();
 	if (self.flags & FL_ONGROUND) {
 		self.pushfinished = 0;

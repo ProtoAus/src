@@ -449,44 +449,43 @@ BecomeExplosion moved to fx.qc
 
 void() T_MissileTouch =
 {
-	local float	damg, rdamg, dmgtype;
+    local float  damg, rdamg, dmgtype;
+    local entity skip;  // entity to exclude from radius
+    skip = world;       // default: exclude nobody
 
-	if (other == self.owner)
-		return;		// don't explode on owner
+    if (other == self.owner)
+        return;
 
-	if (pointcontents(self.origin) == CONTENT_SKY)	{
-		remove(self);
-		return;
-	}
+    if (pointcontents(self.origin) == CONTENT_SKY) {
+        remove(self);
+        return;
+    }
 
-	// rocket can have a custom damage
-	if (self.dmg) {
-		damg = zeroconvert(self.dmg);
-		rdamg = damg;
-	}
-	else {
-		damg = 100 + random()*20;
-		rdamg = 120;
-	}
-	
-	// custom damage type
+    if (self.dmg) {
+        damg  = zeroconvert(self.dmg);
+        rdamg = damg;
+    } else {
+        damg  = 100 + random()*20;
+        rdamg = 120;
+    }
 
-	dmgtype = defaultFl(self.damagetype, DMGTYPE_EXPLOSION);
+    dmgtype = defaultFl(self.damagetype, DMGTYPE_EXPLOSION);
 
-	if (other.health)
-		T_Damage(other, self, self.owner, damg, dmgtype);
-	
-	// don't do radius damage to the other, because all the damage
-	// was done in the impact.
-	// Radius damage type will always be EXPLOSION
-	vector prev_vel = self.velocity;
-	//self.velocity = '0 0 0';
-	T_RadiusDamage (self, self.owner, rdamg, 1, other, DMGTYPE_EXPLOSION);
+    // Use takedamage instead of health, and only then exclude from radius
+    if (other.takedamage) {
+        T_Damage(other, self, self.owner, damg, dmgtype);
+        skip = other;  // direct-hit target already got its damage, so skip it in radius
+    }
 
-	self.origin = self.origin - 8*normalize(prev_vel);
+    vector prev_vel = self.velocity;
 
-	BecomeExplosion ();
-};
+    // Apply radius damage/push; direct-hit props (no takedamage) will now be included and get pushed
+    T_RadiusDamage(self, self.owner, rdamg, 1, skip, DMGTYPE_EXPLOSION);
+
+    self.origin = self.origin - 8 * normalize(prev_vel);
+
+    BecomeExplosion();
+}
 
 
 /*
