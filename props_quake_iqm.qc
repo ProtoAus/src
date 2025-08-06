@@ -13987,3 +13987,1554 @@ void() table_177 =
     PropSpawnSolidSpin90();
 };
 
+void() statue_001 =
+{
+    precache_model("models/statue/statue_001/statue_001.iqm");
+    setmodel(self, "models/statue/statue_001/statue_001.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_002 =
+{
+    precache_model("models/statue/statue_002/statue_002.iqm");
+    setmodel(self, "models/statue/statue_002/statue_002.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_003 =
+{
+    precache_model("models/statue/statue_003/statue_003.iqm");
+    setmodel(self, "models/statue/statue_003/statue_003.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_004 =
+{
+    precache_model("models/statue/statue_004/statue_004.iqm");
+    setmodel(self, "models/statue/statue_004/statue_004.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_005 =
+{
+    precache_model("models/statue/statue_005/statue_005.iqm");
+    setmodel(self, "models/statue/statue_005/statue_005.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_006 =
+{
+    precache_model("models/statue/statue_006/statue_006.iqm");
+    setmodel(self, "models/statue/statue_006/statue_006.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_007 =
+{
+    precache_model("models/statue/statue_007/statue_007.iqm");
+    setmodel(self, "models/statue/statue_007/statue_007.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_008 =
+{
+    precache_model("models/statue/statue_008/statue_008.iqm");
+    setmodel(self, "models/statue/statue_008/statue_008.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_009 =
+{
+    precache_model("models/statue/statue_009/statue_009.iqm");
+    setmodel(self, "models/statue/statue_009/statue_009.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_010 =
+{
+    precache_model("models/statue/statue_010/statue_010.iqm");
+    setmodel(self, "models/statue/statue_010/statue_010.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_011 =
+{
+    precache_model("models/statue/statue_011/statue_011.iqm");
+    setmodel(self, "models/statue/statue_011/statue_011.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_012 =
+{
+    precache_model("models/statue/statue_012/statue_012.iqm");
+    setmodel(self, "models/statue/statue_012/statue_012.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_013 =
+{
+    precache_model("models/statue/statue_013/statue_013.iqm");
+    setmodel(self, "models/statue/statue_013/statue_013.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_014 =
+{
+    precache_model("models/statue/statue_014/statue_014.iqm");
+    setmodel(self, "models/statue/statue_014/statue_014.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_015 =
+{
+    precache_model("models/statue/statue_015/statue_015.iqm");
+    setmodel(self, "models/statue/statue_015/statue_015.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_016 =
+{
+    precache_model("models/statue/statue_016/statue_016.iqm");
+    setmodel(self, "models/statue/statue_016/statue_016.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_017 =
+{
+    precache_model("models/statue/statue_017/statue_017.iqm");
+    setmodel(self, "models/statue/statue_017/statue_017.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_018 =
+{
+    precache_model("models/statue/statue_018/statue_018.iqm");
+    setmodel(self, "models/statue/statue_018/statue_018.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_019 =
+{
+    precache_model("models/statue/statue_019/statue_019.iqm");
+    setmodel(self, "models/statue/statue_019/statue_019.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_020 =
+{
+    precache_model("models/statue/statue_020/statue_020.iqm");
+    setmodel(self, "models/statue/statue_020/statue_020.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_021 =
+{
+    precache_model("models/statue/statue_021/statue_021.iqm");
+    setmodel(self, "models/statue/statue_021/statue_021.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_022 =
+{
+    precache_model("models/statue/statue_022/statue_022.iqm");
+    setmodel(self, "models/statue/statue_022/statue_022.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_023 =
+{
+    precache_model("models/statue/statue_023/statue_023.iqm");
+    setmodel(self, "models/statue/statue_023/statue_023.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_024 =
+{
+    precache_model("models/statue/statue_024/statue_024.iqm");
+    setmodel(self, "models/statue/statue_024/statue_024.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_025 =
+{
+    precache_model("models/statue/statue_025/statue_025.iqm");
+    setmodel(self, "models/statue/statue_025/statue_025.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_026 =
+{
+    precache_model("models/statue/statue_026/statue_026.iqm");
+    setmodel(self, "models/statue/statue_026/statue_026.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_027 =
+{
+    precache_model("models/statue/statue_027/statue_027.iqm");
+    setmodel(self, "models/statue/statue_027/statue_027.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_028 =
+{
+    precache_model("models/statue/statue_028/statue_028.iqm");
+    setmodel(self, "models/statue/statue_028/statue_028.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_029 =
+{
+    precache_model("models/statue/statue_029/statue_029.iqm");
+    setmodel(self, "models/statue/statue_029/statue_029.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_030 =
+{
+    precache_model("models/statue/statue_030/statue_030.iqm");
+    setmodel(self, "models/statue/statue_030/statue_030.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_031 =
+{
+    precache_model("models/statue/statue_031/statue_031.iqm");
+    setmodel(self, "models/statue/statue_031/statue_031.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_032 =
+{
+    precache_model("models/statue/statue_032/statue_032.iqm");
+    setmodel(self, "models/statue/statue_032/statue_032.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_033 =
+{
+    precache_model("models/statue/statue_033/statue_033.iqm");
+    setmodel(self, "models/statue/statue_033/statue_033.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_034 =
+{
+    precache_model("models/statue/statue_034/statue_034.iqm");
+    setmodel(self, "models/statue/statue_034/statue_034.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_035 =
+{
+    precache_model("models/statue/statue_035/statue_035.iqm");
+    setmodel(self, "models/statue/statue_035/statue_035.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_036 =
+{
+    precache_model("models/statue/statue_036/statue_036.iqm");
+    setmodel(self, "models/statue/statue_036/statue_036.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_037 =
+{
+    precache_model("models/statue/statue_037/statue_037.iqm");
+    setmodel(self, "models/statue/statue_037/statue_037.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_038 =
+{
+    precache_model("models/statue/statue_038/statue_038.iqm");
+    setmodel(self, "models/statue/statue_038/statue_038.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_039 =
+{
+    precache_model("models/statue/statue_039/statue_039.iqm");
+    setmodel(self, "models/statue/statue_039/statue_039.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_040 =
+{
+    precache_model("models/statue/statue_040/statue_040.iqm");
+    setmodel(self, "models/statue/statue_040/statue_040.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_041 =
+{
+    precache_model("models/statue/statue_041/statue_041.iqm");
+    setmodel(self, "models/statue/statue_041/statue_041.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_042 =
+{
+    precache_model("models/statue/statue_042/statue_042.iqm");
+    setmodel(self, "models/statue/statue_042/statue_042.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_043 =
+{
+    precache_model("models/statue/statue_043/statue_043.iqm");
+    setmodel(self, "models/statue/statue_043/statue_043.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_044 =
+{
+    precache_model("models/statue/statue_044/statue_044.iqm");
+    setmodel(self, "models/statue/statue_044/statue_044.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_045 =
+{
+    precache_model("models/statue/statue_045/statue_045.iqm");
+    setmodel(self, "models/statue/statue_045/statue_045.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_046 =
+{
+    precache_model("models/statue/statue_046/statue_046.iqm");
+    setmodel(self, "models/statue/statue_046/statue_046.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_047 =
+{
+    precache_model("models/statue/statue_047/statue_047.iqm");
+    setmodel(self, "models/statue/statue_047/statue_047.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_048 =
+{
+    precache_model("models/statue/statue_048/statue_048.iqm");
+    setmodel(self, "models/statue/statue_048/statue_048.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_049 =
+{
+    precache_model("models/statue/statue_049/statue_049.iqm");
+    setmodel(self, "models/statue/statue_049/statue_049.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_050 =
+{
+    precache_model("models/statue/statue_050/statue_050.iqm");
+    setmodel(self, "models/statue/statue_050/statue_050.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_051 =
+{
+    precache_model("models/statue/statue_051/statue_051.iqm");
+    setmodel(self, "models/statue/statue_051/statue_051.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_052 =
+{
+    precache_model("models/statue/statue_052/statue_052.iqm");
+    setmodel(self, "models/statue/statue_052/statue_052.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_053 =
+{
+    precache_model("models/statue/statue_053/statue_053.iqm");
+    setmodel(self, "models/statue/statue_053/statue_053.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_054 =
+{
+    precache_model("models/statue/statue_054/statue_054.iqm");
+    setmodel(self, "models/statue/statue_054/statue_054.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_055 =
+{
+    precache_model("models/statue/statue_055/statue_055.iqm");
+    setmodel(self, "models/statue/statue_055/statue_055.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_056 =
+{
+    precache_model("models/statue/statue_056/statue_056.iqm");
+    setmodel(self, "models/statue/statue_056/statue_056.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_057 =
+{
+    precache_model("models/statue/statue_057/statue_057.iqm");
+    setmodel(self, "models/statue/statue_057/statue_057.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_059 =
+{
+    precache_model("models/statue/statue_059/statue_059.iqm");
+    setmodel(self, "models/statue/statue_059/statue_059.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_060 =
+{
+    precache_model("models/statue/statue_060/statue_060.iqm");
+    setmodel(self, "models/statue/statue_060/statue_060.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_061 =
+{
+    precache_model("models/statue/statue_061/statue_061.iqm");
+    setmodel(self, "models/statue/statue_061/statue_061.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_062 =
+{
+    precache_model("models/statue/statue_062/statue_062.iqm");
+    setmodel(self, "models/statue/statue_062/statue_062.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_063 =
+{
+    precache_model("models/statue/statue_063/statue_063.iqm");
+    setmodel(self, "models/statue/statue_063/statue_063.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_064 =
+{
+    precache_model("models/statue/statue_064/statue_064.iqm");
+    setmodel(self, "models/statue/statue_064/statue_064.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_065 =
+{
+    precache_model("models/statue/statue_065/statue_065.iqm");
+    setmodel(self, "models/statue/statue_065/statue_065.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_066 =
+{
+    precache_model("models/statue/statue_066/statue_066.iqm");
+    setmodel(self, "models/statue/statue_066/statue_066.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_067 =
+{
+    precache_model("models/statue/statue_067/statue_067.iqm");
+    setmodel(self, "models/statue/statue_067/statue_067.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_068 =
+{
+    precache_model("models/statue/statue_068/statue_068.iqm");
+    setmodel(self, "models/statue/statue_068/statue_068.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_069 =
+{
+    precache_model("models/statue/statue_069/statue_069.iqm");
+    setmodel(self, "models/statue/statue_069/statue_069.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_070 =
+{
+    precache_model("models/statue/statue_070/statue_070.iqm");
+    setmodel(self, "models/statue/statue_070/statue_070.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_071 =
+{
+    precache_model("models/statue/statue_071/statue_071.iqm");
+    setmodel(self, "models/statue/statue_071/statue_071.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_072 =
+{
+    precache_model("models/statue/statue_072/statue_072.iqm");
+    setmodel(self, "models/statue/statue_072/statue_072.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_073 =
+{
+    precache_model("models/statue/statue_073/statue_073.iqm");
+    setmodel(self, "models/statue/statue_073/statue_073.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_074 =
+{
+    precache_model("models/statue/statue_074/statue_074.iqm");
+    setmodel(self, "models/statue/statue_074/statue_074.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_075 =
+{
+    precache_model("models/statue/statue_075/statue_075.iqm");
+    setmodel(self, "models/statue/statue_075/statue_075.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_076 =
+{
+    precache_model("models/statue/statue_076/statue_076.iqm");
+    setmodel(self, "models/statue/statue_076/statue_076.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_077 =
+{
+    precache_model("models/statue/statue_077/statue_077.iqm");
+    setmodel(self, "models/statue/statue_077/statue_077.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_078 =
+{
+    precache_model("models/statue/statue_078/statue_078.iqm");
+    setmodel(self, "models/statue/statue_078/statue_078.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_079 =
+{
+    precache_model("models/statue/statue_079/statue_079.iqm");
+    setmodel(self, "models/statue/statue_079/statue_079.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_080 =
+{
+    precache_model("models/statue/statue_080/statue_080.iqm");
+    setmodel(self, "models/statue/statue_080/statue_080.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_081 =
+{
+    precache_model("models/statue/statue_081/statue_081.iqm");
+    setmodel(self, "models/statue/statue_081/statue_081.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_082 =
+{
+    precache_model("models/statue/statue_082/statue_082.iqm");
+    setmodel(self, "models/statue/statue_082/statue_082.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_083 =
+{
+    precache_model("models/statue/statue_083/statue_083.iqm");
+    setmodel(self, "models/statue/statue_083/statue_083.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_084 =
+{
+    precache_model("models/statue/statue_084/statue_084.iqm");
+    setmodel(self, "models/statue/statue_084/statue_084.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_085 =
+{
+    precache_model("models/statue/statue_085/statue_085.iqm");
+    setmodel(self, "models/statue/statue_085/statue_085.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_086 =
+{
+    precache_model("models/statue/statue_086/statue_086.iqm");
+    setmodel(self, "models/statue/statue_086/statue_086.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_087 =
+{
+    precache_model("models/statue/statue_087/statue_087.iqm");
+    setmodel(self, "models/statue/statue_087/statue_087.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_088 =
+{
+    precache_model("models/statue/statue_088/statue_088.iqm");
+    setmodel(self, "models/statue/statue_088/statue_088.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_089 =
+{
+    precache_model("models/statue/statue_089/statue_089.iqm");
+    setmodel(self, "models/statue/statue_089/statue_089.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_090 =
+{
+    precache_model("models/statue/statue_090/statue_090.iqm");
+    setmodel(self, "models/statue/statue_090/statue_090.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_091 =
+{
+    precache_model("models/statue/statue_091/statue_091.iqm");
+    setmodel(self, "models/statue/statue_091/statue_091.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_092 =
+{
+    precache_model("models/statue/statue_092/statue_092.iqm");
+    setmodel(self, "models/statue/statue_092/statue_092.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_093 =
+{
+    precache_model("models/statue/statue_093/statue_093.iqm");
+    setmodel(self, "models/statue/statue_093/statue_093.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_094 =
+{
+    precache_model("models/statue/statue_094/statue_094.iqm");
+    setmodel(self, "models/statue/statue_094/statue_094.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_095 =
+{
+    precache_model("models/statue/statue_095/statue_095.iqm");
+    setmodel(self, "models/statue/statue_095/statue_095.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_096 =
+{
+    precache_model("models/statue/statue_096/statue_096.iqm");
+    setmodel(self, "models/statue/statue_096/statue_096.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_097 =
+{
+    precache_model("models/statue/statue_097/statue_097.iqm");
+    setmodel(self, "models/statue/statue_097/statue_097.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_098 =
+{
+    precache_model("models/statue/statue_098/statue_098.iqm");
+    setmodel(self, "models/statue/statue_098/statue_098.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_099 =
+{
+    precache_model("models/statue/statue_099/statue_099.iqm");
+    setmodel(self, "models/statue/statue_099/statue_099.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_100 =
+{
+    precache_model("models/statue/statue_100/statue_100.iqm");
+    setmodel(self, "models/statue/statue_100/statue_100.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_101 =
+{
+    precache_model("models/statue/statue_101/statue_101.iqm");
+    setmodel(self, "models/statue/statue_101/statue_101.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_102 =
+{
+    precache_model("models/statue/statue_102/statue_102.iqm");
+    setmodel(self, "models/statue/statue_102/statue_102.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_103 =
+{
+    precache_model("models/statue/statue_103/statue_103.iqm");
+    setmodel(self, "models/statue/statue_103/statue_103.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_104 =
+{
+    precache_model("models/statue/statue_104/statue_104.iqm");
+    setmodel(self, "models/statue/statue_104/statue_104.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_105 =
+{
+    precache_model("models/statue/statue_105/statue_105.iqm");
+    setmodel(self, "models/statue/statue_105/statue_105.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_106 =
+{
+    precache_model("models/statue/statue_106/statue_106.iqm");
+    setmodel(self, "models/statue/statue_106/statue_106.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_107 =
+{
+    precache_model("models/statue/statue_107/statue_107.iqm");
+    setmodel(self, "models/statue/statue_107/statue_107.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_108 =
+{
+    precache_model("models/statue/statue_108/statue_108.iqm");
+    setmodel(self, "models/statue/statue_108/statue_108.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_109 =
+{
+    precache_model("models/statue/statue_109/statue_109.iqm");
+    setmodel(self, "models/statue/statue_109/statue_109.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_110 =
+{
+    precache_model("models/statue/statue_110/statue_110.iqm");
+    setmodel(self, "models/statue/statue_110/statue_110.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_111 =
+{
+    precache_model("models/statue/statue_111/statue_111.iqm");
+    setmodel(self, "models/statue/statue_111/statue_111.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_112 =
+{
+    precache_model("models/statue/statue_112/statue_112.iqm");
+    setmodel(self, "models/statue/statue_112/statue_112.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_113 =
+{
+    precache_model("models/statue/statue_113/statue_113.iqm");
+    setmodel(self, "models/statue/statue_113/statue_113.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_114 =
+{
+    precache_model("models/statue/statue_114/statue_114.iqm");
+    setmodel(self, "models/statue/statue_114/statue_114.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_115 =
+{
+    precache_model("models/statue/statue_115/statue_115.iqm");
+    setmodel(self, "models/statue/statue_115/statue_115.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_116 =
+{
+    precache_model("models/statue/statue_116/statue_116.iqm");
+    setmodel(self, "models/statue/statue_116/statue_116.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_117 =
+{
+    precache_model("models/statue/statue_117/statue_117.iqm");
+    setmodel(self, "models/statue/statue_117/statue_117.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_118 =
+{
+    precache_model("models/statue/statue_118/statue_118.iqm");
+    setmodel(self, "models/statue/statue_118/statue_118.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_119 =
+{
+    precache_model("models/statue/statue_119/statue_119.iqm");
+    setmodel(self, "models/statue/statue_119/statue_119.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_120 =
+{
+    precache_model("models/statue/statue_120/statue_120.iqm");
+    setmodel(self, "models/statue/statue_120/statue_120.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_121 =
+{
+    precache_model("models/statue/statue_121/statue_121.iqm");
+    setmodel(self, "models/statue/statue_121/statue_121.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_122 =
+{
+    precache_model("models/statue/statue_122/statue_122.iqm");
+    setmodel(self, "models/statue/statue_122/statue_122.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_123 =
+{
+    precache_model("models/statue/statue_123/statue_123.iqm");
+    setmodel(self, "models/statue/statue_123/statue_123.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_124 =
+{
+    precache_model("models/statue/statue_124/statue_124.iqm");
+    setmodel(self, "models/statue/statue_124/statue_124.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_125 =
+{
+    precache_model("models/statue/statue_125/statue_125.iqm");
+    setmodel(self, "models/statue/statue_125/statue_125.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_126 =
+{
+    precache_model("models/statue/statue_126/statue_126.iqm");
+    setmodel(self, "models/statue/statue_126/statue_126.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_127 =
+{
+    precache_model("models/statue/statue_127/statue_127.iqm");
+    setmodel(self, "models/statue/statue_127/statue_127.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_128 =
+{
+    precache_model("models/statue/statue_128/statue_128.iqm");
+    setmodel(self, "models/statue/statue_128/statue_128.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_129 =
+{
+    precache_model("models/statue/statue_129/statue_129.iqm");
+    setmodel(self, "models/statue/statue_129/statue_129.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_130 =
+{
+    precache_model("models/statue/statue_130/statue_130.iqm");
+    setmodel(self, "models/statue/statue_130/statue_130.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_131 =
+{
+    precache_model("models/statue/statue_131/statue_131.iqm");
+    setmodel(self, "models/statue/statue_131/statue_131.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_132 =
+{
+    precache_model("models/statue/statue_132/statue_132.iqm");
+    setmodel(self, "models/statue/statue_132/statue_132.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_133 =
+{
+    precache_model("models/statue/statue_133/statue_133.iqm");
+    setmodel(self, "models/statue/statue_133/statue_133.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_134 =
+{
+    precache_model("models/statue/statue_134/statue_134.iqm");
+    setmodel(self, "models/statue/statue_134/statue_134.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_135 =
+{
+    precache_model("models/statue/statue_135/statue_135.iqm");
+    setmodel(self, "models/statue/statue_135/statue_135.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_136 =
+{
+    precache_model("models/statue/statue_136/statue_136.iqm");
+    setmodel(self, "models/statue/statue_136/statue_136.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_137 =
+{
+    precache_model("models/statue/statue_137/statue_137.iqm");
+    setmodel(self, "models/statue/statue_137/statue_137.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_138 =
+{
+    precache_model("models/statue/statue_138/statue_138.iqm");
+    setmodel(self, "models/statue/statue_138/statue_138.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_139 =
+{
+    precache_model("models/statue/statue_139/statue_139.iqm");
+    setmodel(self, "models/statue/statue_139/statue_139.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_140 =
+{
+    precache_model("models/statue/statue_140/statue_140.iqm");
+    setmodel(self, "models/statue/statue_140/statue_140.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_141 =
+{
+    precache_model("models/statue/statue_141/statue_141.iqm");
+    setmodel(self, "models/statue/statue_141/statue_141.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_142 =
+{
+    precache_model("models/statue/statue_142/statue_142.iqm");
+    setmodel(self, "models/statue/statue_142/statue_142.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_143 =
+{
+    precache_model("models/statue/statue_143/statue_143.iqm");
+    setmodel(self, "models/statue/statue_143/statue_143.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_144 =
+{
+    precache_model("models/statue/statue_144/statue_144.iqm");
+    setmodel(self, "models/statue/statue_144/statue_144.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_145 =
+{
+    precache_model("models/statue/statue_145/statue_145.iqm");
+    setmodel(self, "models/statue/statue_145/statue_145.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_146 =
+{
+    precache_model("models/statue/statue_146/statue_146.iqm");
+    setmodel(self, "models/statue/statue_146/statue_146.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_147 =
+{
+    precache_model("models/statue/statue_147/statue_147.iqm");
+    setmodel(self, "models/statue/statue_147/statue_147.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_148 =
+{
+    precache_model("models/statue/statue_148/statue_148.iqm");
+    setmodel(self, "models/statue/statue_148/statue_148.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_149 =
+{
+    precache_model("models/statue/statue_149/statue_149.iqm");
+    setmodel(self, "models/statue/statue_149/statue_149.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_150 =
+{
+    precache_model("models/statue/statue_150/statue_150.iqm");
+    setmodel(self, "models/statue/statue_150/statue_150.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_151 =
+{
+    precache_model("models/statue/statue_151/statue_151.iqm");
+    setmodel(self, "models/statue/statue_151/statue_151.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_152 =
+{
+    precache_model("models/statue/statue_152/statue_152.iqm");
+    setmodel(self, "models/statue/statue_152/statue_152.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_153 =
+{
+    precache_model("models/statue/statue_153/statue_153.iqm");
+    setmodel(self, "models/statue/statue_153/statue_153.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_154 =
+{
+    precache_model("models/statue/statue_154/statue_154.iqm");
+    setmodel(self, "models/statue/statue_154/statue_154.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_155 =
+{
+    precache_model("models/statue/statue_155/statue_155.iqm");
+    setmodel(self, "models/statue/statue_155/statue_155.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_156 =
+{
+    precache_model("models/statue/statue_156/statue_156.iqm");
+    setmodel(self, "models/statue/statue_156/statue_156.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_157 =
+{
+    precache_model("models/statue/statue_157/statue_157.iqm");
+    setmodel(self, "models/statue/statue_157/statue_157.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_158 =
+{
+    precache_model("models/statue/statue_158/statue_158.iqm");
+    setmodel(self, "models/statue/statue_158/statue_158.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_159 =
+{
+    precache_model("models/statue/statue_159/statue_159.iqm");
+    setmodel(self, "models/statue/statue_159/statue_159.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_160 =
+{
+    precache_model("models/statue/statue_160/statue_160.iqm");
+    setmodel(self, "models/statue/statue_160/statue_160.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_161 =
+{
+    precache_model("models/statue/statue_161/statue_161.iqm");
+    setmodel(self, "models/statue/statue_161/statue_161.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_162 =
+{
+    precache_model("models/statue/statue_162/statue_162.iqm");
+    setmodel(self, "models/statue/statue_162/statue_162.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_163 =
+{
+    precache_model("models/statue/statue_163/statue_163.iqm");
+    setmodel(self, "models/statue/statue_163/statue_163.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_164 =
+{
+    precache_model("models/statue/statue_164/statue_164.iqm");
+    setmodel(self, "models/statue/statue_164/statue_164.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_165 =
+{
+    precache_model("models/statue/statue_165/statue_165.iqm");
+    setmodel(self, "models/statue/statue_165/statue_165.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_166 =
+{
+    precache_model("models/statue/statue_166/statue_166.iqm");
+    setmodel(self, "models/statue/statue_166/statue_166.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_167 =
+{
+    precache_model("models/statue/statue_167/statue_167.iqm");
+    setmodel(self, "models/statue/statue_167/statue_167.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_168 =
+{
+    precache_model("models/statue/statue_168/statue_168.iqm");
+    setmodel(self, "models/statue/statue_168/statue_168.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_169 =
+{
+    precache_model("models/statue/statue_169/statue_169.iqm");
+    setmodel(self, "models/statue/statue_169/statue_169.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_170 =
+{
+    precache_model("models/statue/statue_170/statue_170.iqm");
+    setmodel(self, "models/statue/statue_170/statue_170.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_171 =
+{
+    precache_model("models/statue/statue_171/statue_171.iqm");
+    setmodel(self, "models/statue/statue_171/statue_171.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_172 =
+{
+    precache_model("models/statue/statue_172/statue_172.iqm");
+    setmodel(self, "models/statue/statue_172/statue_172.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_173 =
+{
+    precache_model("models/statue/statue_173/statue_173.iqm");
+    setmodel(self, "models/statue/statue_173/statue_173.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_174 =
+{
+    precache_model("models/statue/statue_174/statue_174.iqm");
+    setmodel(self, "models/statue/statue_174/statue_174.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_175 =
+{
+    precache_model("models/statue/statue_175/statue_175.iqm");
+    setmodel(self, "models/statue/statue_175/statue_175.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_176 =
+{
+    precache_model("models/statue/statue_176/statue_176.iqm");
+    setmodel(self, "models/statue/statue_176/statue_176.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_177 =
+{
+    precache_model("models/statue/statue_177/statue_177.iqm");
+    setmodel(self, "models/statue/statue_177/statue_177.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_178 =
+{
+    precache_model("models/statue/statue_178/statue_178.iqm");
+    setmodel(self, "models/statue/statue_178/statue_178.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_179 =
+{
+    precache_model("models/statue/statue_179/statue_179.iqm");
+    setmodel(self, "models/statue/statue_179/statue_179.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_180 =
+{
+    precache_model("models/statue/statue_180/statue_180.iqm");
+    setmodel(self, "models/statue/statue_180/statue_180.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_181 =
+{
+    precache_model("models/statue/statue_181/statue_181.iqm");
+    setmodel(self, "models/statue/statue_181/statue_181.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_182 =
+{
+    precache_model("models/statue/statue_182/statue_182.iqm");
+    setmodel(self, "models/statue/statue_182/statue_182.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_183 =
+{
+    precache_model("models/statue/statue_183/statue_183.iqm");
+    setmodel(self, "models/statue/statue_183/statue_183.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_184 =
+{
+    precache_model("models/statue/statue_184/statue_184.iqm");
+    setmodel(self, "models/statue/statue_184/statue_184.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_185 =
+{
+    precache_model("models/statue/statue_185/statue_185.iqm");
+    setmodel(self, "models/statue/statue_185/statue_185.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_186 =
+{
+    precache_model("models/statue/statue_186/statue_186.iqm");
+    setmodel(self, "models/statue/statue_186/statue_186.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_187 =
+{
+    precache_model("models/statue/statue_187/statue_187.iqm");
+    setmodel(self, "models/statue/statue_187/statue_187.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_188 =
+{
+    precache_model("models/statue/statue_188/statue_188.iqm");
+    setmodel(self, "models/statue/statue_188/statue_188.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_189 =
+{
+    precache_model("models/statue/statue_189/statue_189.iqm");
+    setmodel(self, "models/statue/statue_189/statue_189.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_190 =
+{
+    precache_model("models/statue/statue_190/statue_190.iqm");
+    setmodel(self, "models/statue/statue_190/statue_190.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_191 =
+{
+    precache_model("models/statue/statue_191/statue_191.iqm");
+    setmodel(self, "models/statue/statue_191/statue_191.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_192 =
+{
+    precache_model("models/statue/statue_192/statue_192.iqm");
+    setmodel(self, "models/statue/statue_192/statue_192.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_193 =
+{
+    precache_model("models/statue/statue_193/statue_193.iqm");
+    setmodel(self, "models/statue/statue_193/statue_193.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_194 =
+{
+    precache_model("models/statue/statue_194/statue_194.iqm");
+    setmodel(self, "models/statue/statue_194/statue_194.iqm");
+
+    PropSpawnSolidSpin90();
+};
+
+void() statue_195 =
+{
+    precache_model("models/statue/statue_195/statue_195.iqm");
+    setmodel(self, "models/statue/statue_195/statue_195.iqm");
+
+    PropSpawnSolidSpin90();
+};
