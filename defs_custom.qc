@@ -8,11 +8,13 @@
 .float ammo_type;
 .float fade_time;  
 
+//#define SolidNotFlag  2
+
 const float ITEM_BLAST_SCALE = 2;
 const float BT_SNEAK = (1 << 22);
 const float EF_NOMODELFLAGS = 8388608;
 
-#define USE_MASK   (MOVE_NOMONSTERS | MOVE_TRIGGERS)  // +MOVE_SUPERCONTENTS if you rely on it
+//#define USE_MASK   (MOVE_NOMONSTERS | MOVE_TRIGGERS)  // +MOVE_SUPERCONTENTS if you rely on it
 const float  USE_DIST = 3000;                           // reach (units)
 const vector USE_MINS = '-4 -4 -4',                   // small pick‑up box
 USE_MAXS = ' 4  4  4';
@@ -31,8 +33,7 @@ USE_MAXS = ' 4  4  4';
 #define DUCK_MAX  '16 16 16'      // lower the head
 #define DUCK_VIEW '0 0 12'
 
-const int SOLID_MASK = 1|2|4|8|16;
-const int MOVETYPE_MASK = 256|512|1024|2048;
+
 
 #pragma target fte
 

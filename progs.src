@@ -68,6 +68,7 @@ jumppad.qc
 use.qc
 //cutscene.qc
 //pmove.qc
+props_defs.qc
 prop_hunt.qc
 props_quake_mdl.qc
 props_quake_iqm.qc
