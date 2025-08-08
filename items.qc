@@ -890,51 +890,7 @@ void() weapon_plasmagun =
 	StartItem ();
 };
 
-#define MAX_RANDOM_WEAPONS 11
 
-void() info_randomweapon =
-{
-    if (!SUB_InitEntity()) return;    // set up itemstyle, precache sounds, etc.
-    SpawnRandomWeapon(self.origin);
-    remove(self);
-};
-
-entity(vector org) SpawnRandomWeapon =
-{
-    local float   r = floor(random() * MAX_RANDOM_WEAPONS);
-    local entity  e;
-    local entity  oldself = self;
-
-    e = spawn();
-    self = e;
-    setorigin(self, org);
-
-    if      (r == 0) { self.classname = "weapon_shotgun";			self.model = "progs/g_shot1.mdl";	self.weapon = WEAPON_SHOTGUN;			self.ammo_shells = 10;	self.netname = "Shotgun";}
-    else if (r == 1) { self.classname = "weapon_supershotgun";		self.model = "progs/g_shot.mdl";	self.weapon = WEAPON_SUPER_SHOTGUN;		self.ammo_shells = 10;	self.netname = "Super Shotgun";}
-    else if (r == 2) { self.classname = "weapon_nailgun";			self.model = "progs/g_nail.mdl";	self.weapon = WEAPON_NAILGUN;			self.ammo_nails = 30;	self.netname = "Nailgun";}
-    else if (r == 3) { self.classname = "weapon_supernailgun";		self.model = "progs/g_nail2.mdl";	self.weapon = WEAPON_SUPER_NAILGUN;		self.ammo_nails = 30;	self.netname = "Super Nailgun";}
-    else if (r == 4) { self.classname = "weapon_grenadelauncher";	self.model = "progs/g_rock.mdl";	self.weapon = WEAPON_GRENADE_LAUNCHER;	self.ammo_rockets = 5;	self.netname = "Grenade Launcher";}
-    else if (r == 5) { self.classname = "weapon_proximity_gun"; 	self.model = "progs/g_mine.mdl";	self.weapon = WEAPON_PROXIMITY_GUN;		self.ammo_rockets = 5;	self.netname = "Proximity Launcher";}
-    else if (r == 6) { self.classname = "weapon_rocketlauncher";	self.model = "progs/g_rock2.mdl";	self.weapon = WEAPON_ROCKET_LAUNCHER;	self.ammo_rockets = 5;	self.netname = "Rocket Launcher";}
-    else if (r == 7) { self.classname = "weapon_lightning";     	self.model = "progs/g_light.mdl";	self.weapon = WEAPON_LIGHTNING;			self.ammo_cells = 20;	self.netname = "Lightning Gun";}
-    else if (r == 8) { self.classname = "weapon_chainsaw";      	self.model = "progs/g_saw.mdl";		self.weapon = WEAPON_CHAINSAW;									self.netname = "Chainsaw";}
-    else if (r == 9) { self.classname = "weapon_laser_gun";     	self.model = "progs/g_laserg.mdl";	self.weapon = WEAPON_LASER_CANNON;		self.ammo_cells = 20;	self.netname = "Laser Gun";}
-    else             { self.classname = "weapon_plasmagun";      	self.model = "progs/g_plasma.mdl";	self.weapon = WEAPON_PLASMA;			self.ammo_cells = 20;	self.netname = "Plasma Gun";}
-
-    precache_model(self.model);
-    setmodel(self, self.model);
-    self.solid     = SOLID_TRIGGER;
-    self.movetype  = MOVETYPE_TOSS;
-    setsize(self, '-16 -16 0', '16 16 56');
-    self.touch     = weapon_touch;
-    self.owner     = world;
-
-    self.nextthink = time + 0.1;
-    self.think     = WeaponLandThink;
-
-    self = oldself;
-    return e;
-};
 
 /*
 ===============================================================================

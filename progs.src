@@ -29,6 +29,7 @@ ai.qc
 combat.qc
 cshift.qc
 items.qc
+items_random.qc
 keylock.qc
 
 weapons_animate.qc

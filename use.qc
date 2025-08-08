@@ -33,6 +33,7 @@ void() dbg_lg =
 // --- use key ---
 void PlayerUseKey(void)
 {
+
     makevectors(self.v_angle);
 
     vector start = self.origin + self.view_ofs;

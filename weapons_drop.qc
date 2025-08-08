@@ -188,13 +188,9 @@ void() WeaponLandThink =
         return;
     }
 
-    /*if (self.netname != "Axe" && self.netname != "nail" && self.netname != "shell"
-     && self.netname != "cell" && self.netname != "rocket")
-    {
-        AlignToSlope();
-    }*/
     AlignToSlope();
     self.solid = SOLID_TRIGGER;
+//    setsize(self, ITEM_MIN, ITEM_MAX);
     self.touch = weapon_touch;
     self.owner = world;
     self.think = SUB_Null;
