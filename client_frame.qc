@@ -372,8 +372,8 @@ void() WaterMove =
 		self.jboots_ammo = self.jboots_rechargelimit;
 	}
 
-	if (! (self.flags & FL_WATERJUMP) )
-		self.velocity = self.velocity - 0.8*self.waterlevel*frametime*self.velocity;
+//	if (! (self.flags & FL_WATERJUMP) )
+//		self.velocity = self.velocity - 0.05*self.waterlevel*frametime*self.velocity
 };
 
 void() CheckWaterJump =
@@ -414,137 +414,109 @@ Called every frame before physics are run
 */
 void() PlayerPreThink =
 {
-//	local	float	mspeed, aspeed;
-//	local	float	r;
+    gameloaded = 1;
+    self.light_lev = 0;
+    self.dmg_take_hud = 0;
 
-	gameloaded = 1;
-	self.light_lev = 0; // resets dimlight flags for powerups/status effects
-
-	self.dmg_take_hud = 0;
-	
-	if (cleanUpClientStuff) {
-		fog_setFromEnt( self, self );
-		csf_apply(self);
-		if (self.sky != world.sky) skybox_apply(self);
-	}
-	
-	if (intermission_running)
-	{
-		IntermissionThink ();	// otherwise a button could be missed between
-		return;					// the think tics
-	}
-
-	if (self.view_ofs == '0 0 0')
-		return;		// intermission or finale
-
-	if (self.groundentity)
-		self.prev_groundvel = self.groundentity.velocity;
-	else 
-		self.prev_groundvel = '0 0 0';
-
-	self.wasonground = (self.flags & FL_ONGROUND) ? 1 : 0;
-
-	makevectors (self.v_angle);		// is this still used
-	//dprint5("vectoyaw: ", ftos(vectoyaw(v_forward)), ", vectoyaw2: ", ftos(vectoyaw2(v_forward)), "\n");
-	CheckRules ();
-	WaterMove ();
-
-	if (self.waterlevel == 2 && !self.onladder)
-		CheckWaterJump ();
-
-	if (self.deadflag >= DEAD_DEAD)
-	{
-		PlayerDeathThink ();
-		return;
-	}
-	
-	if (self.deadflag == DEAD_DYING)
-		return;	// dying, so do nothing
-
-
-	if (self.onladder) {
-		
-		if (fabs(self.velocity_x) < 1 && fabs(self.velocity_y) < 1 &&
-			self.velocity_z < 0 && self.velocity_z > -42 &&
-			!(self.flags & FL_WATERJUMP) &&
-			self.v_angle_x < 90
-		) {
-			self.velocity_z = 0;
-		}
-
-		self.velocity_x *= 0.9;
-		self.velocity_y *= 0.9;
-
-		if (fabs(self.velocity_z) > 160) {
-			if (self.velocity_z > 0) self.velocity_z = 160;
-			else self.velocity_z = -160;
-		}
-
-		if (self.velocity_z == 0) {
-			self.ladder_step_height = self.origin_z + 49;
-		}
-
-		if (
-			(
-				(self.onladder && !self.wasonladder) ||
-				(self.onladder && self.wasonladder && fabs(self.origin_z - self.ladder_step_height) > 48)
-			) && (self.velocity_z != 0)
-
-		)
-		{
-			self.ladder_step_height = self.origin_z;
-
-			if (random() > 0.5)
-				sound (self, CHAN_AUTO, "misc/ladder.wav", 0.5, ATTN_NORM);
-			else
-				sound (self, CHAN_AUTO, "misc/ladder2.wav", 0.5, ATTN_NORM);
-		}
-	}		
-	else
-	{
-		self.gravity = self.wantedgravity; 
-
-	}
-
-	if (self.button2)
-		PlayerJump ();
-	else
-		self.flags = self.flags | FL_JUMPRELEASED;
-
-// teleporters can force a non-moving pause time	
-	if (time < self.pausetime)
-		self.velocity = '0 0 0';
-
-	float stat = W_CheckWeapon(self.weapon, self);
-    if (time > self.attack_finished && stat == WEAPONSTAT_NOWEAPON)
-    {
-        W_ChangeWeapon(W_BestWeapon());
+    if (cleanUpClientStuff) {
+        fog_setFromEnt(self, self);
+        csf_apply(self);
+        if (self.sky != world.sky) skybox_apply(self);
+        cleanUpClientStuff = 0; // run once
     }
-	
-	
-	if (self.jboots_rechargelimit && (self.flags & FL_ONGROUND))		//jcr jboots prethink for onground checking
-		self.jboots_onground = TRUE;
-	
-	// sanity check for cshift every few frames
-	if (framecount & 4) {
-		if (self.csf_priority == 0 && self.csf_density > 0)
-			csf_clear_all(self);
-	}
 
-	checkClientInWaterBrush();
-	if (self.onladder){
-		self.gravity = 0.00000001;
-		self.waterlevel = 2;
-	}
-	self.wasonladder = self.onladder;
-	self.onladder = 0;
+    if (intermission_running) { IntermissionThink(); return; }
+    if (self.view_ofs == '0 0 0') return;     // intermission/finale
 
+    // dead first (no need to do anything else)
+    if (self.deadflag >= DEAD_DEAD) { PlayerDeathThink(); return; }
+    if (self.deadflag == DEAD_DYING) return;
 
-	if (self.waterlevel < 2 && time < self.pushfinished) {
-		ClientPush();// jumppad.qc
-	}
+    // cache ground vel
+    if (self.groundentity) self.prev_groundvel = self.groundentity.velocity;
+    else                   self.prev_groundvel = '0 0 0';
 
-};
+    self.wasonground = (self.flags & FL_ONGROUND) ? 1 : 0;
+
+    // Only compute vectors if something below needs v_forward this frame
+    // (most funcs compute their own anyway)
+    // makevectors(self.v_angle);
+
+    // Rule checks don’t need every frame
+    if (!(framecount & 7)) CheckRules();
+
+    WaterMove();
+    if (self.waterlevel == 2 && !self.onladder) CheckWaterJump();
+
+    // Ladder handling
+    if (self.onladder)
+    {
+        // XY damping
+        self.velocity_x *= 0.9;
+        self.velocity_y *= 0.9;
+
+        // clamp Z and stop gentle slide
+        if (self.velocity_z < 0 && self.velocity_z > -42
+            && !(self.flags & FL_WATERJUMP) && self.v_angle_x < 90)
+            self.velocity_z = 0;
+
+        self.velocity_z = bound(-160, self.velocity_z, 160);
+
+        if (self.velocity_z == 0) self.ladder_step_height = self.origin_z + 49;
+
+        // step sound on entering or moving >48u between rungs
+        if ( (self.onladder && !self.wasonladder)
+          || (self.onladder && self.wasonladder && fabs(self.origin_z - self.ladder_step_height) > 48) )
+        {
+            self.ladder_step_height = self.origin_z;
+            sound(self, CHAN_AUTO, (random() > 0.5) ? "misc/ladder.wav" : "misc/ladder2.wav", 0.5, ATTN_NORM);
+        }
+
+        // zero-g feel on ladder
+        self.gravity = 0.00000001;
+        self.waterlevel = 2; // if you really need this hack
+    }
+    else
+    {
+        self.gravity = self.wantedgravity;
+    }
+
+    if (self.button2) PlayerJump();
+    else              self.flags |= FL_JUMPRELEASED;
+
+    // teleporter pause
+    if (time < self.pausetime) self.velocity = '0 0 0';
+
+    // Only check weapon when the cooldown is over, and not every single frame
+    if (time > self.attack_finished) {
+        static float next_wep_check;
+        if (time >= next_wep_check) {
+            float stat = W_CheckWeapon(self.weapon, self);
+            if (stat == WEAPONSTAT_NOWEAPON) W_ChangeWeapon(W_BestWeapon());
+            next_wep_check = time + 0.1; // 10 Hz is plenty
+        }
+    }
+
+    if (self.jboots_rechargelimit && (self.flags & FL_ONGROUND))
+        self.jboots_onground = TRUE;
+
+    // cshift sanity every few frames (already throttled)
+    if (framecount & 4) {
+        if (self.csf_priority == 0 && self.csf_density > 0)
+            csf_clear_all(self);
+    }
+
+    // Water brush probe doesn’t need every frame
+    if (!(framecount & 3)) checkClientInWaterBrush();
+
+    // ladder book-keeping
+    self.wasonladder = self.onladder;
+    self.onladder = 0;
+
+    // Jump pads: only call if recently hit
+    if (self.waterlevel < 2 && time < self.pushfinished)
+        ClientPush();
+}
 	
 /*
 ================
@@ -859,8 +831,6 @@ void() CheckBurning = {
 		}
 	}
 };
-
-
 
 /*
 ================

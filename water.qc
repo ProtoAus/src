@@ -24,7 +24,7 @@ void() startupWaterBrushes = {
 	}
 };
 
-void() entity_watercheck = {
+/*void() entity_watercheck = {
 
 	float ct = pointcontents2(self.origin);
 
@@ -54,7 +54,7 @@ void() entity_watercheck = {
 	else {
 		if (self.flags & FL_SWIM2) self.flags &~= FL_FLY;
 
-		if (self.flags & (FL_INWATER | FL_INLIQUIDBRUSH) == FL_INWATER | FL_INLIQUIDBRUSH){
+		if (self.flags & (FL_INWATER | FL_INLIQUIDBRUSH)) == (FL_INWATER | FL_INLIQUIDBRUSH){
 			sound (self, CHAN_AUTO, "misc/h2ohit1.wav", 1, ATTN_NORM);
 		}
 
@@ -76,7 +76,7 @@ void() entity_watercheck = {
 	if (touchedliquidbrush) self.flags |= FL_INLIQUIDBRUSH;
 	else self.flags &~= FL_INLIQUIDBRUSH;
 	
-}
+}*/
 
 void() checkClientInWaterBrush = {
 	entity e;

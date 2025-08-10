@@ -245,6 +245,8 @@ void(vector org, vector direction, vector dest) drawTracer = {
 	
 };
 
+void(vector pos, vector n, entity hit) BH_SendEvent;
+
 /*
 ================
 TraceAttack
@@ -295,7 +297,7 @@ void(float damage, vector dir, float penetrate) TraceAttack =
 		if (trace_fraction != 1.0) {
 			//dprint3("Trace penetrated hit: ", trace_ent.classname, "\n");
 			TraceAttack(damage, dir, FALSE);
-			placebullethole(trace_endpos, trace_plane_normal, trace_ent);
+			PlaceStaticHoleAtImpact();
 		}
 		//else dprint("Trace penetrated\n");
 	}
@@ -340,7 +342,7 @@ void(float shotcount, vector dir, vector spread) FireBullets =
 			//JIM
 			TraceAttack(4, direction, penetrate);
 
-			placebullethole(trace_endpos, plane_normal, trace_ent);
+			PlaceStaticHoleAtImpact();
 
 		}
 		shotcount = shotcount - 1;
@@ -381,7 +383,7 @@ void(float shotcount, float dmg, vector org, vector dir, vector spread, float ce
 			
 			TraceAttack(dmg, direction, penetrate);
 
-			placebullethole(endpoint, plane_normal, ent_hit);
+			PlaceStaticHoleAtImpact();
 
 		}
 		shotcount = shotcount - 1;
@@ -1155,95 +1157,53 @@ void(float ox) W_FireSpikes =
 	//self.punchangle_x = -2;
 };
 
-
-
 void() spike_touch =
 {
-	local float damage;
-	if (other == self.owner)
-		return;
+    if (other == self.owner) return;
+    if (other.solid == SOLID_TRIGGER) return;
+    if (pointcontents(self.origin) == CONTENT_SKY) { remove(self); return; }
 
-	if (other.solid == SOLID_TRIGGER)
-		return;	// trigger field, do nothing
+    if (other.takedamage) {
+        float damage = zeroconvertdefault(self.dmg, 9);
+        spawn_touchblood(damage);
+        T_Damage(other, self, self.owner, damage, DMGTYPE_BALLISTIC);
+    } else {
+        WriteByte(MSG_BROADCAST, SVC_TEMPENTITY);
+        WriteByte(MSG_BROADCAST, (self.classname == "wizspike") ? TE_WIZSPIKE :
+                                   (self.classname == "knightspike") ? TE_KNIGHTSPIKE : TE_SPIKE);
+        WriteCoord(MSG_BROADCAST, self.origin_x);
+        WriteCoord(MSG_BROADCAST, self.origin_y);
+        WriteCoord(MSG_BROADCAST, self.origin_z);
 
-	if (pointcontents(self.origin) == CONTENT_SKY)
-	{
-		remove(self);
-		return;
-	}
-	
-// hit something that bleeds
-	if (other.takedamage)
-	{
-		damage = zeroconvertdefault(self.dmg, 9);
-		spawn_touchblood(damage);
-		T_Damage(other, self, self.owner, damage, DMGTYPE_BALLISTIC);
-	}
-	else
-	{
-		WriteByte (MSG_BROADCAST, SVC_TEMPENTITY);
-		
-		if (self.classname == "wizspike")
-			WriteByte (MSG_BROADCAST, TE_WIZSPIKE);
-		else if (self.classname == "knightspike")
-			WriteByte (MSG_BROADCAST, TE_KNIGHTSPIKE);
-		else
-			WriteByte (MSG_BROADCAST, TE_SPIKE);
+        if (self.owner.classname != "trap_shooter" && self.owner.classname != "trap_spikeshooter")
+            PlaceStaticHoleAtImpact();
+    }
 
-		WriteCoord (MSG_BROADCAST, self.origin_x);
-		WriteCoord (MSG_BROADCAST, self.origin_y);
-		WriteCoord (MSG_BROADCAST, self.origin_z);
-
-		if (self.owner.classname != "trap_shooter" && self.owner.classname != "trap_spikeshooter") {
-			makevectors([-self.angles_x, self.angles_y, self.angles_z]);
-			traceline(self.origin, self.origin + v_forward*32, TRUE, self);
-			if (trace_fraction != 1) placebullethole(trace_endpos, trace_plane_normal, trace_ent);
-		}
-	}
-
-	remove(self);
-
+    remove(self);
 };
 
 void() superspike_touch =
 {
-	local float damage;
-	if (other == self.owner)
-		return;
+    if (other == self.owner) return;
+    if (other.solid == SOLID_TRIGGER) return;
+    if (pointcontents(self.origin) == CONTENT_SKY) { remove(self); return; }
 
-	if (other.solid == SOLID_TRIGGER)
-		return;	// trigger field, do nothing
+    if (other.takedamage) {
+        float damage = zeroconvertdefault(self.dmg, 18);
+        spawn_touchblood(damage);
+        T_Damage(other, self, self.owner, damage, DMGTYPE_BALLISTIC);
+    } else {
+        WriteByte(MSG_BROADCAST, SVC_TEMPENTITY);
+        WriteByte(MSG_BROADCAST, TE_SUPERSPIKE);
+        WriteCoord(MSG_BROADCAST, self.origin_x);
+        WriteCoord(MSG_BROADCAST, self.origin_y);
+        WriteCoord(MSG_BROADCAST, self.origin_z);
 
-	if (pointcontents(self.origin) == CONTENT_SKY)
-	{
-		remove(self);
-		return;
-	}
-	
-// hit something that bleeds
-	if (other.takedamage)
-	{
-		damage = zeroconvertdefault(self.dmg, 18);
-		spawn_touchblood(damage);
-		T_Damage(other, self, self.owner, damage, DMGTYPE_BALLISTIC);
-	}
-	else
-	{
-		WriteByte (MSG_BROADCAST, SVC_TEMPENTITY);
-		WriteByte (MSG_BROADCAST, TE_SUPERSPIKE);
-		WriteCoord (MSG_BROADCAST, self.origin_x);
-		WriteCoord (MSG_BROADCAST, self.origin_y);
-		WriteCoord (MSG_BROADCAST, self.origin_z);
+        if (self.owner.classname != "trap_shooter" && self.owner.classname != "trap_spikeshooter")
+            PlaceStaticHoleAtImpact();
+    }
 
-		if (self.owner.classname != "trap_shooter" && self.owner.classname != "trap_spikeshooter") {
-			makevectors([-self.angles_x, self.angles_y, self.angles_z]);
-			traceline(self.origin, self.origin + v_forward*32, TRUE, self);
-			if (trace_fraction != 1) placebullethole(trace_endpos, trace_plane_normal, trace_ent);
-		}
-	}
-
-	remove(self);
-
+    remove(self);
 };
 
 //=============================================================================

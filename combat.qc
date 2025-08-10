@@ -466,7 +466,7 @@ void(entity inflictor, entity attacker, float damage, float radiusscale, entity 
                 }
             }
             /* -------- physics props -------- */
-            else if (head.movetype == MOVETYPE_TOSS || head.movetype == MOVETYPE_BOUNCE || head.movetype == MOVETYPE_FLY)
+            else if (head.movetype_saved == MOVETYPE_TOSS || head.movetype_saved == MOVETYPE_BOUNCE || head.movetype_saved == MOVETYPE_FLY)
             {
                 org  = head.origin + (head.mins + head.maxs) * 0.5;
                 float dist       = vlen(inflictor.origin - org);
@@ -475,6 +475,9 @@ void(entity inflictor, entity attacker, float damage, float radiusscale, entity 
 
                 if (points > 0)
                 {
+					head.movetype = head.movetype_saved;
+					head.think = Prop_AlignThink;
+					head.nextthink = time + 0.1;
                     dir  = normalize( (org - '0 0 -32') - inflictor.origin );
                     push = points / max(head.mass, 0.1);
 

@@ -54,7 +54,7 @@ void() info_rotate =
 	self.think = SUB_Remove;
 }
 
-void() RotateTargets =
+/*void() RotateTargets =
 {
 	local entity ent;
 	local vector vx;
@@ -101,6 +101,49 @@ void() RotateTargets =
 		}
 		ent = find( ent, targetname, self.target);
 	}
+}*/
+
+void() RotateTargets =
+{
+    local entity ent;
+    local vector org, base;
+    local vector vf, vr, vu, dself;
+
+    // Build orthonormal basis once
+    makevectors(self.angles);
+    vf = v_forward;
+    vr = v_right;
+    vu = v_up;
+
+    // How far the controller moved since last tick (used by the velocity case)
+    dself = self.origin - self.oldorigin;
+
+    // Single pass over matches
+    for (ent = find(world, targetname, self.target); ent; ent = find(ent, targetname, self.target))
+    {
+        org = ent.oldorigin;
+
+        // Rotate point: [x,y,z] in old local space -> world using current basis
+        // (note the -vr*org_y instead of vr*org_y; you were doing vy*=-1)
+        base = vf * org_x - vr * org_y + vu * org_z;
+
+        if (ent.rotate_type == OBJECT_ROTATE)
+        {
+            ent.angles = self.angles;
+            setorigin(ent, base + self.origin);
+        }
+        else if (ent.rotate_type == OBJECT_SETORIGIN)
+        {
+            setorigin(ent, base + self.origin);
+        }
+        else
+        {
+            // Match your original: compute the *target* position then drive there by velocity
+            local vector newpos;
+            newpos = dself + base - ent.oldorigin; // = self.origin-self.oldorigin + (base - ent.oldorigin)
+            ent.velocity = (newpos - ent.origin) * 25;
+        }
+    }
 }
 
 void() RotateTargetsFinal =
@@ -218,7 +261,7 @@ void() rotate_entity_think =
 	self.angles = self.angles + (self.rotate * t );
 	self.angles = normalizeAngles(self.angles);
 	RotateTargets();
-	self.nextthink = time + 0.02;
+	self.nextthink = time + 0.04;
 }
 
 void() rotate_entity_use =

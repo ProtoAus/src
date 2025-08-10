@@ -3,7 +3,8 @@ void() misc_barrel =
     precache_model ("progs/misc_barrel.mdl");
     setmodel(self, "progs/misc_barrel.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_barrel2 =
@@ -11,7 +12,8 @@ void() misc_barrel2 =
     precache_model ("progs/misc_barrel2.mdl");
     setmodel(self, "progs/misc_barrel2.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_barrelq2 =
@@ -19,7 +21,8 @@ void() misc_barrelq2 =
     precache_model ("progs/misc_barrelq2.mdl");
     setmodel(self, "progs/misc_barrelq2.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_charger =
@@ -27,7 +30,8 @@ void() misc_charger =
     precache_model ("progs/misc_charger.mdl");
     setmodel(self, "progs/misc_charger.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_extngshr =
@@ -35,7 +39,8 @@ void() misc_extngshr =
     precache_model ("progs/misc_extngshr.mdl");
     setmodel(self, "progs/misc_extngshr.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_gen1 =
@@ -43,7 +48,8 @@ void() misc_gen1 =
     precache_model ("progs/misc_gen1.mdl");
     setmodel(self, "progs/misc_gen1.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_gen2 =
@@ -51,7 +57,8 @@ void() misc_gen2 =
     precache_model ("progs/misc_gen2.mdl");
     setmodel(self, "progs/misc_gen2.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_gen3 =
@@ -59,9 +66,8 @@ void() misc_gen3 =
     precache_model ("progs/misc_gen3.mdl");
     setmodel(self, "progs/misc_gen3.mdl");
 
-    PropSpawnSolid();
-
-    
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_heating =
@@ -69,7 +75,8 @@ void() misc_heating =
     precache_model ("progs/misc_heating.mdl");
     setmodel(self, "progs/misc_heating.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_hummer =
@@ -77,7 +84,8 @@ void() misc_hummer =
     precache_model ("progs/misc_hummer.mdl");
     setmodel(self, "progs/misc_hummer.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_lightpost =
@@ -85,7 +93,8 @@ void() misc_lightpost =
     precache_model ("progs/misc_lightpost.mdl");
     setmodel(self, "progs/misc_lightpost.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_lighttube =
@@ -93,7 +102,8 @@ void() misc_lighttube =
     precache_model ("progs/misc_lighttube.mdl");
     setmodel(self, "progs/misc_lighttube.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_pallet =
@@ -101,7 +111,8 @@ void() misc_pallet =
     precache_model ("progs/misc_pallet.mdl");
     setmodel(self, "progs/misc_pallet.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_seaweed =
@@ -109,7 +120,8 @@ void() misc_seaweed =
     precache_model ("progs/misc_seaweed.mdl");
     setmodel(self, "progs/misc_seaweed.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_seaweed2 =
@@ -117,7 +129,8 @@ void() misc_seaweed2 =
     precache_model ("progs/misc_seaweed2.mdl");
     setmodel(self, "progs/misc_seaweed2.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_smoke01 =
@@ -125,7 +138,8 @@ void() misc_smoke01 =
     precache_model ("progs/misc_smoke.mdl");
     setmodel(self, "progs/misc_smoke.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_stool =
@@ -133,7 +147,8 @@ void() misc_stool =
     precache_model ("progs/misc_stool.mdl");
     setmodel(self, "progs/misc_stool.mdl");
 
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };
 
 void() misc_workbench =
@@ -141,5 +156,6 @@ void() misc_workbench =
     precache_model ("progs/misc_workbench.mdl");
     setmodel(self, "progs/misc_workbench.mdl");
     
-    PropSpawnSolid();
+    PropSpawnDynamic();
+    setorigin(self, self.origin);
 };

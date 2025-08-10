@@ -1,20 +1,12 @@
+#pragma target fte
+#pragma target fte_5768
 .float mass;
-.float die;
 .float gun_slots;
 .float melee_slot;
-.float lg_firing;     // 0/1: are we currently holding LG fire?
-.float lg_nextshot;
-.float lg_active;
-.float ammo_type;
-.float fade_time;  
 
-//#define SolidNotFlag  2
+const float ITEM_BLAST_SCALE = 1;
+//const float EF_NOMODELFLAGS = 8388608;
 
-const float ITEM_BLAST_SCALE = 2;
-const float BT_SNEAK = (1 << 22);
-const float EF_NOMODELFLAGS = 8388608;
-
-//#define USE_MASK   (MOVE_NOMONSTERS | MOVE_TRIGGERS)  // +MOVE_SUPERCONTENTS if you rely on it
 const float  USE_DIST = 3000;                           // reach (units)
 const vector USE_MINS = '-4 -4 -4',                   // small pick‑up box
 USE_MAXS = ' 4  4  4';
@@ -34,8 +26,6 @@ USE_MAXS = ' 4  4  4';
 #define DUCK_VIEW '0 0 12'
 
 
-
-#pragma target fte
 
 float(float lo, float hi) frand = { return lo + random() * (hi - lo); };
 

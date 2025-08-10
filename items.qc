@@ -229,11 +229,11 @@ void() PlaceItem = {
 	}
 	else {
 		self.movetype = MOVETYPE_TOSS;
-		if (self.weapon && self.classname == "weapon") {
+/*		if (self.weapon && self.classname == "weapon") {
 //		if (self.weapon && substring(self.classname, 0, 7) == "weapon_" && self.classname == "weapon"){
 			self.think     = WeaponLandThink;
 			self.nextthink = time + 0.1;
-		}
+		}*/
 		if(!(self.spawnflags & ITEM_DONTDROP)) {	
 			self.velocity = '0 0 0';
 			setorigin (self, self.origin + '0 0 6');
@@ -256,11 +256,12 @@ void() PlaceItem = {
 
 		self.use = DelaySpawnItem;
 	}
-	if (self.netname == "nail" || self.netname == "shell" || self.netname == "rocket" || self.netname == "cell")
+	/*if (self.netname == "nail" || self.netname == "shell" || self.netname == "rocket" || self.netname == "cell")
 	{
 		self.think = align_think;
 		self.nextthink = time + 0.5;
-	}
+	}*/
+	Prop_VisInit();
 };
 
 
@@ -336,6 +337,7 @@ void() item_health = {
 		if (self.itemstyle == ITEMSTYLE_MDL) model = "progs/m_h15.mdl";
 		else model = "maps/b_bh10.bsp";
 		self.noise = "items/r_item1.wav";
+		self.classname = "healthsmall";
 		self.healamount = 10;
 		self.healtype = 0;
 	}
@@ -343,6 +345,7 @@ void() item_health = {
 		if (self.itemstyle == ITEMSTYLE_MDL) model = "progs/m_h100.mdl";
 		else model = "maps/b_bh100.bsp";
 		self.noise = "items/r_item2.wav";
+		self.classname = "healthlarge";
 		self.healamount = 50;
 		self.healtype = 2;
 	}
@@ -350,6 +353,7 @@ void() item_health = {
 		if (self.itemstyle == ITEMSTYLE_MDL) model = "progs/m_h25.mdl";
 		else model = "maps/b_bh25.bsp";
 		self.noise = "items/health1.wav";
+		self.classname = "healthmedium";
 		self.healamount = 25;
 		self.healtype = 1;
 	}
@@ -369,12 +373,15 @@ void() item_healthvial = {
 	precache_model("progs/health_5.mdl");
 	setmodel(self, "progs/health_5.mdl");
 	precache_sound("items/r_item1.wav");
+	self.solid = SOLID_TRIGGER;
+	self.classname = "healthvial";
 	self.healamount = 5;
 	self.healtype = 0;
 	self.mass = 0.2;
 	self.movetype = MOVETYPE_BOUNCE;
 	setsize(self, '-16 -16 0', '16 16 32');
 	StartItem();
+	Prop_VisInit();
 };
 
 void() health_touch = {
@@ -530,13 +537,18 @@ void() item_armor_shard = {
 	self.touch = shard_touch;
 	precache_model("progs/shard.mdl");
 	setmodel(self, "progs/shard.mdl");
+	self.solid = SOLID_TRIGGER;
 	precache_sound("items/shard_pickup.wav");
+	self.classname = "armorshard";
 	self.skin = 0;
 	self.flags |= FL_FINDABLE_NONSOLID;
 	self.mass     = 0.35;
 	self.movetype = MOVETYPE_BOUNCE;
 	setsize(self, '-16 -16 0', '16 16 56');
-	StartItem();
+	setorigin (self, self.origin);
+//	StartItem();
+
+	Prop_VisInit();
 };
 
 void() item_armor1 = {
@@ -660,6 +672,7 @@ void() weapon_axe =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_axe_alk.mdl");
 	setmodel (self, "progs/g_axe_alk.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_AXE;
 	self.netname = "Axe";
 	self.touch = weapon_touch;
@@ -679,6 +692,7 @@ void() weapon_shotgun =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_shot1.mdl");
 	setmodel (self, "progs/g_shot1.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_SHOTGUN;
 	self.netname = "Shotgun";
 	self.touch = weapon_touch;
@@ -701,6 +715,7 @@ void() weapon_supershotgun =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_shot.mdl");
 	setmodel (self, "progs/g_shot.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_SUPER_SHOTGUN;
 	self.netname = "Double-barrelled Shotgun";
 	self.touch = weapon_touch;
@@ -721,6 +736,7 @@ void() weapon_nailgun =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_nail.mdl");
 	setmodel (self, "progs/g_nail.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_NAILGUN;
 	self.netname = "nailgun";
 	self.touch = weapon_touch;
@@ -741,6 +757,7 @@ void() weapon_supernailgun =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_nail2.mdl");
 	setmodel (self, "progs/g_nail2.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_SUPER_NAILGUN;
 	self.netname = "Super Nailgun";
 	self.touch = weapon_touch;
@@ -761,6 +778,7 @@ void() weapon_grenadelauncher =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_rock.mdl");
 	setmodel (self, "progs/g_rock.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_GRENADE_LAUNCHER;
 	self.netname = "Grenade Launcher";
 	self.touch = weapon_touch;
@@ -781,6 +799,7 @@ void() weapon_proximity_gun =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_mine.mdl");
 	setmodel (self, "progs/g_mine.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_PROXIMITY_GUN;
 	self.netname = "Cluster Mine Launcher";
 	self.touch = weapon_touch;
@@ -801,6 +820,7 @@ void() weapon_rocketlauncher =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_rock2.mdl");
 	setmodel (self, "progs/g_rock2.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_ROCKET_LAUNCHER;
 	self.netname = "Rocket Launcher";
 	self.touch = weapon_touch;
@@ -822,6 +842,7 @@ void() weapon_lightning =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_light.mdl");
 	setmodel (self, "progs/g_light.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_LIGHTNING;
 	self.netname = "Thunderbolt";
 	self.touch = weapon_touch;
@@ -841,6 +862,7 @@ void() weapon_chainsaw =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_saw.mdl");
 	setmodel (self, "progs/g_saw.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_CHAINSAW;
 	self.netname = "Chainsaw";
 	self.touch = weapon_touch;
@@ -860,6 +882,7 @@ void() weapon_laser_gun =
 	
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_laserg.mdl");
 	setmodel (self, "progs/g_laserg.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_LASER_CANNON;
 	self.netname = "Laser Cannon";
 	self.touch = weapon_touch;
@@ -878,6 +901,7 @@ void() weapon_plasmagun =
 	
 	if (!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_plasma.mdl");
 	setmodel (self, "progs/g_plasma.mdl");
+	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_PLASMA;
 	self.classname = "weapon_plasmagun";
 	self.netname = "Plasma Rifle";
@@ -992,20 +1016,6 @@ void() ammo_touch = {
 	ItemPickup("weapons/lock4.wav", 30, 30);
 };
 
-.vector last_pos;
-
-void() align_think =
-{
-    if (self.origin_x != self.last_pos_x
-     || self.origin_y != self.last_pos_y
-     || self.origin_z != self.last_pos_z)
-    {
-        AlignToSlope();
-        self.last_pos = self.origin; // remember where we aligned
-    }
-    self.nextthink = time + 0.5;
-}
-
 float WEAPON_BIG2 = 1;
 
 /*QUAKED item_shells (0 .5 .8) (0 0 0) (32 32 32) big
@@ -1034,14 +1044,16 @@ void() item_shells =
 
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model (model);
 	setmodel (self, model);
+	self.solid = SOLID_TRIGGER;
 	self.weapon = 1;
-	self.ammo_type = 1;
+//	self.ammo_type = 1;
 	self.netname = "shell";
 	self.flags |= FL_FINDABLE_NONSOLID;
 	self.mass = 0.25;
 	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
+	Prop_VisInit();
 };
 
 /*QUAKED item_spikes (0 .5 .8) (0 0 0) (32 32 32) big
@@ -1070,14 +1082,16 @@ void() item_spikes =
 
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model (model);
 	setmodel (self, model);
+	self.solid = SOLID_TRIGGER;
 	self.weapon = 2;
-	self.ammo_type = 1;
+//	self.ammo_type = 1;
 	self.netname = "nail";
 	self.flags |= FL_FINDABLE_NONSOLID;
 	self.mass = 0.25;
 	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
+	Prop_VisInit();
 };
 
 /*QUAKED item_rockets (0 .5 .8) (0 0 0) (32 32 32) big
@@ -1106,14 +1120,16 @@ void() item_rockets =
 
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model (model);
 	setmodel (self, model);
+	self.solid = SOLID_TRIGGER;
 	self.weapon = 3;
-	self.ammo_type = 1;
+//	self.ammo_type = 1;
 	self.netname = "rocket";
 	self.flags |= FL_FINDABLE_NONSOLID;
 	self.mass = 0.25;
 	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
+	Prop_VisInit();
 };
 
 
@@ -1143,15 +1159,17 @@ void() item_cells =
 
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model (model);
 	setmodel (self, model);
+	self.solid = SOLID_TRIGGER;
 	self.touch = ammo_touch;
 	self.weapon = 4;
-	self.ammo_type = 1;
+//	self.ammo_type = 1;
 	self.netname = "cell";
 	self.flags |= FL_FINDABLE_NONSOLID;
 	self.mass = 0.25;
 	self.movetype = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
+	Prop_VisInit();
 };
 
 

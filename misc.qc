@@ -231,6 +231,7 @@ void() misc_explobox = {
 		dprint ("\n");
 		remove(self);
 	}
+	Prop_VisInit();
 };
 
 
@@ -269,6 +270,7 @@ void() misc_explobox2 = {
 		dprint ("\n");
 		remove(self);
 	}
+	Prop_VisInit();
 };
 
 //============================================================================

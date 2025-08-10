@@ -555,7 +555,8 @@ void() light_fixture1 =
 	precache_model ("progs/fixture1.mdl");
 	setmodel (self, "progs/fixture1.mdl");
 	self.angles_y = self.angle2;
-	makestatic (self);
+//	makestatic (self);
+	Prop_VisInit();
 };
 
 
@@ -585,7 +586,8 @@ void() light_beacon =
 	if (self.spawnflags & 1)
 		self.skin = 1;
 	self.angles_y = self.angle2;
-	makestatic (self);
+//	makestatic (self);
+	Prop_VisInit();
 };
 
 /*

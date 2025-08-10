@@ -97,7 +97,7 @@ void() worldspawn =
 
 	InitBodyQue ();
 
-	InitBulletHoles();
+//	InitBulletHoles();
    
 	// custom map attributes
 	if (!self.gravity) {
@@ -156,6 +156,8 @@ void() worldspawn =
 	world_sounds = &world.sounds;
 // the area based ambient sounds MUST be the first precache_sounds
 
+	precache_model("gfx/vial.spr");
+	precache_model("gfx/shard.spr");
 	precache_sound ("misc/menu1.wav");
 	precache_sound ("misc/menu2.wav");
 	precache_sound ("misc/menu3.wav");
@@ -514,65 +516,73 @@ void() LoadSaveGameCallback =
 
 void() StartFrame =
 {
-	teamplay = cvar("teamplay");
-	//skill = cvar("skill");
-	framecount = framecount + 1;
+    // cvar reads are cheap but not free; sample it ~3x/sec instead of every frame if you like.
+    // teamplay = cvar("teamplay");
+    if ( (framecount & 30) == 0 )
+        teamplay = cvar("teamplay");
 
-	// todo: unify all this logic -bmFbr
+    framecount += 1;
+    numbulletsframe = 0; // we can use this to skip work in EndFrame
 
-	if (cleanUpClientStuff)
-		cleanUpClientStuff -= 1;
+    // one-shot inits
+    if (framecount == 1)
+    {
+        startupWaterBrushes();
+        CreateBackstop();
+    }
 
-	else if (!gamestarted && framecount > 2)
-	{
-		if (framecount != 3)
-			cleanUpClientStuff += 2;
-		
-		gamestarted = TRUE;
-	}
+    // drain cleanup counter BEFORE arming gamestarted
+    if (cleanUpClientStuff)
+    {
+        cleanUpClientStuff -= 1;
+    }
+    else if (!gamestarted && framecount > 2)
+    {
+        if (framecount != 3) // only happens if something delayed game start past frame 3
+            cleanUpClientStuff += 2;
 
+        gamestarted = TRUE;
+    }
 
-	//johnfitz -- new stuff for LoadSaveGameCallback function
-	if (framecount == 3)
-		loadsavegamecallback_done = 1; //if this variable ever gets to zero again that means a savegame was loaded
-
-	if(!loadsavegamecallback_done && framecount > 3)
-		LoadSaveGameCallback();
-	//johnfitz
-
-	if (framecount == 1) {
-		startupWaterBrushes();
-		CreateBackstop();
-	}
-	
-	//dprint5("Server: ", ftos(1/frametime), " fps (", ftos(frametime * 1000), "ms)\n");
+    // johnfitz load/save callback handling
+    if (framecount == 3)
+    {
+        // if this ever gets set back to 0, it means a savegame was loaded
+        loadsavegamecallback_done = 1;
+    }
+    else if (!loadsavegamecallback_done && framecount > 3)
+    {
+        LoadSaveGameCallback();
+    }
 };
 
-void() EndFrame = {
-	if (prevframe == framecount) {
-		return;
-	}
-	//dprint3("Liquid brushes checked: ", ftos(liquidbrushchecks), "\n");
+void() EndFrame =
+{
+    if (prevframe == framecount)
+        return;
 
-	//eprint(backstop);
-	//if(!nextent(backstop)) dprint("Backstop is last\n");
-	//else dprint("\bWARNING!!\b Backstop is not last\n");
+    prevframe = framecount;
 
-	prevframe = framecount;
-	// set ourselves up to think again next frame
-	backstop.nextthink = time + 0.002;
-	// prevent accidental modification of the backstop
-	self = world;
-	
-	if (framecount <= 2) {
-		return;
-	}
+    // set ourselves up to think again next frame (use frametime instead of magic 0.002)
+    backstop.nextthink = time + frametime;
 
-	update_bulletholes();
-	gibswaterchecked = 0;
-	waterchecked = 0;
-	liquidbrushchecks = 0;
-	if (framecount >= 1) {
+    // prevent accidental modification of the backstop
+    self = world;
+
+    // nothing interesting before frame 3
+    if (framecount <= 2)
+        return;
+
+    // only touch bulletholes if we actually spawned any this frame
+    if (numbulletsframe)
+        update_bulletholes();
+
+    // counters (cheap)
+    gibswaterchecked = 0;
+    waterchecked = 0;
+    liquidbrushchecks = 0;
+
+/*	if (framecount >= 1) {
 		self = nextent(world);
 		while (self) {
 			if (

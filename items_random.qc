@@ -76,6 +76,7 @@ entity(vector org) SpawnRandomItem =
     else if (r == 9) { self.classname = "weapon_laser_gun";     	self.model = "progs/g_laserg.mdl";self.weapon = WEAPON_LASER_CANNON;		self.ammo_cells  = 20;	self.netname = "Laser Gun"; }
     else if (r ==10) { self.classname = "weapon_plasmagun";      	self.model = "progs/g_plasma.mdl";self.weapon = WEAPON_PLASMA;			self.ammo_cells  = 20;	self.netname = "Plasma Gun"; }
 
+    if (r < 11) { self.touch = weapon_touch; }
     /* ------------ PICKUPS -------------------------------------------- */
     else if (r ==11)                   // GREEN ARMOUR  ( +100 / 0.3 )
     {   self.classname = "item_armor1";
@@ -128,10 +129,12 @@ entity(vector org) SpawnRandomItem =
     self.owner     = world;
 
     /* let dropped weapons finish falling before they’re touchable */
-    self.nextthink = time + 0.1;
-    self.think     = WeaponLandThink;
+//    self.nextthink = time + 0.1;
+//    self.think     = WeaponLandThink;
 
-    StartItem();    // handles respawn timing & pickup sounds where relevant
+//    StartItem();    // handles respawn timing & pickup sounds where relevant
+    Prop_VisInit();
+
 
     self = oldself;
     return e;

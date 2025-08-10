@@ -129,58 +129,6 @@ vector(vector a, vector b) cross = {
              a_x*b_y - a_y*b_x ];
 };
 
-#define RAD2DEG 57.2957795
-
-void() AlignToSlope =
-{
-    // prefer a box trace if your engine supports it (FTE)
-#ifdef TRACEBOX_AVAILABLE
-    vector mins = self.mins, maxs = self.maxs;
-    tracebox(self.origin + '0 0 8', mins, maxs, self.origin - '0 0 128', TRUE, self);
-#else
-    traceline(self.origin + '0 0 8', self.origin - '0 0 128', TRUE, self);
-#endif
-
-    if (trace_fraction == 1 && !trace_startsolid)
-        return; // nothing hit below
-
-    // use plane normal even if startsolid (we're intersecting ground)
-    vector upn = normalize(trace_plane_normal);
-
-    // keep your yaw; recompute pitch from slope
-    vector saved = self.angles;
-    makevectors(saved);
-    vector fwd = v_forward;
-
-    // project forward onto plane
-    fwd = fwd - upn * (fwd * upn);
-    if (vlen(fwd) < 0.01) {
-        // degenerate: pick any tangent
-        fwd = normalize(cross(upn, '1 0 0'));
-        if (vlen(fwd) < 0.01)
-            fwd = normalize(cross(upn, '0 1 0'));
-    } else {
-        fwd = normalize(fwd);
-    }
-
-    vector ang = vectoangles(fwd); // yaw+pitch from projected fwd
-    makevectors(ang);
-    vector curUp = v_up;
-    vector axis  = fwd;
-
-    // roll so model-up matches plane normal
-    float s = (cross(curUp, upn) * axis);
-    float c = (curUp * upn);
-    float roll = atan2(s, c) * 57.2957795;
-
-    self.angles_x = ang_x;
-    self.angles_y = ang_y;
-    self.angles_z = roll;
-    dprint(sprintf("hit frac=%f startsolid=%f n=%v\n", trace_fraction, trace_startsolid, trace_plane_normal));
-    // relink if your engine needs it to update lighting/culling
-    setorigin(self, self.origin);
-}
-
 void() WeaponLandThink =
 {
     if ((!(self.flags & FL_ONGROUND)) && vlen(self.velocity) > 5) {
@@ -188,7 +136,7 @@ void() WeaponLandThink =
         return;
     }
 
-    AlignToSlope();
+//    AlignToSlope();
     self.solid = SOLID_TRIGGER;
 //    setsize(self, ITEM_MIN, ITEM_MAX);
     self.touch = weapon_touch;

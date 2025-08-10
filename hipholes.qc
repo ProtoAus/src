@@ -8,23 +8,13 @@
 */
 
 // maximum bulletholes on the map
-float BULLETHOLES_MAX = 2048;
+float BULLETHOLES_MAX = 32;
 // maximum bulletholes spawned per frame
 float BULLETHOLES_MAXFRAME = 30;
 
 float BULLETHOLES_LIFETIME = 60;
 
-
-void() InitBulletHoles = {
-	precache_model("progs/s_bullet_new.spr");
-
-	bulletholes = world;
-	lastbullet = world;
-	numbulletholes = 0;
-
-	if (cvar("saved1") & ALKSETTINGS_NOBULLETHOLES) bulletmode = 0;
-	else bulletmode = 1;
-};
+#define EPS2 0.01 // or 0.01 if you want a tiny deadzone
 
 void() RestartBulletHoles = {
 	bulletholes = world;
@@ -91,101 +81,153 @@ void() hide_bulletholes = {
 	}
 };
 
-void() update_bulletholes = {
-	numbulletsframe = 0;
-	float loops = 0;
-	entity e, next;
-	e = bulletholes;
+void() update_bulletholes =
+{
+//    numbulletsframe = 0; // okay to reset here if this runs once per frame
+    float loops = 0;
+    entity e = bulletholes, next;
 
-	while (e.classname == "bullethole" && loops < BULLETHOLES_MAX + 2) {
-		// hole is in a valid non-world solid entity
-		if (e.owner && e.owner.solid == SOLID_BSP) {
-			// check if the entity moved
-			if (e.owner.absmin != e.oldorigin) {
-				setorigin(e, e.origin - e.oldorigin + e.owner.absmin);
-				e.oldorigin = e.owner.absmin;
-			}
+    while (e && e != world && loops++ < BULLETHOLES_MAX + 2)
+    {
+        if (!e.state) { e = e.lastvictim; continue; } // world holes never move
 
-			e = e.lastvictim;
-		}
-		// hole was originally in a non-world entity, but it was removed or changed to non-solid
-		else if (e.state) { 
-			next = e.lastvictim;
-			SUB_CallAsSelf(remove_bullethole, e);
-			e = next;
-		}
-		// hole is in a world face, do nothing
-		else {
-			e = e.lastvictim;
-		}
-		loops++;
-	}
+        if (!e.owner || e.owner.solid != SOLID_BSP) {
+            next = e.lastvictim;
+            SUB_CallAsSelf(remove_bullethole, e);
+            e = next;
+            continue;
+        }
 
-	// something has gone wrong,
-	// so restart the list and remove all current ones from the world
-	if (loops >= BULLETHOLES_MAX + 2) {// ||	(loops > 0 && e.classname != "bullethole")) {
-		dprint("Bulletholes linked list lost, restarting\n");
-		RestartBulletHoles();
-	}
+        vector delta = e.owner.absmin - e.oldorigin;
+        if ((delta*delta) > EPS2) {
+            setorigin(e, e.origin + delta);
+            e.oldorigin = e.owner.absmin;
+        }
+
+        e = e.lastvictim;
+    }
+
+    if (loops >= BULLETHOLES_MAX + 2) {
+        dprint("Bulletholes linked list lost, restarting\n");
+        RestartBulletHoles();
+    }
 };
 
-void(vector pos, vector norm, entity tgt) placebullethole = {
-	
-	if (tgt.solid != SOLID_BSP)
-		return;
+void(vector pos, vector norm, entity tgt) placebullethole =
+{
+    if (tgt.solid != SOLID_BSP) return;
+    if (numbulletsframe > BULLETHOLES_MAXFRAME) return;
+    if (!bulletmode || tgt.nobullets) return;
 
-	if (numbulletsframe > BULLETHOLES_MAXFRAME)
-		return;
+    entity new = spawn();
+    new.movetype = MOVETYPE_NONE;
+    new.solid = SOLID_NOT;
+    new.classname = "bullethole";
+    setmodel(new, "progs/s_bullet_new.spr");
+    new.frame = floor(random()*6.99);
+    setsize(new, '0 0 0', '0 0 0');
 
-	if (!bulletmode)
-		return;
+    new.owner = tgt;
+    new.oldorigin = tgt.absmin;
+    new.state = (tgt != world); // 0=world → never updated, 1=attached → tracked
 
-	if (tgt.nobullets)
-		return;
+    // orient: put sprite a hair into the surface, rotate randomly around normal
+    vector n = -normalize(norm);           // face into surface
+    new.angles = vectoangles(n);
+    new.angles_z = floor(random()*3.99) * 90;
+    makevectors(new.angles);               // v_forward == n
+    setorigin(new, pos - v_forward * (0.3 + random()*0.1));
 
-	local entity new;
+    // lifetime (optional)
+    // new.think = remove_bullethole; new.nextthink = time + BULLETHOLES_LIFETIME;
 
-	new = spawn();
-	new.movetype = MOVETYPE_NONE;
-	new.solid = SOLID_NOT;
-	new.classname = "bullethole";
+    if (numbulletholes > BULLETHOLES_MAX)
+        SUB_CallAsSelf(remove_bullethole, bulletholes);
 
-	
-	setmodel(new, "progs/s_bullet_new.spr");
-	new.frame = floor(random()*6.99);
-	setsize (new, '0 0 0', '0 0 0');
-	
+    numbulletsframe++;
+    numbulletholes++; // keep your original counter name here
 
-	new.owner = tgt; // entity whose this bullethole is attached to, world or otherwise
-	new.oldorigin = tgt.absmin;
-	// set state 1 to holes attached to non-world entities (for movement and validity checks)
-	if (tgt != world) new.state = 1;
-
-	norm_x = 0 - norm_x;
-	norm_y = 0 - norm_y;
-
-	new.angles = vectoangles(norm);
-	new.angles_z = floor(random()*3.99) * 90;
-	makevectors([-self.angles_x, self.angles_y, self.angles_z]);
-	setorigin(new, pos - (v_forward * (0.3 + random()*0.1)));
-
-	//new.think = remove_bullethole;
-	//new.nextthink = time + BULLETHOLES_LIFETIME;
-
-	if (numbulletholes > BULLETHOLES_MAX) {
-		SUB_CallAsSelf(remove_bullethole, bulletholes);
-	}
-
-	numbulletholes++;
-	numbulletsframe++;
-
-	if (lastbullet) {
-		lastbullet.lastvictim = new;
-		new.prevvictim = lastbullet;
-	}
-	else {
-		bulletholes = new;
-	}
-	new.lastvictim = world;
-	lastbullet = new;
+    // link
+    if (lastbullet) { lastbullet.lastvictim = new; new.prevvictim = lastbullet; }
+    else bulletholes = new;
+    new.lastvictim = world;
+    lastbullet = new;
 };
+
+void() InitBulletHoles = { precache_model("progs/s_bullet_new.spr"); };
+
+void PlaceStaticHoleAtImpact()
+{
+    // derive incoming direction
+    vector dir = self.velocity;
+    float spd2 = dir*dir;
+    if (spd2 > 0.0001) dir = normalize(dir);
+    else {
+        // fallback if velocity is zeroed by the engine before touch fires
+        makevectors([-self.angles_x, self.angles_y, self.angles_z]);
+        dir = v_forward;
+    }
+
+    // step a hair OUT of the surface, then trace IN to find the plane cleanly
+    vector start = self.origin - dir*8;
+    vector end   = self.origin + dir*64;
+    traceline(start, end, TRUE, self);
+    if (trace_fraction == 1) return;            // no hit
+	#ifdef SURF_SKY
+    if (trace_surfaceflags & SURF_SKY) return;  // skip sky
+	#endif
+	#ifdef CONTENTS_WATER
+    if (pointcontents2(trace_endpos) & (CONTENTS_WATER|CONTENTS_SLIME|CONTENTS_LAVA)) return; // skip liquids
+	#endif
+    if (!(trace_ent == world || trace_ent.solid == SOLID_BSP)) return; // walls/ceilings/floors only
+
+    // spawn + orient sprite to face into the surface, nudge a hair into it
+    entity e = spawn();
+    e.movetype  = MOVETYPE_NONE;
+    e.solid     = SOLID_NOT;
+    e.classname = "bullethole";
+    setmodel(e, "progs/s_bullet_new.spr");
+    e.frame = floor(random()*6.99);
+    setsize(e, '0 0 0', '0 0 0');
+
+    vector n = -normalize(trace_plane_normal);
+    vector ang = vectoangles(n);
+    ang_z += 90 * floor(random()*3.99); // 0/90/180/270 for variety
+    e.angles = ang;
+    setorigin(e, trace_endpos - n * (0.3 + random()*0.1));
+
+    // make it client-static (test note below)
+//    makestatic(e);
+}
+
+// SSQC
+#define EV_BULLETHOLE 17
+
+#ifndef MULTICAST_ALL_R
+#define MULTICAST_ALL_R MULTICAST_ALL
+#endif
+
+
+void(vector pos, vector n, entity hit) BH_SendEvent =
+{
+    if (!(hit == world || hit.solid == SOLID_BSP)) return;
+
+    entity cl = world;
+    while ((cl = find(cl, classname, "player")))
+    {
+        msg_entity = cl;
+        WriteByte (MSG_ONE, SVC_CGAMEPACKET);
+        WriteByte (MSG_ONE, EV_BULLETHOLE);
+
+        WriteCoord(MSG_ONE, pos_x);
+        WriteCoord(MSG_ONE, pos_y);
+        WriteCoord(MSG_ONE, pos_z);
+
+        WriteShort(MSG_ONE, floor(n_x * 32767));
+        WriteShort(MSG_ONE, floor(n_y * 32767));
+        WriteShort(MSG_ONE, floor(n_z * 32767));
+
+        WriteByte (MSG_ONE, floor(random()*4));
+        unicast(cl, TRUE); // TRUE = reliable
+    }
+}
