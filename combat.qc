@@ -466,25 +466,46 @@ void(entity inflictor, entity attacker, float damage, float radiusscale, entity 
                 }
             }
             /* -------- physics props -------- */
-            else if (head.movetype_saved == MOVETYPE_TOSS || head.movetype_saved == MOVETYPE_BOUNCE || head.movetype_saved == MOVETYPE_FLY)
-            {
-                org  = head.origin + (head.mins + head.maxs) * 0.5;
-                float dist       = vlen(inflictor.origin - org);
-                float maxRadius  = (damage + 40) * radiusscale * ITEM_BLAST_SCALE;
-                points = damage * (1 - dist / maxRadius);
+			else if (head.movetype_saved == MOVETYPE_TOSS || head.movetype_saved == MOVETYPE_BOUNCE || head.movetype_saved == MOVETYPE_FLY){
+				org = head.origin + (head.mins + head.maxs) * 0.5;
+				vector d   = org - inflictor.origin;
 
-                if (points > 0)
-                {
-					head.movetype = head.movetype_saved;
-					head.think = Prop_AlignThink;
-					head.nextthink = time + 0.1;
-                    dir  = normalize( (org - '0 0 -32') - inflictor.origin );
-                    push = points / max(head.mass, 0.1);
+				float maxRadius = (damage + 40) * radiusscale * ITEM_BLAST_SCALE;
 
-                    head.flags &= ~FL_ONGROUND;
-                    head.velocity += dir * push;
-                }
-            }
+				// --- hard radius cull (use squared check so it's cheap)
+				float r2 = maxRadius * maxRadius;
+				if (damage <= 0)           return;
+				if (d * d >= r2)           return;   // outside blast → ignore
+
+				// --- optional LOS gate so blasts don't push through walls
+				traceline(inflictor.origin, org, TRUE, inflictor);
+				if (trace_fraction < 1 && trace_ent != head)
+					return;
+
+				float dist   = vlen(d);
+				points = damage * (1 - dist / maxRadius);
+				if (points <= 0)           return;
+
+				// Compute impulse per mass; bail if it's tiny
+				push = points / max(head.mass, 0.1);
+
+				// tune these two to taste
+				float minImpulse = 10;                 // ignore feather touches
+				float maxImpulse = 1200;               // safety clamp
+
+				if (push < minImpulse)  return;
+				if (push > maxImpulse)  push = maxImpulse;
+
+				// apply only now (after passing thresholds)
+				head.movetype   = head.movetype_saved;
+				head.think      = Prop_AlignThink;
+				head.nextthink  = time + 0.1;
+				head.flags     &= ~FL_ONGROUND;
+
+				dir = normalize( (org - '0 0 -32') - inflictor.origin );
+				if (dir == '0 0 0') dir = '0 0 1';
+				head.velocity += dir * push;
+			}
         }
         head = next;
     }

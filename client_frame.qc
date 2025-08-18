@@ -151,8 +151,11 @@ void() PlayerDeathThink =
 
 // wait for any button down
 	if (!self.button2 && !self.button1 && !self.button0)
-		return;
-
+		if (world.br_norespawn) {
+            // keep them dead (or put into spectator mode if you support that)
+            centerprint(self, "Respawning disabled. Wait for next round.\n");
+            return;
+        }
 	self.button0 = 0;
 	self.button1 = 0;
 	self.button2 = 0;

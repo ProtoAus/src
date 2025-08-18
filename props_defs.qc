@@ -28,19 +28,122 @@
 #define NOVIS_MASK    (SF_NOVIS)
 #define MASS_MASK     (SF_MASS_VERYLIGHT|SF_MASS_LIGHT|SF_MASS_MEDIUM|SF_MASS_HEAVY|SF_MASS_VERYHEAVY)
 
-.float movetype_saved;
-.float solid_saved;
-.float lod_on;
-.float vis_state;
-.string model_saved;
-.vector origin_saved;
-.void() touch_saved;
-
 #define RAD2DEG 57.2957795
 
 #define ACTIVATE_LOD   (1000*1000)
 #define ACTIVATE_DIST2   (3000*3000)
 #define DEACTIVATE_DIST2 (3500*3500)
+
+.vector origin_saved;
+.void() touch_saved;
+.float vis_state;
+.float lod_on;
+.float movetype_saved;
+.float solid_saved;
+.float scale_base;
+.vector mins_base, maxs_base;
+
+
+// distance cutoff per-entity (units). 0 -> uses cvar or fallback.
+.float culldist;     // editor override
+.float cull2_next;   // optional: when to refresh from cvar (if you want live cvar)
+
+.float lod_start, lod_scale, lod_height;
+.string lod_model, model_base;
+.float cull2_hi, lod2, next_cvar_sync, culldist;
+
+void() Prop_VisInit =
+{
+    self.customizeentityforclient = Prop_CustomizeForClient; // F326 warning is just advisory
+
+    if (!self.model_base) self.model_base = self.model;
+
+    // cache base scale + bbox once
+    if (!self.scale_base)  self.scale_base = (self.scale ? self.scale : 1);
+    if (!self.mins_base_x) { self.mins_base = self.mins; self.maxs_base = self.maxs; }
+
+    float cutoff = self.culldist;
+    if (!cutoff) {
+        float cv = cvar("prop_cull_dist");
+        cutoff = (cv > 0) ? cv : 2500;
+        self.next_cvar_sync = time + 1;
+    }
+
+    float hi = cutoff * 1.10;
+    self.cull2_hi = hi * hi;
+
+    float frac = cvar("prop_lod_frac");
+    if (frac <= 0) frac = 0.40;
+
+    float lod_start_val = self.lod_start;
+    if (lod_start_val <= 0)
+        lod_start_val = cutoff * frac;
+
+    self.lod2 = (lod_start_val > 0) ? (lod_start_val * lod_start_val) : 0;
+};
+
+// Returns FALSE to hide this entity from *that* client.
+float() Prop_CustomizeForClient =
+{
+    entity cl = other;
+    if (!cl || !(cl.flags & FL_CLIENT)) return TRUE;
+
+    // live refresh
+    if (!self.culldist && time > self.next_cvar_sync) {
+        float cv = cvar("prop_cull_dist"); if (cv <= 0) cv = 2500;
+        float hi = cv * 1.10;  self.cull2_hi = hi*hi;
+
+        if (!self.lod_start) {
+            float frac = cvar("prop_lod_frac"); if (frac <= 0) frac = 0.40;
+            float ls = cv * frac; self.lod2 = ls*ls;
+        }
+        self.next_cvar_sync = time + 1;
+    }
+
+    vector eye = cl.origin + cl.view_ofs;
+    vector d   = self.origin - eye;
+    float d2   = d*d;
+
+    if (d2 > self.cull2_hi)
+        return FALSE;
+
+    if (self.lod_model && d2 > self.lod2) {
+        if (!self.lod_on){
+            if (self.model != self.lod_model) setmodel(self, self.lod_model);
+
+            // keep SAME visual size
+            if (self.lod_scale) self.scale = self.lod_scale;
+
+            // keep SAME physics bbox
+            if (self.mins_base_x || self.maxs_base_x)
+                setsize(self, self.mins_base, self.maxs_base);
+
+            if (self.lod_height) {
+                self.origin_saved = self.origin;
+                /*vector offset;
+                offset = '16 16 0';
+                setorigin(self, self.origin + offset);*/
+                self.origin_z += self.lod_height;
+            }
+            self.lod_on = 1;
+        }
+    } else {
+        if (self.lod_on){
+            if (self.model_base && self.model != self.model_base) setmodel(self, self.model_base);
+
+            // restore exact original scale and bbox
+            self.scale = self.scale_base;
+            if (self.mins_base_x || self.maxs_base_x)
+                setsize(self, self.mins_base, self.maxs_base);
+
+            if (self.lod_height) self.origin = self.origin_saved;
+        }
+        self.lod_on = 0;
+    }
+
+    return TRUE;
+};
+
 
 void() PropSpawnDynamic =
 {
@@ -87,8 +190,13 @@ void() PropSpawnDynamic =
     default:                 self.mass = DEFAULT_PROP_MASS;
     }
 
-    if (!(self.spawnflags & SF_NOVIS))
+    if (!(self.spawnflags & SF_NOVIS)) {
         Prop_VisInit();
+    }
+    if (self.movetype == MOVETYPE_BOUNCE || self.movetype == MOVETYPE_TOSS ){
+        self.think = Prop_AlignThink;
+        self.nextthink = time + 0.1;
+    }
 };
 
 void() PropSpawnStatic =
@@ -102,8 +210,7 @@ void() Prop_AlignThink =
 {
     if (self.flags & FL_ONGROUND) {
         AlignToSlope();
-        self.think = Prop_VisThink;
-        self.nextthink = time + 1;
+//        self.nextthink = time + 1;
         return;
     }
     self.nextthink = time + 0.1;
@@ -127,27 +234,33 @@ void() AlignToSlope =
     self.angles_x = ang_x;
     self.angles_y = ang_y;
     self.angles_z = roll;
-    dprint(sprintf("hit frac=%f startsolid=%f n=%v\n", trace_fraction, trace_startsolid, trace_plane_normal));
+//    dprint(sprintf("hit frac=%f startsolid=%f n=%v\n", trace_fraction, trace_startsolid, trace_plane_normal));
 
-    self.movetype  = __NULL__;
+//    self.movetype_saved = self.movetype;
+    self.movetype  = MOVETYPE_NONE;
 }
 
 
-void() Prop_SetVisible = {
-    self.effects      &= ~EF_NODRAW;
-    self.solid         = self.solid_saved;
-    self.touch         = self.touch_saved;
+
+// OLD CODE
+//
+
+
+
+/*float maxclients;
+
+
+void() Prop_VisThink =
+{
+    if (self.movetype == MOVETYPE_BOUNCE || self.movetype == MOVETYPE_TOSS)
+    {
+        if (self.flags & FL_ONGROUND) AlignToSlope();
+        self.nextthink = time + 0.1;
+        return;
+    }
+    self.nextthink = 0;
 };
 
-void() Prop_SetHidden  = {
-    self.effects      |= EF_NODRAW;
-    self.solid_saved   = self.solid;
-    self.solid         = SOLID_NOT;
-    self.touch_saved   = self.touch;
-    self.touch         = SUB_Null;
-};
-
-float maxclients;
 
 float() NearestPlayerDist2 =
 {
@@ -178,1043 +291,69 @@ float() NearestPlayerDist2 =
     return best;
 };
 
-void() Prop_VisThink =
+void() Prop_SetVisible = {
+    self.effects      &= ~EF_NODRAW;
+//    self.solid         = self.solid_saved;
+//    self.touch         = self.touch_saved;
+};
+
+void() Prop_SetHidden  = {
+    self.effects      |= EF_NODRAW;
+//    self.solid_saved   = self.solid;
+//    self.solid         = SOLID_NOT;
+//    self.touch_saved   = self.touch;
+//    self.touch         = SUB_Null;
+};
+
+void() Prop_SetLOD =
 {
-    float d2 = NearestPlayerDist2();
+    if (self.lod_on) return;
+    self.model_saved    = self.model;
+    self.origin_saved   = self.origin;
+    self.touch_saved    = self.touch;
+    self.solid_saved    = self.solid;
+    self.movetype_saved = self.movetype;
 
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden();  self.vis_state = 0; }
-    }
+    setmodel(self, self.lod_model);
 
-    if  (self.movetype == MOVETYPE_BOUNCE || self.movetype == MOVETYPE_TOSS)
-    {
-        self.nextthink = time + 0.1;
-        if (self.flags & FL_ONGROUND) { AlignToSlope(); }
-    }
-    self.nextthink = time + 1;
+    self.origin_z      += self.lod_height;
+    self.solid          = SOLID_NOT;
+    self.movetype       = MOVETYPE_NONE;
+    self.frame          = 0;
+    self.scale          = self.lod_scale;
+    self.lod_on         = 1;
+
+    setorigin(self, self.origin);
 };
 
 void() Prop_ClearLOD =
 {
     if (!self.lod_on) return;
-    if (self.model_saved) setmodel(self, self.model_saved);
-    if (self.origin_saved != '0 0 0') setorigin(self, self.origin_saved);
-    self.solid    = SOLID_TRIGGER;
+    setmodel(self, self.model_saved);
+    self.origin   = self.origin_saved;
+    self.touch    = self.touch_saved;
+    self.solid    = self.solid_saved;
+    self.movetype = self.movetype_saved;
     self.scale    = 1;
-    self.lod_on = 0;
+    self.lod_on   = 0;
+    setorigin(self, self.origin);
 };
 
-void() Prop_SetShardLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/shard.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.23;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetArmorgreenLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/armorgreen.spr");
-
-    setorigin(self, self.origin + '0 0 22');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.43;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetArmoryellowLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/armoryellow.spr");
-
-    setorigin(self, self.origin + '0 0 22');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.43;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetArmorredLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/armorred.spr");
-
-    setorigin(self, self.origin + '0 0 22');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.43;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetChainsawLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/chainsaw.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetAxeLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/axe.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.6;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetShotgun1LOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/shotgun1.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetShotgun2LOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/Shotgun2.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetNailgun1LOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/Nailgun1.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetNailgun2LOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/Nailgun2.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetGrenadeLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/grenade.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetLightningLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/lightning.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetLaserLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/laser.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetPlasmaLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/lightining.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetcellLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/cells.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.45;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetRocketLauncherLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/rocketlauncher.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetMineLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/mine.spr");
-
-    setorigin(self, self.origin + '0 0 32');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetRocketLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/rockets.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.45;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetshellLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/shells.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.45;
-    self.lod_on   = 1;
-};
-
-void() Prop_SetnailLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    // Use a real model container:
-    // Option A (easiest): Quake sprite you exported from the PNG:
-    setmodel(self, "gfx/nails.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.45;
-    self.lod_on   = 1;
-};
-
-void() Prop_VisThinkShard =
+void() Prop_VisThinkLOD =
 {
     float d2 = NearestPlayerDist2();
 
-    // LOD window
     if (d2 > ACTIVATE_LOD )
-        Prop_SetShardLOD();
+        Prop_SetLOD();
     else
         Prop_ClearLOD();
 
-    // Visibility gating
     if (d2 < ACTIVATE_DIST2) {
         if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
     } else if (d2 > DEACTIVATE_DIST2) {
         if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
         Prop_ClearLOD();
     }
 
     self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkArmorgreen =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetArmorgreenLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkArmoryellow =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetArmoryellowLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkArmorred =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetArmorredLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkAxe =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetAxeLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkChainsaw =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetChainsawLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkShotgun1 =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetShotgun1LOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkShotgun2 =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetShotgun2LOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkNailgun1 =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetNailgun1LOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkNailgun2 =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetNailgun2LOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkGrenade =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetGrenadeLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkrocket =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetRocketLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkMine =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetMineLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkLightning =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetLightningLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkLaser =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetLaserLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkPlasma =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetPlasmaLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkcell =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetcellLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkRocketLauncher =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetRocketLauncherLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkshell =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetshellLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinknail =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD )
-        Prop_SetnailLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_SetVialLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    setmodel(self, "gfx/vial.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.25;
-    self.lod_on = 1;
-};
-
-void() Prop_SetHealthSmallLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    setmodel(self, "gfx/healthsmall.spr");
-
-    setorigin(self, self.origin + '0 0 8');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.2;
-    self.lod_on = 1;
-};
-
-void() Prop_SetHealthMediumLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    setmodel(self, "gfx/healthmedium.spr");
-
-    setorigin(self, self.origin + '0 0 8');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.25;
-    self.lod_on = 1;
-};
-
-void() Prop_SetHealthLargeLOD =
-{
-    if (self.lod_on) return;
-    if (!self.model_saved) self.model_saved = self.model;
-    self.origin_saved = self.origin;
-
-    setmodel(self, "gfx/healthLarge.spr");
-
-    setorigin(self, self.origin + '0 0 16');
-
-    self.solid    = SOLID_NOT;
-    self.movetype = MOVETYPE_NONE;
-    self.frame    = 0;
-    self.scale    = 0.5;
-    self.lod_on = 1;
-};
-
-void() Prop_VisThinkVial =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD)
-        Prop_SetVialLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkhealthsmall =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD)
-        Prop_SetHealthSmallLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkhealthmedium =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD)
-        Prop_SetHealthMediumLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisThinkhealthlarge =
-{
-    float d2 = NearestPlayerDist2();
-
-    // LOD window
-    if (d2 > ACTIVATE_LOD)
-        Prop_SetHealthLargeLOD();
-    else
-        Prop_ClearLOD();
-
-    // Visibility gating
-    if (d2 < ACTIVATE_DIST2) {
-        if (!self.vis_state) { Prop_SetVisible(); self.vis_state = 1; }
-    } else if (d2 > DEACTIVATE_DIST2) {
-        if (self.vis_state)  { Prop_SetHidden(); self.vis_state = 0; }
-        // keep state clean while hidden
-        Prop_ClearLOD();
-    }
-
-    self.nextthink = time + 1;
-};
-
-void() Prop_VisInit =
-{
-    self.vis_state = 1;
-
-    if (self.classname == "armorshard")           { self.think = Prop_VisThinkShard;         self.nextthink = time + 1; return; }
-    if (self.classname == "healthvial")           { self.think = Prop_VisThinkVial;          self.nextthink = time + 1; return; }
-    if (self.spawnflags & H_ROTTEN)               { self.think = Prop_VisThinkhealthsmall;   self.nextthink = time + 1; return; }
-    if (self.classname == "healthmedium")         { self.think = Prop_VisThinkhealthmedium;  self.nextthink = time + 1; return; } // '=' -> '=='
-    if (self.spawnflags & H_MEGA)                 { self.think = Prop_VisThinkhealthlarge;   self.nextthink = time + 1; return; }
-    if (self.classname == "item_armor1")          { self.think = Prop_VisThinkArmorgreen;    self.nextthink = time + 1; return; }
-    if (self.classname == "item_armor2")          { self.think = Prop_VisThinkArmoryellow;   self.nextthink = time + 1; return; }
-    if (self.classname == "item_armorInv")        { self.think = Prop_VisThinkArmorred;      self.nextthink = time + 1; return; }
-
-    // self.weapon is a float enum/bitfield — compare to constants, NOT strings
-    if (self.netname == "Axe")                { self.think = Prop_VisThinkAxe;           self.nextthink = time + 1; return; }
-    if (self.netname == "Shotgun")             { self.think = Prop_VisThinkShotgun1;      self.nextthink = time + 1; return; }
-    if (self.netname == "Double-barrelled Shotgun")       { self.think = Prop_VisThinkShotgun2;      self.nextthink = time + 1; return; }
-    if (self.netname == "nailgun")             { self.think = Prop_VisThinkNailgun1;      self.nextthink = time + 1; return; }
-    if (self.netname == "Super Nailgun")       { self.think = Prop_VisThinkNailgun2;      self.nextthink = time + 1; return; }
-    if (self.netname == "Grenade Launcher")    { self.think = Prop_VisThinkGrenade;       self.nextthink = time + 1; return; }
-    if (self.netname == "Cluster Mine Launcher")       { self.think = Prop_VisThinkMine;          self.nextthink = time + 1; return; }
-    if (self.netname == "Rocket Launcher")     { self.think = Prop_VisThinkRocketLauncher; self.nextthink = time + 1; return; }
-    if (self.netname == "Thunderbolt")           { self.think = Prop_VisThinkLightning;     self.nextthink = time + 1; return; } // check spelling
-    if (self.netname == "Chainsaw")            { self.think = Prop_VisThinkChainsaw;      self.nextthink = time + 1; return; }
-    if (self.netname == "Laser Cannon")        { self.think = Prop_VisThinkLaser;         self.nextthink = time + 1; return; }
-    if (self.netname == "weapon_plasmagun")              { self.think = Prop_VisThinkPlasma;        self.nextthink = time + 1; return; }
-
-    // ammo checks should use a string field like netname/classname, not self.weapon
-    if (self.netname == "cell")                   { self.think = Prop_VisThinkcell;          self.nextthink = time + 1; return; } // '=' -> '=='
-    if (self.netname == "rocket")                 { self.think = Prop_VisThinkrocket;        self.nextthink = time + 1; return; }
-    if (self.netname == "shell")                  { self.think = Prop_VisThinkshell;         self.nextthink = time + 1; return; }
-    if (self.netname == "nail")                   { self.think = Prop_VisThinknail;          self.nextthink = time + 1; return; }
-
-    self.think = Prop_VisThink;
-    self.nextthink = time + random();
-};
+};*/

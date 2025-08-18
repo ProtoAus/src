@@ -18,6 +18,7 @@ defs_consts.qc
 defs_builtins.qc
 fteextensions.qc
 defs_custom.qc
+props_defs.qc
 
 math.qc
 utility.qc
@@ -69,11 +70,11 @@ jumppad.qc
 use.qc
 //cutscene.qc
 //pmove.qc
-props_defs.qc
 prop_hunt.qc
 props_quake_mdl.qc
 props_quake_iqm.qc
 props_goldsrc_mdl.qc
+battleroyale.qc
 
 misc_scientist.qc
 

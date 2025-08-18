@@ -158,7 +158,7 @@ void() HandGrenadeTouch =
     }
 };
 
-const float DUCK_GROUND_FRIC = 5.0; // per-second drag strength
+const float DUCK_GROUND_FRIC = 4.0; // per-second drag strength
 
 void() ApplyDuckGroundFriction =
 {

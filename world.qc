@@ -350,31 +350,56 @@ void() worldspawn =
 	precache_model ("progs/v_light.mdl");
 	precache_model ("progs/v_laserg40fps.mdl");
 
+	precache_model ("progs/g_saw.mdl");
+	precache_model ("gfx/chainsaw.spr");
 	precache_model ("progs/g_axe_alk.mdl");
 	precache_model ("progs/g_axe_alk_flat.mdl");
+	precache_model ("gfx/axe.spr");
 	precache_model ("progs/g_axe_alk2.mdl");
 	precache_model ("progs/g_saw.mdl");
 	precache_model ("progs/g_saw_flat.mdl");
+	precache_model ("progs/g_saw.mdl");
 	precache_model ("progs/g_shot1.mdl");
 	precache_model ("progs/g_shot1_flat.mdl");
+	precache_model ("gfx/shotgun1.spr");
 	precache_model ("progs/g_shot.mdl");
 	precache_model ("progs/g_shot_flat.mdl");
+	precache_model ("gfx/shotgun2.spr");
 	precache_model ("progs/g_nail.mdl");
 	precache_model ("progs/g_nail_flat.mdl");
+	precache_model ("gfx/nailgun1.spr");
 	precache_model ("progs/g_nail2.mdl");
 	precache_model ("progs/g_nail2_flat.mdl");
+	precache_model ("gfx/nailgun2.spr");
 	precache_model ("progs/g_rock.mdl");
 	precache_model ("progs/g_rock_flat.mdl");
+	precache_model ("gfx/grenade.spr");
 	precache_model ("progs/g_mine.mdl");
 	precache_model ("progs/g_mine_flat.mdl");
+	precache_model ("gfx/mine.spr");
 	precache_model ("progs/g_rock2.mdl");
 	precache_model ("progs/g_rock2_flat.mdl");
+	precache_model ("gfx/rocketlauncher.spr");
 	precache_model ("progs/g_light.mdl");
 	precache_model ("progs/g_light_flat.mdl");
+	precache_model ("gfx/lightning.spr");
 	precache_model ("progs/g_laserg.mdl");
 	precache_model ("progs/g_laserg_flat.mdl");
+	precache_model ("gfx/laser.spr");
 	precache_model ("progs/g_plasma.mdl");
 	precache_model ("progs/g_plasma_flat.mdl");
+
+	precache_model("progs/armor.mdl");
+	precache_model("gfx/armorgreen.spr");
+	precache_model("gfx/armoryellow.spr");
+	precache_model("gfx/armorred.spr");
+	precache_model("gfx/cells.spr");
+	precache_model("gfx/shells.spr");
+	precache_model("gfx/rockets.spr");
+	precache_model("gfx/nails.spr");
+	precache_model("gfx/healthsmall.spr");
+	precache_model("gfx/healthmedium.spr");
+	precache_model("gfx/healthlarge.spr");
 
 	precache_model ("progs/bolt.mdl");		// for lightning gun
 	precache_model ("progs/bolt2.mdl");		// for lightning gun
@@ -518,7 +543,7 @@ void() StartFrame =
 {
     // cvar reads are cheap but not free; sample it ~3x/sec instead of every frame if you like.
     // teamplay = cvar("teamplay");
-    if ( (framecount & 30) == 0 )
+    if ((framecount & 31) != 0)
         teamplay = cvar("teamplay");
 
     framecount += 1;
@@ -603,7 +628,7 @@ void() EndFrame =
 		}
 		//dprint3("Waterchecked: ", ftos(waterchecked), "\n");
 	}
-	/*self = nextent(world);
+	self = nextent(world);
 	while (self) {
 		entity_watercheck();
 		self = nextent(self);

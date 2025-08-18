@@ -1,3 +1,400 @@
+
+void(entity it, float fwdOff, float rightOff, float upOff, float padBack) Q_DropSpawnFromEye =
+{
+    makevectors(self.v_angle);
+
+    vector eye   = self.origin + self.view_ofs;
+    vector start = eye + v_right*rightOff + v_up*upOff;
+    vector end   = start + v_forward * fwdOff;
+
+    traceline(start, end, TRUE, self);
+    vector place = trace_endpos - v_forward * padBack;
+
+    // If we somehow landed inside solid, just fall back to eye.
+    if (pointcontents(place) == CONTENT_SOLID)
+        place = start;
+
+    setorigin(it, place);
+}
+
+
+// ---- nice forward toss with inherit + jitter, with an UP CAP when looking up
+void(entity it, float fwd, float upKick, float inheritFrac, float jitter) Q_ThrowSetup =
+{
+    // View basis (has pitch)
+    makevectors(self.v_angle);
+    vector viewFwd = v_forward;     // includes pitch
+    vector viewUp  = v_up;
+
+    // Yaw-only basis (no pitch) to guarantee horizontal push
+    vector yawAngles = self.v_angle; yawAngles_x = 0; yawAngles_z = 0;
+    makevectors(yawAngles);
+    vector yawFwd = v_forward;      // level forward
+
+    // Blend some pitch back into forward so throws follow your aim a bit.
+    // 0 = fully level; 1 = fully follow view pitch.
+    float blend = 0.85; // tweak 0.25..0.5 to taste
+    vector fwdDir = normalize(yawFwd*(1-blend) + viewFwd*blend);
+
+    // Smoothly reduce UP when looking steep up (use dot with global up).
+    // updot=1 straight up, 0 level, -1 straight down.
+    float updot = viewFwd_z;
+
+    // Start capping around ~33° up (z≈0.55), finish by ~72–80° (z≈0.95).
+    float s = (updot - 0.55) / (0.95 - 0.55);
+    s = bound(0, s, 1);
+    float smooth = s*s*(3 - 2*s);     // smoothstep(0..1)
+    float upScale = 1 - smooth;        // 1 → 0 as you look steep up
+
+    // Base up component (capped only when really looking up)
+    float up = upKick * upScale;
+
+    // Carry a little pitch into the arc so looking down/up nudges it.
+    // ±25% of upKick, then clamp so we never exceed upKick upwards or go too far down.
+    float tilt = upKick * 0.25 * updot;   // adds when up, subtracts when down
+    float totalUp = up + tilt;
+    totalUp = bound(-0.40*upKick, totalUp, upKick);
+
+    // Build base impulse: blended forward + (global) up + inherited player vel
+    vector inherit = self.velocity * inheritFrac;
+    vector base    = fwdDir * fwd + '0 0 1' * totalUp + inherit;
+
+    // Local jitter so it feels natural (use your preferred RNG)
+    vector dir = normalize(base);
+    if (jitter > 0 && vlen(dir) > 0)
+    {
+        makevectors(vectoangles(dir));  // sets v_forward≈dir, v_right, v_up
+        dir = normalize(dir + v_right*(crandom()*jitter) + v_up*(crandom()*jitter));
+    }
+
+    it.velocity = dir * vlen(base);
+    it.angles   = vectoangles(dir);
+}
+
+// ---- speed-scaled tumble that looks good across speeds
+void(entity it, float baseSpeed, float baseRoll) Q_AddSpinFromSpeed =
+{
+    float speed = vlen(it.velocity);
+    float s     = (baseSpeed > 0) ? speed / baseSpeed : 1;
+
+    vector spin;
+    spin_x = -65 * s + (crandom() * 10);
+    spin_y =           (crandom() * 40);
+    spin_z =  baseRoll * s + (crandom() * 60);
+
+    it.avelocity = spin;
+}
+
+
+
+
+
+// helper if you don't already have one
+float(vector a, vector b) dot = { return a_x*b_x + a_y*b_y + a_z*b_z; }
+
+vector(vector a, vector b) cross = {
+    return [ a_y*b_z - a_z*b_y,
+             a_z*b_x - a_x*b_z,
+             a_x*b_y - a_y*b_x ];
+};
+
+void() WeaponLandThink =
+{
+    if ((!(self.flags & FL_ONGROUND)) && vlen(self.velocity) > 5) {
+        self.nextthink = time + 0.1;
+        return;
+    }
+
+//    AlignToSlope();
+    self.solid = SOLID_TRIGGER;
+//    setsize(self, ITEM_MIN, ITEM_MAX);
+    self.touch = weapon_touch;
+    self.owner = world;
+    self.think = SUB_Null;
+}
+
+void() Axe_StoreVelThink =
+{
+    if (vlen(self.velocity))                 // avoid div‑by‑0
+        self.prevdir = normalize(self.velocity);
+
+    self.nextthink = time + 0.01;           // 100 Hz, cheap + accurate
+};
+
+void() DropCurrentWeapon =
+{
+    float wflag = self.weapon;
+    if (wflag == WEAPON_NO_WEAPON)
+        return;
+    if (IsMelee(wflag))
+        self.melee_slot = 0;
+    if (IsGun(wflag))
+    {
+        self.gun_slots = max(0, self.gun_slots - 1);
+        sprint(self, "Gun slots ");
+        sprint(self, ftos(self.gun_slots));
+        sprint(self, "/2\n");
+    }
+
+    entity it = spawn();
+    float empty = it.ammo_shells + it.ammo_nails + it.ammo_rockets + it.ammo_cells;
+
+    it.owner     = self;
+    it.movetype  = MOVETYPE_BOUNCE;
+    it.solid     = SOLID_TRIGGER;
+    it.flags    |= FL_FINDABLE_NONSOLID;
+    it.touch     = weapon_touch;
+    it.think     = WeaponLandThink;
+    it.nextthink = time + 0.1;
+    it.classname = "dropped_weapon";
+    it.mass      = 0.2;
+
+    setorigin(it, self.origin + '0 0 0');
+
+    if (wflag == WEAPON_SHOTGUN)
+    {
+        setmodel(it, "progs/g_shot1_flat.mdl");
+        it.netname = "Shotgun";
+
+        if ( (self.weapons & (WEAPON_SHOTGUN | WEAPON_SUPER_SHOTGUN) & ~wflag) == 0 )
+        {
+            it.ammo_shells = self.ammo_shells;
+            self.ammo_shells = 0;
+        }
+    }
+    else if (wflag == WEAPON_SUPER_SHOTGUN)
+    {
+        setmodel(it, "progs/g_shot_flat.mdl");
+        it.netname = "Double-Barrelled Shotgun";
+
+        if ( (self.weapons & (WEAPON_SHOTGUN | WEAPON_SUPER_SHOTGUN) & ~wflag) == 0 )
+        {
+            it.ammo_shells = self.ammo_shells;
+            self.ammo_shells = 0;
+        }
+    }
+    else if (wflag == WEAPON_NAILGUN)
+    {
+        setmodel(it, "progs/g_nail_flat.mdl");
+        it.netname = "Nailgun";
+
+        if ( (self.weapons & (WEAPON_NAILGUN | WEAPON_SUPER_NAILGUN) & ~wflag) == 0 )
+        {
+            it.ammo_nails = self.ammo_nails;
+            self.ammo_nails = 0;
+        }
+    }
+    else if (wflag == WEAPON_SUPER_NAILGUN)
+    {
+        setmodel(it, "progs/g_nail2_flat.mdl");
+        it.netname = "Perforator";
+
+        if ( (self.weapons & (WEAPON_NAILGUN | WEAPON_SUPER_NAILGUN) & ~wflag) == 0 )
+        {
+            it.ammo_nails = self.ammo_nails;
+            self.ammo_nails = 0;
+        }
+    }
+    else if (wflag == WEAPON_GRENADE_LAUNCHER)
+    {
+        setmodel(it, "progs/g_rock_flat.mdl");
+        it.netname = "Grenade Launcher";
+
+        if ( (self.weapons & (WEAPON_GRENADE_LAUNCHER | WEAPON_PROXIMITY_GUN | WEAPON_ROCKET_LAUNCHER) & ~wflag) == 0 )
+        {
+            it.ammo_rockets = self.ammo_rockets;
+            self.ammo_rockets = 0;
+        }
+    }
+    else if (wflag == WEAPON_PROXIMITY_GUN)
+    {
+        setmodel(it, "progs/g_mine_flat.mdl");
+        it.netname = "Proximity Launcher";
+
+        if ( (self.weapons & (WEAPON_GRENADE_LAUNCHER | WEAPON_PROXIMITY_GUN | WEAPON_ROCKET_LAUNCHER) & ~wflag) == 0 )
+        {
+            it.ammo_rockets = self.ammo_rockets;
+            self.ammo_rockets = 0;
+        }
+    }
+    else if (wflag == WEAPON_ROCKET_LAUNCHER)
+    {
+        setmodel(it, "progs/g_rock2_flat.mdl");
+        it.netname = "Rocket Launcher";
+
+        if ( (self.weapons & (WEAPON_GRENADE_LAUNCHER | WEAPON_PROXIMITY_GUN | WEAPON_ROCKET_LAUNCHER) & ~wflag) == 0 )
+        {
+            it.ammo_rockets = self.ammo_rockets;
+            self.ammo_rockets = 0;
+        }
+    }
+    else if (wflag == WEAPON_LIGHTNING)
+    {
+        setmodel(it, "progs/g_light_flat.mdl");
+        it.netname = "Thunderbolt";
+
+        if ( (self.weapons & (WEAPON_LIGHTNING | WEAPON_LASER_CANNON | WEAPON_PLASMA) & ~wflag) == 0 )
+        {
+            it.ammo_cells = self.ammo_cells;
+            self.ammo_cells = 0;
+        }
+    }
+    else if (wflag == WEAPON_LASER_CANNON)
+    {
+        setmodel(it, "progs/g_laserg_flat.mdl");
+        it.netname = "Laser Cannon";
+
+        if ( (self.weapons & (WEAPON_LIGHTNING | WEAPON_LASER_CANNON | WEAPON_PLASMA) & ~wflag) == 0 )
+        {
+            it.ammo_cells = self.ammo_cells;
+            self.ammo_cells = 0;
+        }
+    }
+    else if (wflag == WEAPON_PLASMA)
+    {
+        setmodel(it, "progs/g_plasma_flat.mdl");
+        it.netname = "Plasma Rifle";
+
+        if ( (self.weapons & (WEAPON_LIGHTNING | WEAPON_LASER_CANNON | WEAPON_PLASMA) & ~wflag) == 0 )
+        {
+            it.ammo_cells = self.ammo_cells;
+            self.ammo_cells = 0;
+        }
+    }
+    else if (wflag == WEAPON_CHAINSAW)
+    {
+        setmodel(it, "progs/g_saw_flat.mdl");
+        it.netname = "Chainsaw";
+    }
+    else if (wflag == WEAPON_AXE)
+    {
+        // spawn from eye line
+        Q_DropSpawnFromEye(it, /*fwd*/0, /*right*/1, /*up*/-14, /*padBack*/0);
+
+        // strong forward chuck, no up-kick (tomahawk style), plus inherit + tiny jitter
+        Q_ThrowSetup(it, /*fwd*/800, /*up*/250, /*inherit*/0.85, /*jitter*/0.02);
+
+        // make the axe face flight direction, then rotate so blade orientation matches your mdl
+        it.angles_x += 90;
+
+        // flip end-over-end FORWARD. If it still looks backwards in your mdl, flip the sign.
+        it.avelocity = '720 0 0';   // was '-720 0 0' before; sign controls flip direction
+
+        it.movetype  = MOVETYPE_BOUNCE;
+        it.solid     = SOLID_TRIGGER;
+        it.touch     = Axe_Touch;
+        it.think     = Axe_StoreVelThink;
+        it.nextthink = time + 0.01;
+
+        setmodel(it, "progs/g_axe_alk.mdl");
+        setsize (it, '-8 -8 -8', '8 8 8');
+        it.netname = "Axe";
+        it.dmg     = 75;
+
+        sound(self, CHAN_ITEM, "weapon/axe_throw_01.wav", 1, ATTN_STATIC);
+        sound(self, CHAN_ITEM, "player/pain2.wav",         1, ATTN_STATIC);
+    }
+    else
+    {
+        remove(it);
+        return;
+    }
+    if (it.netname != "Axe"){
+        // spawn from eye line
+        Q_DropSpawnFromEye(it, /*fwd*/20, /*right*/0, /*up*/-4, /*padBack*/12);
+
+        // consistent toss: forward 300, capped up 200, inherit 85%, a bit more jitter
+        Q_ThrowSetup(it, /*fwd*/300, /*up*/200, /*inherit*/0.85, /*jitter*/0.05);
+
+        // small pose tweak you already liked
+        it.angles_x = bound(-40, it.angles_x + 25, 80);
+
+        // speed-scaled tumble
+        Q_AddSpinFromSpeed(it, /*baseSpeed*/200, /*baseRoll*/-320);
+
+        // thin, wide trigger as before
+        setsize(it, '-16 -16 -4', '16 16 4');
+    }
+        entity old = self;
+        self = it;              // the dropped weapon entity
+        Prop_VisInit();
+        self = old;
+        it.think = Prop_AlignThink;
+        it.nextthink = time + 0.1;
+        MarkEmptyPickup(it);
+        it.weapon  = wflag;
+        it.movetype_saved = MOVETYPE_BOUNCE;
+    /*    self.flags |= FL_FINDABLE_NONSOLID;*/
+        self.items &= ~wflag;
+        self.weapons &= ~wflag;
+        W_ChangeWeapon(BestWeaponNoAmmo());
+
+};
+
+.vector prevdir;
+void() Axe_Touch =
+{
+    /* Ignore the thrower */
+    if (other == self.owner)
+        return;
+
+    /* ---- Flesh hit still hurts ---- */
+    if (other.takedamage)
+    {
+        T_Damage(other, self, self.owner, self.dmg, DMGTYPE_BALLISTIC);
+        sound(self, CHAN_AUTO, "weapon/axe_hit_01.wav", 1, ATTN_NORM);
+        return;
+    }
+
+    /* ---- Brush hit: decide stick or bounce ---- */
+    if (other.solid == SOLID_BSP)
+    {
+        /* 1.  blade’s forward axis from current angles */
+        makevectors(self.angles);           // sets v_forward
+        vector bladeDir = v_forward;        // axe model points +X
+
+        float pitchUp = -2;         // sin 20° ≈ 0.342, cos 20° ≈ 0.94
+        bladeDir = normalize( bladeDir + v_up * pitchUp );
+
+        /* 2.  flight direction just before impact (saved by thinker) */
+        vector hitDir = self.prevdir;
+
+        /* 3.  dot product → +1 = perfect, 0 = 90°, −1 = backwards   */
+        float align = bladeDir * hitDir;
+
+        /* tweak 0.8 to tighten/loosen the allowed cone (≈ 36 °) */
+        dprint("align ", ftos(align), "  bladeDir ", vtos(bladeDir), "  hitDir ", vtos(hitDir), "\n");
+        if (align > 0.6)
+        {
+            self.movetype = MOVETYPE_NONE;
+            self.solid    = SOLID_TRIGGER;
+            setsize(self, '-16 -16 -16', '16 16 16');
+            self.touch     = weapon_touch;
+            self.owner    = world;
+            self.think    = WeaponLandThink;
+
+            sound(self, CHAN_BODY, "weapon/axe_hit_01.wav", 1, ATTN_NORM);
+            return;
+        }
+        else
+        {
+            sound(self, CHAN_BODY, "weapon/tink_01.wav", 1, ATTN_NORM);
+            setmodel (self, "progs/g_axe_alk_flat.mdl");
+            self.solid     = SOLID_BBOX;
+            setsize (self, '-8 -8 -8', '8 8 8');
+//            self.touch     = weapon_touch;
+            self.owner    = world;
+            self.think    = WeaponLandThink;
+            self.angles   = '300 300 300';
+            return;      
+        }
+    }
+}
+
+
+
+
+
 void() weapon_touch =
 {
     local	float	current, best, new;
@@ -119,321 +516,3 @@ void() weapon_touch =
     ItemPickup("weapons/pkup.wav", 30, 30);
 	remove(self);
 };
-
-// helper if you don't already have one
-float(vector a, vector b) dot = { return a_x*b_x + a_y*b_y + a_z*b_z; }
-
-vector(vector a, vector b) cross = {
-    return [ a_y*b_z - a_z*b_y,
-             a_z*b_x - a_x*b_z,
-             a_x*b_y - a_y*b_x ];
-};
-
-void() WeaponLandThink =
-{
-    if ((!(self.flags & FL_ONGROUND)) && vlen(self.velocity) > 5) {
-        self.nextthink = time + 0.1;
-        return;
-    }
-
-//    AlignToSlope();
-    self.solid = SOLID_TRIGGER;
-//    setsize(self, ITEM_MIN, ITEM_MAX);
-    self.touch = weapon_touch;
-    self.owner = world;
-    self.think = SUB_Null;
-}
-
-void() Axe_StoreVelThink =
-{
-    if (vlen(self.velocity))                 // avoid div‑by‑0
-        self.prevdir = normalize(self.velocity);
-
-    self.nextthink = time + 0.01;           // 100 Hz, cheap + accurate
-};
-
-void() DropCurrentWeapon =
-{
-    float wflag = self.weapon;
-    if (wflag == WEAPON_NO_WEAPON)
-        return;
-    if (IsMelee(wflag))
-        self.melee_slot = 0;
-    if (IsGun(wflag))
-    {
-        self.gun_slots = max(0, self.gun_slots - 1);
-        sprint(self, "Gun slots ");
-        sprint(self, ftos(self.gun_slots));
-        sprint(self, "/2\n");
-    }
-
-    entity it = spawn();
-    float empty = it.ammo_shells + it.ammo_nails + it.ammo_rockets + it.ammo_cells;
-
-    it.owner     = self;
-    it.movetype  = MOVETYPE_BOUNCE;
-    it.solid     = SOLID_TRIGGER;
-    it.flags    |= FL_FINDABLE_NONSOLID;
-    it.touch     = weapon_touch;
-    it.think     = WeaponLandThink;
-    it.nextthink = time + 0.1;
-    it.classname = "dropped_weapon";
-    it.mass      = 0.2;
-
-    setorigin(it, self.origin + '0 0 0');
-
-    // base throw
-    makevectors(self.v_angle);
-    vector inherit = self.velocity * 0.85;
-    vector base    = v_forward * 300 + '0 0 200' + inherit;
-
-    // 2.5% directional jitter (≈ ±1.4°) in yaw+pitch
-    float  jitter = 0.05;
-    vector dir    = normalize(base);
-    if (vlen(dir) > 0) {
-        // build an orthonormal frame from the actual throw direction
-        makevectors(vectoangles(dir));  // sets v_forward≈dir, v_right, v_up
-        vector off = v_right * frand(-jitter, jitter)
-                + v_up    * frand(-jitter, jitter);
-        dir = normalize(dir + off);
-    }
-    it.velocity = dir * vlen(base);
-
-    vector ang = vectoangles(v_forward);
-    if (ang_x > 180)
-    ang_x -= 360;
-    ang_x = bound(-40, ang_x + 25, 80);
-    it.angles = ang;
-
-    float baseSpeed  = 200;      // the speed you balanced ‑480 °/s for
-    float baseRoll   = -320;     // roll rate that “looks right” at 300 ups
-
-    float speed      = vlen(it.velocity);
-    float scale      = speed / baseSpeed; 
-
-    vector spin = [0,0,0];
-    
-    spin_x += -65 * scale + frand(-5, 5);
-    spin_y += frand(-20, 20);
-    spin_z += baseRoll * scale + frand(-30, 30);
-
-    it.avelocity = spin;
-    dprint("avelocity ", vtos(it.avelocity), "\n");
-
-    if (wflag == WEAPON_SHOTGUN)
-    {
-        setmodel(it, "progs/g_shot1_flat.mdl");
-        it.netname = "Shotgun";
-
-        if ( (self.weapons & (WEAPON_SHOTGUN | WEAPON_SUPER_SHOTGUN) & ~wflag) == 0 )
-        {
-            it.ammo_shells = self.ammo_shells;
-            self.ammo_shells = 0;
-        }
-    }
-    else if (wflag == WEAPON_SUPER_SHOTGUN)
-    {
-        setmodel(it, "progs/g_shot_flat.mdl");
-        it.netname = "Double-Barrelled Shotgun";
-
-        if ( (self.weapons & (WEAPON_SHOTGUN | WEAPON_SUPER_SHOTGUN) & ~wflag) == 0 )
-        {
-            it.ammo_shells = self.ammo_shells;
-            self.ammo_shells = 0;
-        }
-    }
-    else if (wflag == WEAPON_NAILGUN)
-    {
-        setmodel(it, "progs/g_nail_flat.mdl");
-        it.netname = "Nailgun";
-
-        if ( (self.weapons & (WEAPON_NAILGUN | WEAPON_SUPER_NAILGUN) & ~wflag) == 0 )
-        {
-            it.ammo_nails = self.ammo_nails;
-            self.ammo_nails = 0;
-        }
-    }
-    else if (wflag == WEAPON_SUPER_NAILGUN)
-    {
-        setmodel(it, "progs/g_nail2_flat.mdl");
-        it.netname = "Perforator";
-
-        if ( (self.weapons & (WEAPON_NAILGUN | WEAPON_SUPER_NAILGUN) & ~wflag) == 0 )
-        {
-            it.ammo_nails = self.ammo_nails;
-            self.ammo_nails = 0;
-        }
-    }
-    else if (wflag == WEAPON_GRENADE_LAUNCHER)
-    {
-        setmodel(it, "progs/g_rock_flat.mdl");
-        it.netname = "Grenade Launcher";
-
-        if ( (self.weapons & (WEAPON_GRENADE_LAUNCHER | WEAPON_PROXIMITY_GUN | WEAPON_ROCKET_LAUNCHER) & ~wflag) == 0 )
-        {
-            it.ammo_rockets = self.ammo_rockets;
-            self.ammo_rockets = 0;
-        }
-    }
-    else if (wflag == WEAPON_PROXIMITY_GUN)
-    {
-        setmodel(it, "progs/g_mine_flat.mdl");
-        it.netname = "Proximity Launcher";
-
-        if ( (self.weapons & (WEAPON_GRENADE_LAUNCHER | WEAPON_PROXIMITY_GUN | WEAPON_ROCKET_LAUNCHER) & ~wflag) == 0 )
-        {
-            it.ammo_rockets = self.ammo_rockets;
-            self.ammo_rockets = 0;
-        }
-    }
-    else if (wflag == WEAPON_ROCKET_LAUNCHER)
-    {
-        setmodel(it, "progs/g_rock2_flat.mdl");
-        it.netname = "Rocket Launcher";
-
-        if ( (self.weapons & (WEAPON_GRENADE_LAUNCHER | WEAPON_PROXIMITY_GUN | WEAPON_ROCKET_LAUNCHER) & ~wflag) == 0 )
-        {
-            it.ammo_rockets = self.ammo_rockets;
-            self.ammo_rockets = 0;
-        }
-    }
-    else if (wflag == WEAPON_LIGHTNING)
-    {
-        setmodel(it, "progs/g_light_flat.mdl");
-        it.netname = "Thunderbolt";
-
-        if ( (self.weapons & (WEAPON_LIGHTNING | WEAPON_LASER_CANNON | WEAPON_PLASMA) & ~wflag) == 0 )
-        {
-            it.ammo_cells = self.ammo_cells;
-            self.ammo_cells = 0;
-        }
-    }
-    else if (wflag == WEAPON_LASER_CANNON)
-    {
-        setmodel(it, "progs/g_laserg_flat.mdl");
-        it.netname = "Laser Cannon";
-
-        if ( (self.weapons & (WEAPON_LIGHTNING | WEAPON_LASER_CANNON | WEAPON_PLASMA) & ~wflag) == 0 )
-        {
-            it.ammo_cells = self.ammo_cells;
-            self.ammo_cells = 0;
-        }
-    }
-    else if (wflag == WEAPON_PLASMA)
-    {
-        setmodel(it, "progs/g_plasma_flat.mdl");
-        it.netname = "Plasma Rifle";
-
-        if ( (self.weapons & (WEAPON_LIGHTNING | WEAPON_LASER_CANNON | WEAPON_PLASMA) & ~wflag) == 0 )
-        {
-            it.ammo_cells = self.ammo_cells;
-            self.ammo_cells = 0;
-        }
-    }
-    else if (wflag == WEAPON_CHAINSAW)
-    {
-        setmodel(it, "progs/g_saw_flat.mdl");
-        it.netname = "Chainsaw";
-    }
-    else if (wflag == WEAPON_AXE)
-    {
-        it.movetype  = MOVETYPE_BOUNCE;
-        it.velocity = v_forward * 800 + '0 0 200' + inherit;
-        it.prevdir   = normalize(it.velocity);      // initialise
-        it.think     = Axe_StoreVelThink;
-        it.nextthink = time + 0.01;
-        it.solid     = SOLID_TRIGGER;
-        setmodel(it, "progs/g_axe_alk.mdl");
-        setsize (it, '-8 -8 -8', '8 8 8');
-        it.netname = "Axe";
-        sound(self, CHAN_ITEM, "weapon/axe_throw_01.wav", 1, ATTN_STATIC);
-        sound(self, CHAN_ITEM, "player/pain2.wav", 1, ATTN_STATIC);
-        it.dmg       = 75;
-        it.touch     = Axe_Touch;
-        vector view;
-        view_x = self.v_angle_x;   // pitch
-        view_y = self.angles_y;    // yaw   (model yaw)
-        view_z = 0;                // roll  (not used)
-
-        ang         = self.v_angle;   // start with player view angles
-        ang_x       += 90;             // 20° “nose‑up” tilt (‑ = up)
-
-        it.angles    = ang;            // apply the tweak
-        it.avelocity = '-720 0 0';     // spin around X as before
-    }
-    else
-    {
-        remove(it);
-        return;
-    }
-    if (it.netname != "Axe"){setsize (it, '-16 -16 -4', '16 16 4');}
-    MarkEmptyPickup(it);
-    self.flags |= FL_FINDABLE_NONSOLID;
-    it.weapon  = wflag;
-    self.items &= ~wflag;
-    self.weapons &= ~wflag;
-    W_ChangeWeapon(BestWeaponNoAmmo());
-};
-
-.vector prevdir;
-void() Axe_Touch =
-{
-    /* Ignore the thrower */
-    if (other == self.owner)
-        return;
-
-    /* ---- Flesh hit still hurts ---- */
-    if (other.takedamage)
-    {
-        T_Damage(other, self, self.owner, self.dmg, DMGTYPE_BALLISTIC);
-        sound(self, CHAN_AUTO, "weapon/axe_hit_01.wav", 1, ATTN_NORM);
-        return;
-    }
-
-    /* ---- Brush hit: decide stick or bounce ---- */
-    if (other.solid == SOLID_BSP)
-    {
-        /* 1.  blade’s forward axis from current angles */
-        makevectors(self.angles);           // sets v_forward
-        vector bladeDir = v_forward;        // axe model points +X
-
-        float pitchUp = -2;         // sin 20° ≈ 0.342, cos 20° ≈ 0.94
-        bladeDir = normalize( bladeDir + v_up * pitchUp );
-
-        /* 2.  flight direction just before impact (saved by thinker) */
-        vector hitDir = self.prevdir;
-
-        /* 3.  dot product → +1 = perfect, 0 = 90°, −1 = backwards   */
-        float align = bladeDir * hitDir;
-
-        /* tweak 0.8 to tighten/loosen the allowed cone (≈ 36 °) */
-        dprint("align ", ftos(align), "  bladeDir ", vtos(bladeDir), "  hitDir ", vtos(hitDir), "\n");
-        if (align > 0.6)
-        {
-            self.movetype = MOVETYPE_NONE;
-            self.solid    = SOLID_TRIGGER;
-            setsize(self, '-16 -16 -16', '16 16 16');
-            self.touch     = weapon_touch;
-            self.owner    = world;
-            self.think    = WeaponLandThink;
-
-            sound(self, CHAN_BODY, "weapon/axe_hit_01.wav", 1, ATTN_NORM);
-            return;
-        }
-        else
-        {
-            sound(self, CHAN_BODY, "weapon/tink_01.wav", 1, ATTN_NORM);
-            setmodel (self, "progs/g_axe_alk_flat.mdl");
-            self.solid     = SOLID_BBOX;
-            setsize (self, '-8 -8 -8', '8 8 8');
-//            self.touch     = weapon_touch;
-            self.owner    = world;
-            self.think    = WeaponLandThink;
-            self.angles   = '300 300 300';
-            return;      
-        }
-    }
-}
-
-
-

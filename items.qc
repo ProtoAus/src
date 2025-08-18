@@ -261,7 +261,7 @@ void() PlaceItem = {
 		self.think = align_think;
 		self.nextthink = time + 0.5;
 	}*/
-	Prop_VisInit();
+	
 };
 
 
@@ -273,9 +273,10 @@ Sets the clipping size and plants the object on the floor
 ============
 */
 void() StartItem = {
+	Prop_VisInit();
 	if (self.itemstyle == ITEMSTYLE_MDL) ItemSize();
-	self.nextthink = time + 0.2;	// items start after other solids
-	self.think = PlaceItem;
+//	self.nextthink = time + 0.2;	// items start after other solids
+//	self.think = PlaceItem;
 };
 
 /*
@@ -340,6 +341,9 @@ void() item_health = {
 		self.classname = "healthsmall";
 		self.healamount = 10;
 		self.healtype = 0;
+		self.lod_model = "gfx/healthsmall.spr";
+		self.lod_scale = 0.2;
+		self.lod_height = 8;
 	}
 	else if (self.spawnflags & H_MEGA) {
 		if (self.itemstyle == ITEMSTYLE_MDL) model = "progs/m_h100.mdl";
@@ -348,6 +352,9 @@ void() item_health = {
 		self.classname = "healthlarge";
 		self.healamount = 50;
 		self.healtype = 2;
+		self.lod_model = "gfx/healthlarge.spr";
+		self.lod_scale = 0.5;
+		self.lod_height = 16;
 	}
 	else {
 		if (self.itemstyle == ITEMSTYLE_MDL) model = "progs/m_h25.mdl";
@@ -356,6 +363,9 @@ void() item_health = {
 		self.classname = "healthmedium";
 		self.healamount = 25;
 		self.healtype = 1;
+		self.lod_model = "gfx/healthmedium.spr";
+		self.lod_scale = 0.30;
+		self.lod_height = 16;
 	}
 
 	precache_model(model);
@@ -378,10 +388,14 @@ void() item_healthvial = {
 	self.healamount = 5;
 	self.healtype = 0;
 	self.mass = 0.2;
-	self.movetype = MOVETYPE_BOUNCE;
+	self.lod_model = "gfx/vial.spr";
+	self.lod_scale = 0.25;
+	self.lod_height = 16;
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
 	setsize(self, '-16 -16 0', '16 16 32');
 	StartItem();
-	Prop_VisInit();
+	
 };
 
 void() health_touch = {
@@ -527,7 +541,6 @@ void() shard_touch = { // progs_dump
 	sprint(other, "You got armor\n");
 };
 
-
 /*QUAKED item_armor1 (0 .5 .8) (-16 -16 0) (16 16 32)
 */
 
@@ -542,58 +555,95 @@ void() item_armor_shard = {
 	self.classname = "armorshard";
 	self.skin = 0;
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/shard.spr";
+	self.lod_scale = 0.23;
+	self.lod_height = 32;
 	self.mass     = 0.35;
-	self.movetype = MOVETYPE_BOUNCE;
 	setsize(self, '-16 -16 0', '16 16 56');
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
 	setorigin (self, self.origin);
-//	StartItem();
-
-	Prop_VisInit();
+	StartItem();
 };
 
 void() item_armor1 = {
-	if (!SUB_InitEntity()) return;
-	
-	self.touch = armor_touch;
-	precache_model("progs/armor.mdl");
-	setmodel(self, "progs/armor.mdl");
-	self.skin = 0;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-	setsize(self, '-16 -16 0', '16 16 56');
-	StartItem();
-};
+    // identity + gameplay props
+    self.classname   = "item_armor1";
+    self.netname     = "Green Armor";
+    self.armortype   = 0.30;   // green
+    self.armorvalue  = 100;
 
-/*QUAKED item_armor2 (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
+    // visuals/physics
+    self.touch       = armor_touch;
+    self.flags      |= FL_FINDABLE_NONSOLID;
+    self.lod_model   = "gfx/armorgreen.spr";
+    self.lod_scale   = 0.43;
+    self.lod_height  = 22;
+    self.mass        = 0.35;
+
+    setmodel(self, "progs/armor.mdl");
+    self.skin        = 0;
+    setsize(self, '-16 -16 0', '16 16 56');
+
+    self.movetype    = MOVETYPE_TOSS;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.solid       = SOLID_TRIGGER;
+
+    Prop_VisInit();
+    self.think       = Prop_AlignThink;
+    self.nextthink   = time + 0.1;
+};
 
 void() item_armor2 = {
-	if (!SUB_InitEntity()) return;
-	
-	self.touch = armor_touch;
-	precache_model("progs/armor.mdl");
-	setmodel(self, "progs/armor.mdl");
-	self.skin = 1;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-	setsize(self, '-16 -16 0', '16 16 56');
-	StartItem();
+    self.classname   = "item_armor2";
+    self.netname     = "Yellow Armor";
+    self.armortype   = 0.60;
+    self.armorvalue  = 150;
+
+    self.touch       = armor_touch;
+    self.flags      |= FL_FINDABLE_NONSOLID;
+    self.lod_model   = "gfx/armoryellow.spr";
+    self.lod_scale   = 0.43;
+    self.lod_height  = 22;
+    self.mass        = 0.35;
+
+    setmodel(self, "progs/armor.mdl");
+    self.skin        = 1;
+    setsize(self, '-16 -16 0', '16 16 56');
+
+    self.movetype    = MOVETYPE_TOSS;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.solid       = SOLID_TRIGGER;
+
+    Prop_VisInit();
+    self.think       = Prop_AlignThink;
+    self.nextthink   = time + 0.1;
 };
 
-/*QUAKED item_armorInv (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
 void() item_armorInv = {
-	if (!SUB_InitEntity()) return;
-	
-	self.touch = armor_touch;
-	precache_model("progs/armor.mdl");
-	setmodel(self, "progs/armor.mdl");
-	self.skin = 2;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-	setsize(self, '-16 -16 0', '16 16 56');
-	StartItem();
+    self.classname   = "item_armorInv";
+    self.netname     = "Red Armor";
+    self.armortype   = 0.80;
+    self.armorvalue  = 200;
+
+    self.touch       = armor_touch;
+    self.flags      |= FL_FINDABLE_NONSOLID;
+    self.lod_model   = "gfx/armorred.spr";
+    self.lod_scale   = 0.43;
+    self.lod_height  = 22;
+    self.mass        = 0.35;
+
+    setmodel(self, "progs/armor.mdl");
+    self.skin        = 2;
+    setsize(self, '-16 -16 0', '16 16 56');
+
+    self.movetype    = MOVETYPE_TOSS;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.solid       = SOLID_TRIGGER;
+
+    Prop_VisInit();
+    self.think       = Prop_AlignThink;
+    self.nextthink   = time + 0.1;
 };
 
 /*
@@ -661,245 +711,251 @@ void(float new) Deathmatch_Weapon =
 		W_ChangeWeapon(new);
 };
 
-
-// johnfitz new items
-/*QUAKED weapon_axe (0 .5 .8) (-16 -16 0) (16 16 32)
-Axe
-*/
 void() weapon_axe =
 {
 	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_axe_alk.mdl");
 	setmodel (self, "progs/g_axe_alk.mdl");
 	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_AXE;
 	self.netname = "Axe";
 	self.touch = weapon_touch;
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/axe.spr";
+	self.lod_scale = 0.6;
+	self.lod_height = 16;
 	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-/*QUAKED weapon_shotgun (0 .5 .8) (-16 -16 0) (16 16 32)
-Shotgun
-*/
-
-void() weapon_shotgun =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_shot1.mdl");
-	setmodel (self, "progs/g_shot1.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_SHOTGUN;
-	self.netname = "Shotgun";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_shells) self.ammo_shells = 5;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-// johnfitz
-
-
-/*QUAKED weapon_supershotgun (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_supershotgun =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_shot.mdl");
-	setmodel (self, "progs/g_shot.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_SUPER_SHOTGUN;
-	self.netname = "Double-barrelled Shotgun";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_shells) self.ammo_shells = 5;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
-/*QUAKED weapon_nailgun (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_nailgun =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_nail.mdl");
-	setmodel (self, "progs/g_nail.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_NAILGUN;
-	self.netname = "nailgun";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_nails) self.ammo_nails = 30;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-
-/*QUAKED weapon_supernailgun (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_supernailgun =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_nail2.mdl");
-	setmodel (self, "progs/g_nail2.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_SUPER_NAILGUN;
-	self.netname = "Super Nailgun";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_nails) self.ammo_nails = 30;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-
-/*QUAKED weapon_grenadelauncher (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_grenadelauncher =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_rock.mdl");
-	setmodel (self, "progs/g_rock.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_GRENADE_LAUNCHER;
-	self.netname = "Grenade Launcher";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_rockets) self.ammo_rockets = 5;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-
-/*QUAKED weapon_proximity_gun (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_proximity_gun =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_mine.mdl");
-	setmodel (self, "progs/g_mine.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_PROXIMITY_GUN;
-	self.netname = "Cluster Mine Launcher";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_rockets) self.ammo_rockets = 5;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-
-/*QUAKED weapon_rocketlauncher (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_rocketlauncher =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_rock2.mdl");
-	setmodel (self, "progs/g_rock2.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_ROCKET_LAUNCHER;
-	self.netname = "Rocket Launcher";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_rockets) self.ammo_rockets = 5;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-
-
-/*QUAKED weapon_lightning (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
-
-void() weapon_lightning =
-{
-	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_light.mdl");
-	setmodel (self, "progs/g_light.mdl");
-	self.solid = SOLID_TRIGGER;
-	self.weapon = WEAPON_LIGHTNING;
-	self.netname = "Thunderbolt";
-	self.touch = weapon_touch;
-	self.flags |= FL_FINDABLE_NONSOLID;
-	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_cells) self.ammo_cells = 15;
-    setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
-};
-
-/*QUAKED weapon_chainsaw (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
 void() weapon_chainsaw =
 {
 	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_saw.mdl");
 	setmodel (self, "progs/g_saw.mdl");
 	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_CHAINSAW;
 	self.netname = "Chainsaw";
 	self.touch = weapon_touch;
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/chainsaw.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
 	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
     setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
-/*
-QUAKED weapon_laser_gun (0 .5 .8) (-16 -16 0) (16 16 32)
-*/
+void() weapon_shotgun =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_shot1.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_SHOTGUN;
+	self.netname = "Shotgun";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/shotgun1.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_shells = 5;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_supershotgun =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_shot.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_SUPER_SHOTGUN;
+	self.netname = "Double-barrelled Shotgun";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/shotgun2.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_shells = 5;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_nailgun =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_nail.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_NAILGUN;
+	self.netname = "nailgun";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/nailgun1.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_nails = 30;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_supernailgun =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_nail2.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_SUPER_NAILGUN;
+	self.netname = "Super Nailgun";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/nailgun2.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_nails = 30;
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_grenadelauncher =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_rock.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_GRENADE_LAUNCHER;
+	self.netname = "Grenade Launcher";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/grenade.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_rockets = 5;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_proximity_gun =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_mine.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_PROXIMITY_GUN;
+	self.netname = "Cluster Mine Launcher";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/mine.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_rockets = 5;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_rocketlauncher =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_rock2.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_ROCKET_LAUNCHER;
+	self.netname = "Rocket Launcher";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/rocketlauncher.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_rockets = 5;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
+void() weapon_lightning =
+{
+	if (!SUB_InitEntity()) return;
+	setmodel (self, "progs/g_light.mdl");
+	self.solid = SOLID_TRIGGER;
+	self.weapon = WEAPON_LIGHTNING;
+	self.netname = "Thunderbolt";
+	self.touch = weapon_touch;
+	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/lightning.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
+	self.mass     = 0.35;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_cells = 15;
+    setsize (self, '-16 -16 0', '16 16 32');
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
+};
+
 void() weapon_laser_gun =
 {
 	if (!SUB_InitEntity()) return;
-	
-	if(!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_laserg.mdl");
 	setmodel (self, "progs/g_laserg.mdl");
 	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_LASER_CANNON;
 	self.netname = "Laser Cannon";
 	self.touch = weapon_touch;
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/laser.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
 	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-	if(!self.ammo_cells) self.ammo_cells = 30;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+	self.ammo_cells = 30;
     setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
 
 void() weapon_plasmagun =
 {
-	if (!SUB_InitEntity()) return;
-	
-	if (!(self.spawnflags & ITEM_DONTPRECACHE)) precache_model ("progs/g_plasma.mdl");
 	setmodel (self, "progs/g_plasma.mdl");
 	self.solid = SOLID_TRIGGER;
 	self.weapon = WEAPON_PLASMA;
@@ -907,11 +963,17 @@ void() weapon_plasmagun =
 	self.netname = "Plasma Rifle";
 	self.touch = weapon_touch;
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/lightning.spr";
+	self.lod_scale = 0.2;
+	self.lod_height = 32;
 	self.mass     = 0.35;
-    self.movetype = MOVETYPE_BOUNCE;
-  	if (!self.ammo_cells) self.ammo_cells = 15;
+    self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
+  	self.ammo_cells = 15;
     setsize (self, '-16 -16 0', '16 16 32');
-	StartItem ();
+	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
 
@@ -1049,11 +1111,16 @@ void() item_shells =
 //	self.ammo_type = 1;
 	self.netname = "shell";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/shells.spr";
+	self.lod_scale = 0.45;
+	self.lod_height = 16;
 	self.mass = 0.25;
-	self.movetype = MOVETYPE_BOUNCE;
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
-	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
 /*QUAKED item_spikes (0 .5 .8) (0 0 0) (32 32 32) big
@@ -1087,11 +1154,16 @@ void() item_spikes =
 //	self.ammo_type = 1;
 	self.netname = "nail";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/nails.spr";
+	self.lod_scale = 0.45;
+	self.lod_height = 16;
 	self.mass = 0.25;
-	self.movetype = MOVETYPE_BOUNCE;
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
-	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
 /*QUAKED item_rockets (0 .5 .8) (0 0 0) (32 32 32) big
@@ -1125,11 +1197,15 @@ void() item_rockets =
 //	self.ammo_type = 1;
 	self.netname = "rocket";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/rockets.spr";
+	self.lod_scale = 0.45;
+	self.lod_height = 16;
 	self.mass = 0.25;
-	self.movetype = MOVETYPE_BOUNCE;
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
-	Prop_VisInit();
+	
 };
 
 
@@ -1165,85 +1241,19 @@ void() item_cells =
 //	self.ammo_type = 1;
 	self.netname = "cell";
 	self.flags |= FL_FINDABLE_NONSOLID;
+	self.lod_model = "gfx/cells.spr";
+	self.lod_scale = 0.45;
+	self.lod_height = 16;
 	self.mass = 0.25;
-	self.movetype = MOVETYPE_BOUNCE;
+	self.movetype = MOVETYPE_TOSS;
+	self.movetype_saved = MOVETYPE_BOUNCE;
 	setsize (self, '0 0 0', '32 32 56');
 	StartItem ();
-	Prop_VisInit();
+	self.think = Prop_AlignThink;
+	self.nextthink = time + 0.1;
 };
 
 
-/*QUAKED item_weapon (0 .5 .8) (0 0 0) (32 32 32) shotgun rocket spikes big
-DO NOT USE THIS!!!! IT WILL BE REMOVED!
-*/
-/*
-float WEAPON_SHOTGUN = 1;
-float WEAPON_ROCKET = 2;
-float WEAPON_SPIKES = 4;
-float WEAPON_BIG = 8;
-void() item_weapon =
-{
-	self.touch = ammo_touch;
-
-	if (self.spawnflags & WEAPON_SHOTGUN)
-	{
-		if (self.spawnflags & WEAPON_BIG)
-		{
-			precache_model ("maps/b_shell1.bsp");
-			setmodel (self, "maps/b_shell1.bsp");
-			self.aflag = 40;
-		}
-		else
-		{
-			precache_model ("maps/b_shell0.bsp");
-			setmodel (self, "maps/b_shell0.bsp");
-			self.aflag = 20;
-		}
-		self.weapon = 1;
-		self.netname = "shells";
-	}
-
-	if (self.spawnflags & WEAPON_SPIKES)
-	{
-		if (self.spawnflags & WEAPON_BIG)
-		{
-			precache_model ("maps/b_nail1.bsp");
-			setmodel (self, "maps/b_nail1.bsp");
-			self.aflag = 40;
-		}
-		else
-		{
-			precache_model ("maps/b_nail0.bsp");
-			setmodel (self, "maps/b_nail0.bsp");
-			self.aflag = 20;
-		}
-		self.weapon = 2;
-		self.netname = "spikes";
-	}
-
-	if (self.spawnflags & WEAPON_ROCKET)
-	{
-		if (self.spawnflags & WEAPON_BIG)
-		{
-			precache_model ("maps/b_rock1.bsp");
-			setmodel (self, "maps/b_rock1.bsp");
-			self.aflag = 10;
-		}
-		else
-		{
-			precache_model ("maps/b_rock0.bsp");
-			setmodel (self, "maps/b_rock0.bsp");
-			self.aflag = 5;
-		}
-		self.weapon = 3;
-		self.netname = "rockets";
-	}
-	
-	setsize (self, '0 0 0', '32 32 56');
-	StartItem ();
-};
-
-*/
 /*
 ===============================================================================
 
