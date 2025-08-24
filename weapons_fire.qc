@@ -514,7 +514,7 @@ void(vector org, vector dir) launch_rocket = {
 	setsize (newmis, '0 0 0', '0 0 0');
 	setorigin (newmis, org);
 
-	newmis.nextthink = time + 5;
+	newmis.nextthink = time + 15;
 	newmis.think = SUB_Remove;
 	//newmis = missile;
 };

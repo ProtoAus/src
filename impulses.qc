@@ -591,6 +591,9 @@ void() ImpulseCommands = {
 		dbg_lg();
 	if (self.impulse == 21)
 		W_FireRailgun(self, 80);
+	/*if (self.impulse == 23){
+		Spec_HandleImpulse(self);
+	}*/
 	if (self.impulse == 30)
 		ToggleBulletHole();
 	if (self.impulse == 31)

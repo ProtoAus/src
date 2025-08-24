@@ -75,6 +75,8 @@ props_quake_mdl.qc
 props_quake_iqm.qc
 props_goldsrc_mdl.qc
 battleroyale.qc
+spectate.qc
+deaddrop.qc
 
 misc_scientist.qc
 

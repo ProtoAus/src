@@ -1314,6 +1314,7 @@ void() item_sigil =
 	self.flags |= FL_FINDABLE_NONSOLID;
 	self.touch = sigil_touch;
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 
@@ -1440,6 +1441,8 @@ void() item_artifact_invulnerability =
 	if (!SUB_InitEntity()) return;
 	
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) {
 		precache_model ("progs/invulner.mdl");
@@ -1453,6 +1456,7 @@ void() item_artifact_invulnerability =
 	self.items = IT_INVULNERABILITY;
 	self.flags |= FL_FINDABLE_NONSOLID;
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 
@@ -1464,6 +1468,8 @@ void() item_artifact_trifecta =
 	if (!SUB_InitEntity()) return;
 	
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) {
 		precache_model ("progs/trifecta.mdl");
 		precache_sound ("items/trifecta.wav");
@@ -1476,6 +1482,7 @@ void() item_artifact_trifecta =
 	self.items = IT_TRIFECTA;
 	self.flags |= FL_FINDABLE_NONSOLID;
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 
@@ -1489,6 +1496,8 @@ void() item_artifact_envirosuit =
 	if (!SUB_InitEntity()) return;
 	
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) {
 		precache_model ("progs/suit.mdl");
 		precache_sound ("items/suit.wav");
@@ -1500,6 +1509,7 @@ void() item_artifact_envirosuit =
 	self.items = IT_SUIT;
 	self.flags |= FL_FINDABLE_NONSOLID;
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 
@@ -1512,6 +1522,8 @@ void() item_artifact_invisibility =
 	if (!SUB_InitEntity()) return;
 	
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) {
 		precache_model ("progs/invisibl.mdl");
 		precache_sound ("items/inv1.wav");
@@ -1524,6 +1536,7 @@ void() item_artifact_invisibility =
 	self.items = IT_INVISIBILITY;
 	self.flags |= FL_FINDABLE_NONSOLID;
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 
@@ -1536,6 +1549,8 @@ void() item_artifact_super_damage =
 	if (!SUB_InitEntity()) return;
 	
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 	if(!(self.spawnflags & ITEM_DONTPRECACHE)) {
 		precache_model ("progs/quaddama.mdl");
 		precache_sound ("items/damage.wav");
@@ -1548,6 +1563,7 @@ void() item_artifact_super_damage =
 	self.items = IT_QUAD;
 	self.flags |= FL_FINDABLE_NONSOLID;
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 
@@ -1764,12 +1780,15 @@ void() item_jboots = { //JCR SUPERJUMP BOOTS	PERSISTENT
 	
 	self.noise = "items/jboots_got.wav";
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 	self.netname = "Jump Boots";
 	self.items = IT_JBOOTS;
 	self.flags |= FL_FINDABLE_NONSOLID;
 
 	setmodel (self, "progs/jumpblue.mdl");
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 }
 
@@ -1780,6 +1799,8 @@ void() item_jboots_timed = { //JCR SUPERJUMP BOOTS	TIMED
 	precache_sound ("items/jboots_got.wav");
 	
 	self.touch = powerup_touch;
+    self.movetype_saved = MOVETYPE_BOUNCE;
+    self.movetype = MOVETYPE_TOSS;
 	self.noise = "items/jboots_got_timed.wav";
 	self.netname = "Super Jump Boots";
 	self.items = IT_JBOOTS;
@@ -1787,6 +1808,7 @@ void() item_jboots_timed = { //JCR SUPERJUMP BOOTS	TIMED
 
 	setmodel (self, "progs/jumpgold.mdl");
 	setsize (self, '-16 -16 -24', '16 16 32');
+    self.solid = SOLID_TRIGGER;
 	StartItem ();
 };
 

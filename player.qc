@@ -518,7 +518,7 @@ void(float deathbyvoid) PlayerDieGo = {
 	self.modelindex = modelindex_player;	// don't use eyes
 
 	if (deathmatch || coop)
-		DropBackpack();
+		BR_DropLoadout_WeaponTouch();
 	
 	self.weaponmodel="";
 	self.view_ofs = '0 0 -8';

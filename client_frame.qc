@@ -45,14 +45,34 @@ ClientKill
 Player entered the suicide command
 ============
 */
-void() ClientKill = {
-	bprint (self.netname);
-	bprint (" suicides\n");
-	set_suicide_frame ();
-	self.modelindex = modelindex_player;
-	self.frags = self.frags - 2;	// extra penalty
-	respawn ();
-};
+void() ClientKill =
+{
+    if (self.health <= 0) return; // already dead
+
+    bprint (self.netname);
+    bprint (" suicides\n");
+
+    set_suicide_frame ();
+    self.modelindex = modelindex_player;
+    self.frags -= 2;
+
+    // finalize death state
+    self.health    = -1;
+    self.deadflag  = DEAD_DEAD;
+    self.takedamage = DAMAGE_NO;
+    self.flags    &~= FL_ONGROUND;
+
+	BR_CheckForVictory();
+
+    if (!br_norespawn) {
+        respawn();
+    } else {
+        // go straight to spectator
+        BR_EnterSpectate(self);
+        // stop any accidental input this frame
+        self.button0 = self.button1 = self.button2 = 0;
+    }
+}
 
 float(vector v) CheckSpawnPoint = {
 	return FALSE;
@@ -121,46 +141,80 @@ void() PlayerRessurect =
 
 void() PlayerDeathThink =
 {
-//	local entity	old_self;
-	local float		forward;
+    float forward;
+    if ((self.flags & FL_ONGROUND))
+    {
+        forward = vlen(self.velocity) - 20;
+        self.velocity = (forward <= 0) ? '0 0 0' : forward * normalize(self.velocity);
+    }
 
-	if ((self.flags & FL_ONGROUND))
-	{
-		forward = vlen (self.velocity);
-		forward = forward - 20;
-		if (forward <= 0)
-			self.velocity = '0 0 0';
-		else	
-			self.velocity = forward * normalize(self.velocity);
-	}
-
-// wait for all buttons released
-	if (self.deadflag == DEAD_DEAD)
-	{
-		if (self.button2 || self.button1 || self.button0)
-			return;
-		self.deadflag = DEAD_RESPAWNABLE;
-		return;
-	}
-
-// johnfitz -- ressurection cheat
-	if ((self.impulse == 154 || self.flags & FL_GODMODE) && !deathmatch && !coop)
-	{
-		PlayerRessurect();
-	}
-
-// wait for any button down
-	if (!self.button2 && !self.button1 && !self.button0)
-		if (world.br_norespawn) {
-            // keep them dead (or put into spectator mode if you support that)
-            centerprint(self, "Respawning disabled. Wait for next round.\n");
+    // wait for all buttons released during the corpse phase
+    if (self.deadflag == DEAD_DEAD)
+    {
+        if (self.button0 || self.button1 || self.button2)
             return;
-        }
-	self.button0 = 0;
-	self.button1 = 0;
-	self.button2 = 0;
-	respawn();
-};
+        self.deadflag = DEAD_RESPAWNABLE;
+        return;
+    }
+
+    // johnfitz -- resurrection cheat (disabled in dm/coop anyway)
+    if ((self.impulse == 154 || (self.flags & FL_GODMODE)) && !deathmatch && !coop)
+    {
+        PlayerRessurect();
+    }
+
+    // Wait for any button down to attempt a respawn
+    if (!self.button0 && !self.button1 && !self.button2) return;
+
+	if (br_norespawn){
+		if (!self.is_spectating) {
+				if (self.button0 || self.button2) {
+					BR_EnterSpectate(self);
+					self.spec_mode = SPEC_FOLLOW;
+				}
+				else
+				{
+					centerprint(self, "Spectate: LMB/RMB = cycle, SPACE = freecam"); 
+					return;
+				}
+		}
+
+		/*// enter spectate on first input (or if SPACE already toggled above)
+		if (!self.is_spectating) {
+			if (self.button0 || self.button2) { BR_EnterSpectate(self); self.spec_mode = SPEC_FOLLOW; }
+			else return; // stay in corpse view until input
+		}
+
+		// clicks: ONLY b0/b2
+		float b0 = (self.button0 != 0);
+		float b2 = (self.button2 != 0);
+
+		if (self.spec_mode == SPEC_FOLLOW) {
+			if (b0 && !self.btn0_prev) self.spec_target = Spec_FindNextLive(self.spec_target);
+			if (b2 && !self.btn2_prev) self.spec_target = Spec_FindPrevLive(self.spec_target);
+			Spec_UpdateFollow(self);   // follows target view angles (your latest version)
+		} else {
+			Spec_UpdateFree(self);     // stays DEAD_DEAD, noclip; no angle forcing
+			// clicks in freecam snap back to follow
+			if (b0 && !self.btn0_prev) { self.spec_target = Spec_FindNextLive(world); self.spec_mode = SPEC_FOLLOW; }
+			if (b2 && !self.btn2_prev) { self.spec_target = Spec_FindPrevLive(world); self.spec_mode = SPEC_FOLLOW; }
+		}
+
+		// edge tracking + swallow inputs this frame
+		self.btn0_prev = b0;
+		self.btn2_prev = b2;
+		self.button0 = self.button1 = self.button2 = 0;
+		return;*/
+		}
+		else
+		{
+        if (self.is_spectating) BR_ExitSpectate(self);
+    }
+
+    // Allowed to respawn
+    self.button0 = self.button1 = self.button2 = 0;
+    respawn();
+}
 
 /*
 ===========
@@ -835,6 +889,7 @@ void() CheckBurning = {
 	}
 };
 
+
 /*
 ================
 PlayerPostThink
@@ -847,6 +902,13 @@ void() PlayerPostThink =
 	
 //	local	float	mspeed, aspeed;
 //	local	float	r;
+
+    if (self.is_spectating) {
+		Spec_HandleInput(self);
+		if (self.spec_mode == SPEC_FOLLOW) Spec_UpdateFollow(self);
+		else Spec_UpdateFree(self);
+        return;
+    }
 
     if (self.impulse) {
         if (self.impulse == IMP_DUCK_ON)  self.duck_held = TRUE;
@@ -976,14 +1038,9 @@ void() PlayerPostThink =
 		self.fixangle = 1;
 	}
 
-
-
 	SUB_CallAsSelf(UpdateLightning, self.lightningcontroller);
 	//	centerprint2(self, ftos(vlen([self.velocity_x, self.velocity_y, 0])), "\n");
 
-	centerprint2(self, ftos(vlen([self.velocity_x, self.velocity_y, 0])), "\n");
-
-//	AirSourceStyle();
 	self.oldvelocity = self.velocity;
 };
 
@@ -999,6 +1056,8 @@ void(entity targ, entity attacker) ClientObituary =
 	local	float rnum;
 	local string deathstring  = "",deathstring2 = "\n";
 	rnum = random();
+
+	BR_CheckForVictory();
 
 	if (targ.classname == "player")
 	{

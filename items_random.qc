@@ -1,4 +1,4 @@
-#define MAX_RANDOM_ITEMS 15
+#define MAX_RANDOM_ITEMS 19
 #define MAX_RANDOM_WEAPONS 11
 const vector ITEM_MIN = '-16 -16 0';
 const vector ITEM_MAX = '16 16 56';
@@ -34,6 +34,11 @@ entity(vector org) SpawnRandomItem =
     else if (r ==11){item_armor1();}
     else if (r ==12){item_armor2();}
     else if (r ==13){item_armorInv();}
+    else if (r ==14)item_artifact_super_damage();
+    else if (r ==15)item_artifact_invulnerability();
+    else if (r ==16)item_artifact_trifecta();
+    else if (r ==17)item_artifact_envirosuit();
+    else if (r ==18)item_artifact_invisibility();
     else
     {
         self.classname  = "item_health";

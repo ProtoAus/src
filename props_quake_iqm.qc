@@ -18842,3 +18842,324 @@ void() statue_195 =
     self.angles_y += 90;
     setorigin(self, self.origin);
 };
+
+void() boat_001 =
+{
+    precache_model("models/boats/boat_001/boat_001.iqm");
+    setmodel(self, "models/boats/boat_001/boat_001.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_002 =
+{
+    precache_model("models/boats/boat_002/boat_002.iqm");
+    setmodel(self, "models/boats/boat_002/boat_002.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_003 =
+{
+    precache_model("models/boats/boat_003/boat_003.iqm");
+    setmodel(self, "models/boats/boat_003/boat_003.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_004 =
+{
+    precache_model("models/boats/boat_004/boat_004.iqm");
+    setmodel(self, "models/boats/boat_004/boat_004.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_005 =
+{
+    precache_model("models/boats/boat_005/boat_005.iqm");
+    setmodel(self, "models/boats/boat_005/boat_005.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_006 =
+{
+    precache_model("models/boats/boat_006/boat_006.iqm");
+    setmodel(self, "models/boats/boat_006/boat_006.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_007 =
+{
+    precache_model("models/boats/boat_007/boat_007.iqm");
+    setmodel(self, "models/boats/boat_007/boat_007.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_008 =
+{
+    precache_model("models/boats/boat_008/boat_008.iqm");
+    setmodel(self, "models/boats/boat_008/boat_008.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_009 =
+{
+    precache_model("models/boats/boat_009/boat_009.iqm");
+    setmodel(self, "models/boats/boat_009/boat_009.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_010 =
+{
+    precache_model("models/boats/boat_010/boat_010.iqm");
+    setmodel(self, "models/boats/boat_010/boat_010.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_011 =
+{
+    precache_model("models/boats/boat_011/boat_011.iqm");
+    setmodel(self, "models/boats/boat_011/boat_011.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_012 =
+{
+    precache_model("models/boats/boat_012/boat_012.iqm");
+    setmodel(self, "models/boats/boat_012/boat_012.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_013 =
+{
+    precache_model("models/boats/boat_013/boat_013.iqm");
+    setmodel(self, "models/boats/boat_013/boat_013.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_014 =
+{
+    precache_model("models/boats/boat_014/boat_014.iqm");
+    setmodel(self, "models/boats/boat_014/boat_014.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_015 =
+{
+    precache_model("models/boats/boat_015/boat_015.iqm");
+    setmodel(self, "models/boats/boat_015/boat_015.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_016 =
+{
+    precache_model("models/boats/boat_016/boat_016.iqm");
+    setmodel(self, "models/boats/boat_016/boat_016.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_017 =
+{
+    precache_model("models/boats/boat_017/boat_017.iqm");
+    setmodel(self, "models/boats/boat_017/boat_017.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_018 =
+{
+    precache_model("models/boats/boat_018/boat_018.iqm");
+    setmodel(self, "models/boats/boat_018/boat_018.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_019 =
+{
+    precache_model("models/boats/boat_019/boat_019.iqm");
+    setmodel(self, "models/boats/boat_019/boat_019.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_020 =
+{
+    precache_model("models/boats/boat_020/boat_020.iqm");
+    setmodel(self, "models/boats/boat_020/boat_020.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_021 =
+{
+    precache_model("models/boats/boat_021/boat_021.iqm");
+    setmodel(self, "models/boats/boat_021/boat_021.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_022 =
+{
+    precache_model("models/boats/boat_022/boat_022.iqm");
+    setmodel(self, "models/boats/boat_022/boat_022.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_023 =
+{
+    precache_model("models/boats/boat_023/boat_023.iqm");
+    setmodel(self, "models/boats/boat_023/boat_023.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_024 =
+{
+    precache_model("models/boats/boat_024/boat_024.iqm");
+    setmodel(self, "models/boats/boat_024/boat_024.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_026 =
+{
+    precache_model("models/boats/boat_026/boat_026.iqm");
+    setmodel(self, "models/boats/boat_026/boat_026.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_027 =
+{
+    precache_model("models/boats/boat_027/boat_027.iqm");
+    setmodel(self, "models/boats/boat_027/boat_027.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_028 =
+{
+    precache_model("models/boats/boat_028/boat_028.iqm");
+    setmodel(self, "models/boats/boat_028/boat_028.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_029 =
+{
+    precache_model("models/boats/boat_029/boat_029.iqm");
+    setmodel(self, "models/boats/boat_029/boat_029.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_030 =
+{
+    precache_model("models/boats/boat_030/boat_030.iqm");
+    setmodel(self, "models/boats/boat_030/boat_030.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_031 =
+{
+    precache_model("models/boats/boat_031/boat_031.iqm");
+    setmodel(self, "models/boats/boat_031/boat_031.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_032 =
+{
+    precache_model("models/boats/boat_032/boat_032.iqm");
+    setmodel(self, "models/boats/boat_032/boat_032.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+
+void() boat_033 =
+{
+    precache_model("models/boats/boat_033/boat_033.iqm");
+    setmodel(self, "models/boats/boat_033/boat_033.iqm");
+
+    PropSpawnDynamic();
+    self.angles_y += 90;
+    setorigin(self, self.origin);
+};
+

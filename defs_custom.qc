@@ -4,6 +4,14 @@
 .float gun_slots;
 .float melee_slot;
 
+.float  is_spectating;
+.entity spec_target;
+.float  btn0_prev, btn1_prev, btn2_prev; // add btn1_prev for SPACE/JUMP
+.float  spec_mode;                       // 0=follow, 1=free
+
+#define SPEC_FOLLOW 0
+#define SPEC_FREE   1
+
 const float ITEM_BLAST_SCALE = 1;
 //const float EF_NOMODELFLAGS = 8388608;
 

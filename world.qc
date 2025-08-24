@@ -321,9 +321,9 @@ void() worldspawn =
 	precache_sound ("items/jboots_timed.wav");			// timed jump boot powerup
 
 	precache_model ("progs/rail.mdl");
-//	precache_model ("progs/player.mdl");
-	precache_model ("progs/player.md5mesh");   // mesh
-	precache_model ("progs/player.md5anim");   // anims – repeat for each file if split
+	precache_model ("progs/player.mdl");
+//	precache_model ("progs/player.md5mesh");   // mesh
+//	precache_model ("progs/player.md5anim");   // anims – repeat for each file if split
 	precache_model ("progs/eyes.mdl");
 	precache_model ("progs/h_player.mdl");
 	precache_model ("progs/gib1.mdl");

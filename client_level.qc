@@ -72,6 +72,30 @@ void() SetChangeParms = {
 };
 
 void() SetNewParms = {
+	parm1 = WEAPON_ROCKET_LAUNCHER; // items + HUD weapons only, axe isn't needed here
+	parm2 = 100; // health
+	parm3 = 0; // armor value
+	parm4 = 0; // shells
+	parm5 = 0; // nails
+	parm6 = 100; // rockets
+	parm7 = 0; // cells
+	parm8 = WEAPON_ROCKET_LAUNCHER; // current weapon
+	parm9 = 0; // armor type
+	parm10 = WEAPON_ROCKET_LAUNCHER | WEAPON_AXE; // weapons
+	parm11 = 0; // jump boot recharge limit
+	
+	// Are map variables live?
+	if (mapvar_cvar) dprint("\b[CLIENT]\b LIVE Map Variables Detected\n");
+	else {
+		dprint("\b[CLIENT]\b RESETTING Map Variables\n");
+		// Reset map variables ready for use
+		parm15 = 0;
+		parm16 = 0;
+		mapvar_reset();
+	}
+};
+
+/*void() SetNewParms = {
 	parm1 = WEAPON_SHOTGUN; // items + HUD weapons only, axe isn't needed here
 	parm2 = 100; // health
 	parm3 = 0; // armor value
@@ -93,7 +117,7 @@ void() SetNewParms = {
 		parm16 = 0;
 		mapvar_reset();
 	}
-};
+};*/
 
 void(entity cl, entity base) TakeAndGiveWeapons = {
 	cl.weapons -= cl.weapons & base.take_weapons;
@@ -741,6 +765,14 @@ void() PutClientInServer = {
 
 	StopBurning(self);//johnfitz -- reset burning	
 
+	if (br_round_active){
+		self.solid = SOLID_NOT;
+		self.movetype = MOVETYPE_NOCLIP;
+		self.health = 0;
+		BR_EnterSpectate(self);
+		return;
+	}
+
 	DecodeLevelParms ();
 	
 	spot = SelectSpawnPoint ();
@@ -784,7 +816,7 @@ void() PutClientInServer = {
 	setmodel (self, "progs/eyes.mdl");
 	modelindex_eyes = self.modelindex;
 
-	setmodel (self, "progs/player.md5mesh");
+	setmodel (self, "progs/player.mdl");
 	modelindex_player = self.modelindex;
 
 	setsize (self, VEC_HULL_MIN, VEC_HULL_MAX);
@@ -830,6 +862,7 @@ void() ClientDisconnect =
 	bprint (" frags\n");
 	sound (self, CHAN_BODY, "player/tornoff2.wav", 1, ATTN_NONE);
 	set_suicide_frame ();
+	BR_CheckForVictory();
 };
 
 /*
